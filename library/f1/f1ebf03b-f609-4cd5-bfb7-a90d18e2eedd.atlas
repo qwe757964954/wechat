@@ -1,0 +1,97 @@
+
+skeleton.png
+size: 516,534
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_light
+  rotate: false
+  xy: 0, 234
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+TY_huase_heitao4
+  rotate: false
+  xy: 144, 106
+  size: 127, 126
+  orig: 127, 126
+  offset: 0, 0
+  index: -1
+TY_light_2_00000
+  rotate: false
+  xy: 0, 90
+  size: 142, 142
+  orig: 142, 142
+  offset: 0, 0
+  index: -1
+dianji_guangquan_1
+  rotate: true
+  xy: 273, 126
+  size: 106, 104
+  orig: 106, 104
+  offset: 0, 0
+  index: -1
+dianji_guangquan_2
+  rotate: false
+  xy: 273, 20
+  size: 106, 104
+  orig: 106, 104
+  offset: 0, 0
+  index: -1
+dianji_guangquan_3
+  rotate: false
+  xy: 144, 0
+  size: 106, 104
+  orig: 106, 104
+  offset: 0, 0
+  index: -1
+dianji_guangquan_4
+  rotate: true
+  xy: 302, 428
+  size: 106, 104
+  orig: 106, 104
+  offset: 0, 0
+  index: -1
+dianji_guangquan_5
+  rotate: false
+  xy: 302, 322
+  size: 106, 104
+  orig: 106, 104
+  offset: 0, 0
+  index: -1
+dianji_guangquan_6
+  rotate: false
+  xy: 408, 430
+  size: 106, 104
+  orig: 106, 104
+  offset: 0, 0
+  index: -1
+dianji_guangquan_7
+  rotate: true
+  xy: 379, 214
+  size: 106, 104
+  orig: 106, 104
+  offset: 0, 0
+  index: -1
+dianji_guangquan_8
+  rotate: false
+  xy: 410, 324
+  size: 106, 104
+  orig: 106, 104
+  offset: 0, 0
+  index: -1
+dianji_guangquan_9
+  rotate: true
+  xy: 381, 106
+  size: 106, 104
+  orig: 106, 104
+  offset: 0, 0
+  index: -1
+light_zha
+  rotate: true
+  xy: 0, 15
+  size: 73, 74
+  orig: 73, 74
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,18 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "bugang",
+    "spriteFrames": [
+      "bugang_bg",
+      "cb2beaa1-960f-4274-8955-b8449242ffb9@92c3c",
+      "bugang_card",
+      "cb2beaa1-960f-4274-8955-b8449242ffb9@b16b5",
+      "info_bg",
+      "cb2beaa1-960f-4274-8955-b8449242ffb9@d3203",
+      "tips_bg",
+      "cb2beaa1-960f-4274-8955-b8449242ffb9@0e2ff",
+      "top_card",
+      "cb2beaa1-960f-4274-8955-b8449242ffb9@8cb47"
+    ]
+  }
+}

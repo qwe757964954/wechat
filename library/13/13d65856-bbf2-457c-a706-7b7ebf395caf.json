@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "role_1",
+    "spriteFrames": [
+      "role/res/name_qk",
+      "13d65856-bbf2-457c-a706-7b7ebf395caf@f24f3",
+      "role/res/name_nn",
+      "13d65856-bbf2-457c-a706-7b7ebf395caf@c046b",
+      "role/res/icon_mask_nn",
+      "13d65856-bbf2-457c-a706-7b7ebf395caf@d3970",
+      "role/res/icon_select_nn",
+      "13d65856-bbf2-457c-a706-7b7ebf395caf@90d74",
+      "role/res/name_bl",
+      "13d65856-bbf2-457c-a706-7b7ebf395caf@6bdbe",
+      "role/res/name_gy",
+      "13d65856-bbf2-457c-a706-7b7ebf395caf@777ac",
+      "role/res/name_tw",
+      "13d65856-bbf2-457c-a706-7b7ebf395caf@dad8c",
+      "role/res/name_xb",
+      "13d65856-bbf2-457c-a706-7b7ebf395caf@0408a",
+      "role/res/name_xya",
+      "13d65856-bbf2-457c-a706-7b7ebf395caf@a6b81",
+      "role/res/name_xyi",
+      "13d65856-bbf2-457c-a706-7b7ebf395caf@af93d"
+    ]
+  }
+}

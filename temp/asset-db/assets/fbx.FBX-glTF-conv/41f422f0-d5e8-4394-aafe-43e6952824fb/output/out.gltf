@@ -1,0 +1,270 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 130,
+      "max": [
+        0.015499524772167206,
+        0.010191822424530983,
+        0.020500335842370987
+      ],
+      "min": [
+        -0.015500474721193314,
+        -0.010064217261970043,
+        -0.020499663427472115
+      ],
+      "name": "pai/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 130,
+      "name": "pai/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 130,
+      "name": "pai/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 564,
+      "name": "pai/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 4160,
+      "byteStride": 32,
+      "name": "pai",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2256,
+      "byteOffset": 4160
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 6416,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 24.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 19,
+          "hour": 15,
+          "millisecond": 807,
+          "minute": 20,
+          "month": 5,
+          "second": 51,
+          "year": 2023
+        },
+        "creator": "FBX SDK/FBX Plugins version 2018.1.1",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "Maya",
+            "applicationVendor": "Autodesk",
+            "applicationVersion": "201800",
+            "fileName": "D:\\UserProfiles\\JieyuYang\\Desktop\\麻将_v004\\majiangzi.fbx"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/mesh/majiangzi.fbx"
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "/Users/mac/work/WXGame_FlySmallChick/temp/asset-db/assets/fbx.FBX-glTF-conv/41f422f0-d5e8-4394-aafe-43e6952824fb/output/.fbm/4DA81CEA/majiangzi.fbm/1.png",
+          "relativeFileName": "../../../../temp/asset-db/assets/fbx.FBX-glTF-conv/41f422f0-d5e8-4394-aafe-43e6952824fb/output/.fbm/4DA81CEA/majiangzi.fbm/1.png"
+        }
+      },
+      "name": "file2",
+      "uri": "1.png"
+    }
+  ],
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "ambient": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "ambientFactor": {
+                "value": 1.0
+              },
+              "bump": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bumpFactor": {
+                "value": 1.0
+              },
+              "diffuse": {
+                "texture": {
+                  "index": 0
+                },
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "diffuseFactor": {
+                "value": 0.800000011920929
+              },
+              "displacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "displacementFactor": {
+                "value": 1.0
+              },
+              "emissive": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "emissiveFactor": {
+                "value": 1.0
+              },
+              "normalMap": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflection": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflectionFactor": {
+                "value": 0.400000005960464
+              },
+              "shadingModel": "Phong",
+              "shininess": {
+                "value": 6.31179094314575
+              },
+              "specular": {
+                "value": [
+                  0.5,
+                  0.5,
+                  0.5
+                ]
+              },
+              "specularFactor": {
+                "value": 1.0
+              },
+              "transparencyFactor": {
+                "value": 1.0
+              },
+              "transparentColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementFactor": {
+                "value": 1.0
+              }
+            },
+            "type": "phong"
+          }
+        }
+      },
+      "name": "blinn1"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "pai",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "pai"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "file2",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

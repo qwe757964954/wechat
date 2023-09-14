@@ -1,0 +1,18 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "hand_dianji",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "ab303196-6fe8-4339-a4c2-fef4a0631ba5@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "hand_dianji.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\nhand_dianji.png\nsize: 190,100\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nXinShou_hand\n  rotate: true\n  xy: 0, 0\n  size: 100, 102\n  orig: 100, 102\n  offset: 0, 0\n  index: -1\nXinShou_light\n  rotate: true\n  xy: 102, 11\n  size: 89, 88\n  orig: 89, 88\n  offset: 0, 0\n  index: -1\n"
+}

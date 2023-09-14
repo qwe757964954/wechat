@@ -1,0 +1,372 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 32,
+      "max": [
+        0.006858550477772951,
+        0.06224041432142258,
+        0.006858550477772951
+      ],
+      "min": [
+        -0.006858550477772951,
+        0.04060276970267296,
+        -0.006858550477772951
+      ],
+      "name": "baiodian/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 32,
+      "name": "baiodian/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 32,
+      "name": "baiodian/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 42,
+      "name": "baiodian/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 30,
+      "max": [
+        0.9666666388511658
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "baiodian/Trs/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 30,
+      "name": "baiodian/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 30,
+      "name": "baiodian/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 30,
+      "name": "baiodian/scale/Output",
+      "type": "VEC3"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 1,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 1,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "node": 1,
+            "path": "scale"
+          }
+        }
+      ],
+      "name": "Take 001",
+      "samplers": [
+        {
+          "input": 4,
+          "output": 5
+        },
+        {
+          "input": 4,
+          "output": 6
+        },
+        {
+          "input": 4,
+          "output": 7
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1024,
+      "byteStride": 32,
+      "name": "baiodian",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168,
+      "byteOffset": 1024
+    },
+    {
+      "buffer": 0,
+      "byteLength": 120,
+      "byteOffset": 1192
+    },
+    {
+      "buffer": 0,
+      "byteLength": 360,
+      "byteOffset": 1312
+    },
+    {
+      "buffer": 0,
+      "byteLength": 480,
+      "byteOffset": 1672
+    },
+    {
+      "buffer": 0,
+      "byteLength": 360,
+      "byteOffset": 2152
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2512,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 29,
+          "hour": 9,
+          "millisecond": 232,
+          "minute": 31,
+          "month": 5,
+          "second": 53,
+          "year": 2023
+        },
+        "creator": "FBX SDK/FBX Plugins version 2018.1.1",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "Maya",
+            "applicationVendor": "Autodesk",
+            "applicationVersion": "201800",
+            "fileName": "E:\\20220322_yjy\\23_04_model\\majiang\\麻将\\biaodian\\biaodian.fbx"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/mesh/biaodian.fbx"
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "/Users/mac/work/WXGame_FlySmallChick/temp/asset-db/assets/fbx.FBX-glTF-conv/c728b5db-ce31-4e0b-bcfa-ac56d59802e8/output/.fbm/2FCD1C67/biaodian.fbm/biaodian.png",
+          "relativeFileName": "../../../../temp/asset-db/assets/fbx.FBX-glTF-conv/c728b5db-ce31-4e0b-bcfa-ac56d59802e8/output/.fbm/2FCD1C67/biaodian.fbm/biaodian.png"
+        }
+      },
+      "name": "file15",
+      "uri": "biaodian.png"
+    }
+  ],
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "ambient": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "ambientFactor": {
+                "value": 1.0
+              },
+              "bump": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bumpFactor": {
+                "value": 1.0
+              },
+              "diffuse": {
+                "texture": {
+                  "index": 0
+                },
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "diffuseFactor": {
+                "value": 0.800000011920929
+              },
+              "displacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "displacementFactor": {
+                "value": 1.0
+              },
+              "emissive": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "emissiveFactor": {
+                "value": 1.0
+              },
+              "normalMap": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflection": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflectionFactor": {
+                "value": 0.5
+              },
+              "shadingModel": "Phong",
+              "shininess": {
+                "value": 6.31179094314575
+              },
+              "specular": {
+                "value": [
+                  0.5,
+                  0.5,
+                  0.5
+                ]
+              },
+              "specularFactor": {
+                "value": 1.0
+              },
+              "transparencyFactor": {
+                "value": 1.0
+              },
+              "transparentColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementFactor": {
+                "value": 1.0
+              }
+            },
+            "type": "phong"
+          }
+        }
+      },
+      "name": "blinn1"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "baiodian",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "locator1"
+    },
+    {
+      "mesh": 0,
+      "name": "baiodian"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "file15",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "quality",
+    "spriteFrames": [
+      "quality/box",
+      "1219ac5a-7a25-4ba9-83f8-085339601fd7@599ce",
+      "quality/light",
+      "1219ac5a-7a25-4ba9-83f8-085339601fd7@923d2",
+      "quality/num/0",
+      "1219ac5a-7a25-4ba9-83f8-085339601fd7@ccc7e",
+      "quality/num/1",
+      "1219ac5a-7a25-4ba9-83f8-085339601fd7@92885",
+      "quality/num/2",
+      "1219ac5a-7a25-4ba9-83f8-085339601fd7@448cf",
+      "quality/num/3",
+      "1219ac5a-7a25-4ba9-83f8-085339601fd7@a5b56",
+      "quality/num/4",
+      "1219ac5a-7a25-4ba9-83f8-085339601fd7@1cb90",
+      "quality/num/5",
+      "1219ac5a-7a25-4ba9-83f8-085339601fd7@6a34e",
+      "quality/num/6",
+      "1219ac5a-7a25-4ba9-83f8-085339601fd7@cdade",
+      "quality/num/7",
+      "1219ac5a-7a25-4ba9-83f8-085339601fd7@4f3ff",
+      "quality/num/8",
+      "1219ac5a-7a25-4ba9-83f8-085339601fd7@0729b",
+      "quality/num/9",
+      "1219ac5a-7a25-4ba9-83f8-085339601fd7@d8830"
+    ]
+  }
+}

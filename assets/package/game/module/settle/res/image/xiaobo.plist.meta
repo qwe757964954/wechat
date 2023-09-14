@@ -1,0 +1,109 @@
+{
+  "ver": "1.0.7",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "d43747be-51b2-41e3-91b7-43757c643373",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "6045a": {
+      "importer": "sprite-frame",
+      "uuid": "d43747be-51b2-41e3-91b7-43757c643373@6045a",
+      "displayName": "",
+      "id": "6045a",
+      "name": "xiaobo_fail",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 860,
+        "height": 1280,
+        "rawWidth": 860,
+        "rawHeight": 1280,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7a86d883-8fff-4783-b3cd-832308233864@6c48a",
+        "atlasUuid": "d43747be-51b2-41e3-91b7-43757c643373"
+      },
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "27a73": {
+      "importer": "sprite-frame",
+      "uuid": "d43747be-51b2-41e3-91b7-43757c643373@27a73",
+      "displayName": "",
+      "id": "27a73",
+      "name": "xiaobo_win",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 860,
+        "trimY": 0,
+        "width": 860,
+        "height": 1280,
+        "rawWidth": 860,
+        "rawHeight": 1280,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7a86d883-8fff-4783-b3cd-832308233864@6c48a",
+        "atlasUuid": "d43747be-51b2-41e3-91b7-43757c643373"
+      },
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "xiaobo.png",
+    "format": 3,
+    "uuid": "d43747be-51b2-41e3-91b7-43757c643373",
+    "textureUuid": "7a86d883-8fff-4783-b3cd-832308233864@6c48a"
+  }
+}

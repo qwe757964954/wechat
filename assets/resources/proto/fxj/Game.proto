@@ -1,0 +1,764 @@
+syntax = "proto2";
+import "fxj/Common.proto";
+
+package Game;
+//登录(进桌)
+message UserLoginRoom
+{
+	optional Common.RoomInfo  roomInfo = 1; //台费
+	repeated Common.PlayerInfo playerList = 2; //玩家(其他)
+
+}
+
+//定庄
+message FixBanker
+{
+	optional int32 bankSeatId = 1; //座位号
+	optional int32 remainCardNum = 2;//剩余牌数量
+	optional int32 fengStatus = 3;//庄家的风位
+	optional int32 sequenceBanker = 4;//连庄数
+}
+
+//定分：圈风和门风
+message QuanfengInfo
+{
+	optional int32 quan = 1;
+	optional int32 ju = 2;
+}
+
+//掷骰子信息
+message SubDiceInfo
+{
+	optional int32 seatId = 1; //座位号
+	repeated int32 dices = 2; //骰子
+	optional int32 totlePoint = 3; //骰子总和
+}
+//掷骰
+message RollDice
+{
+	repeated SubDiceInfo diceInfo = 1; //骰子信息
+}
+
+//发牌
+message DealCard
+{
+	repeated int32 cards = 1; //牌列表
+	repeated int32 cardsCount = 2; //各个玩家的牌的数量
+	optional int32 remainCardsCount = 3; //桌子上剩余的麻将子数目
+}
+//抓牌
+message GrabCard
+{
+	optional int32 seatId = 1; //座位号
+	optional int64 userId = 2; //userid
+	optional int32 card =  3;//牌
+	optional string extendInfo = 4;//扩展信息
+	optional int32 remainCardNum = 5;//剩余牌数量
+}
+
+//手牌信息
+message HandCard
+{
+	repeated int32 handCards = 1;//手牌
+	repeated Common.HandOpGroup opGroups = 2;//操作的group
+	optional int32 huCard = 3 ;//胡的牌
+	optional int32 tingCard = 4 ;//听的牌
+	optional int32 isUnTing = 5 ;//是否未听牌(0，1)
+	optional string customData = 6; //分张数据
+}
+
+//广播操作结果(用户提交操作也用此消息)
+message OperationResult
+{
+	optional int32 seatId = 1; //座位号
+	optional int64 userId = 2; //userid
+	optional int64 opCode = 3;//操作码
+	optional int32 opCard = 4;//操作的牌(比如碰了三万:0x03)
+	repeated int32 opCards = 5;//操作的牌的组合(比如碰了三万:{0x03,0x03,0x03})
+	optional int32 cardSeatId = 6; //牌的拥有者座位号
+	optional int64 cardUserId = 7; //牌的拥有者userid
+	optional HandCard handCard = 8;//胡牌的时候,发送手牌信息
+	optional int32 huNum = 9;
+	optional Common.HuSeatInfo huInfo = 10;//胡牌信息
+	repeated Common.HuInfo tingInfos = 11;//胡牌信息(可以胡多张)
+	optional string CustomData = 12; //牌的状态
+	optional string extendInfo = 13; //前端特殊显示信息
+}
+
+
+//广播操作结果(用户提交操作也用此消息)
+message gangOperationResult
+{
+	optional int32 seatId = 1; //座位号
+	optional int64 userId = 2; //userid
+	optional int32 gangNum = 3; //玩家操作特殊杠得到的结果
+	optional string gangType = 4; // 执行的杠的类型
+}
+
+//广播玩家可以有的操作，(操作之前)
+message Operation
+{
+	optional int32 seatId = 1; //座位号
+	optional int64 userId = 2; //userid
+	optional int32 cardSeatId = 3; //牌的拥有者座位号
+	optional int64 cardUserId = 4; //牌的拥有者userid
+	repeated Common.OpGroup opGroups = 5;//收到此包者自己可以的操作组合
+	repeated Common.TingInfo tingInfos = 6;//听牌信息(比如碰了三万,可以听牌)
+	optional string extendInfo = 7; //前端特殊显示信息
+}
+
+//结算记录数据
+message SettleRecordData
+{
+	optional int32 huType = 1;//胡牌类型,DGameConst.HU_TYPE
+	optional int32 huCard = 2;//胡牌牌值
+	repeated int32 losers = 3;//输家的userId数组,自摸的时候,出现多个;
+	optional int32 paoSeatId = 4;//放炮玩家的座位id
+	repeated int32 winners = 5;//赢家的userId数组,一炮多响的时候,出现多个
+}
+
+//实时结算(单独发结算信息，如血流，血战)
+message Settle
+{
+	repeated Common.OnceSettleMoney settleMoney = 1;//本次结算相关玩家的结算明细
+	optional int32 opCode = 2;//此次结算属于什么操作
+}
+
+//C2S:用户所取消的操作码
+message UserCancel
+{
+	optional int64 code = 1;//操作码
+}
+
+//S2C:服务器收到包的回包
+message PackageAck
+{
+	optional int64 cmd = 1;//服务器收到的包的cmd
+	optional int32 result = 2;//包处理结果 1成功， -1失败
+	optional string msg = 3;//错误描述
+}
+
+//S2C:用户等待操作(吃要等碰，只发给需要等待的人)
+message UserWaitOperate
+{
+	optional int32 opCard = 1;//等待的牌
+}
+
+//S2C:通知玩家,哪个玩家在选择杠牌(只填1，2字段)
+//C2S:玩家选择的哪种待选杠牌(只填3字段)
+message SelectGangCard
+{
+	optional int32 seatId = 1; //座位号
+	optional int64 userId = 2; //userid
+	optional int32 card = 3;//玩家所选杠牌
+	repeated int32 cards = 4;//可供玩家选择的杠牌
+}
+
+//S2C:通知玩家可供选择的杠牌有哪几张
+message GangCards
+{
+	repeated int32 cards = 1;//杠牌
+}
+
+//S2C:杠时，发送的飘杠数据
+message Gang
+{
+	optional int32 seatId = 1; //座位号
+	optional int64 userId = 2; //userid
+	optional int64 opCode = 3;//操作码
+	optional int32 cardSeatId = 4; //牌的拥有者座位号
+	optional int64 cardUserId = 5; //牌的拥有者userid
+	repeated int64 gangMoney = 6;//跟各个玩家之间的杠钱
+}
+
+//S2C:分张
+message FenZhang
+{
+	optional int32 seatId = 1; //座位号
+	optional int64 userId = 2; //userid
+	repeated int32 cards = 3; //分张各个玩家获得的牌，座位号对应
+	repeated Common.OpGroup opGroups = 4;//收到此包者自己可以的操作组合(只有自摸)
+}
+
+//C2S:玩家提交跑钱; S2C:广播玩家跑钱结果
+message UserPaoQian
+{
+	optional int32 seatId = 1;//座位号
+	optional int64 userId = 2;//userid
+	optional int32 option = 3;//玩家所选择的倍数
+}
+
+//C2S:广播跑钱选项
+message PaoQianOption
+{
+	repeated int32 options = 1;//跑钱的倍数选项
+	repeated int32 limit = 2; //跑钱上次的选项
+}
+
+//C2S:玩家提交定缺; S2C:广播玩家定缺结果
+message UserDingQue
+{
+	optional int32 seatId = 1;//座位号
+	optional int64 userId = 2;//userid
+	optional int32 option = 3;//玩家所选择的缺张
+	optional int32 selectFeiQue = 4; //玩家选择的是缺牌还是非缺牌
+}
+
+message DingQueResult
+{
+	repeated UserDingQue queData = 1;//查缺结果
+}
+
+
+//S2C:广播定缺选项
+message DingQueOption
+{
+	repeated int32 options = 1;//定缺的牌面选项(0,1,2:万,条,筒)
+	repeated int32 suggestion = 2;//各个玩家的建议选项(0,1,2:万,条,筒)
+}
+
+//S2C:广播翻屁股结果
+message FanPiGuOption
+{
+	repeated int32 cards = 1; //翻屁股出来的牌
+}
+
+//S2C:广播癞子--server change
+message FixLaizi
+{
+	optional int32 bankSeatId = 1;//庄家位置
+	repeated int32 dices = 2;//骰子
+	repeated int32 fanCard = 3;//翻出的牌
+	repeated int32 laizi = 4;//癞子
+	repeated int32 laiziA = 5;//癞子A
+	repeated int32 laiziB = 6;//癞子B
+}
+//S2C:广播凑庄成功--server change
+message CouZhuang
+{
+	optional int32 card = 1;//凑庄成功的牌
+}
+
+//S2C:广播弃牌--server change
+message FoldCard
+{
+	repeated int32 cards = 1;//弃掉的牌table
+	optional int32 seatId = 2;//弃牌玩家位置	
+}
+
+//S2C:广播抽奖--server change
+message ChouJiangCards
+{
+	repeated int32 cards = 1;//弃掉的牌table	
+}
+
+//S2C:补花操作
+message BuHua
+{
+	optional int32 seatId = 1;//座位号
+	repeated int32 huaCards = 2;//玩家当前摆出的所有花牌
+	repeated int32 newCards = 3;//此次替换花牌的新抓的普通牌
+	repeated int32 newHuaCards = 4;//此次新抓的花牌
+	optional int32 isHuang = 5;//用于荒庄状态,抓到此花牌后,后续还会不会补牌:0,补;1,不会补
+}
+//S2C:广播换三张选项
+message ExChangeCardOption
+{
+	repeated int32 cardList = 1;//推荐给玩家能够换三张的牌
+}
+
+//C2S:玩家提交换三张
+message UserExChangeCard
+{
+	optional int32 seatId = 1;//座位号
+	optional int64 userId = 2;//userid
+	repeated int32 cardList = 3;//玩家所选择的牌
+}
+
+
+//S2C:摔枪
+message ShuaiQiang
+{
+	optional int32 seatId = 1; //座位号
+	optional int64 userId = 2; //userid
+	optional int32 card = 3; //牌
+          repeated int32 cardList = 4; //牌
+          optional int32 huang = 5; //荒庄标志位 0:荒庄, 1:不荒庄
+}
+
+//S2C:地听 or 报叫
+message DiTing
+{
+	optional int32 seatId = 1; //座位号
+	optional int64 userId = 2; //userid
+	optional int32 timePass = 3; //等待时间
+	repeated Common.OpGroup opGroups = 4;//操作组(包含操作码)
+}
+
+//S2C:等待一些时间再抓牌
+message WaitSomeTime
+{
+	optional int32 seatId = 1; //座位号
+	optional int64 userId = 2; //userid
+	optional int32 timePass = 3; //等待时间
+}
+
+
+//S2C:广播买断门玩家
+message MaiDuanMenUser
+{
+	optional int32 seatId = 1;//座位号
+	repeated int32 dices = 2; //骰子列表
+}
+
+//C2S:玩家提交买断门; S2C:广播玩家买断门结果
+message MaiDuanMenResult
+{
+	optional int32 seatId = 1;//座位号
+	optional int32 option = 2;//断门的牌面选项:0为不买;1买
+}
+
+
+//S2C:广播下注选项
+message XiaZhuOption
+{
+	optional int32 type = 1;//下注的类型
+	repeated int32 options = 2;//下注的倍数选项
+	repeated int32 limit = 3; //下注限制
+	optional int32 limitType = 4;//下注限制类型（0:<= limit; 1:>= limit）
+}
+//C2S:玩家提交下注; S2C:广播玩家下注结果
+message UserXiaZhu
+{
+	optional int32 seatId = 1;//座位号
+	optional int32 option = 2;//玩家所选择的倍数
+	optional int32 theSeatId = 3;//被拉牌玩家的座位号
+	optional int32 type = 4; 	//下注的类型
+}
+
+//S2C:广播玩家冲锋责任鸡型
+message PlayingJiType
+{
+	optional int32 type = 1;//类型 1为冲锋鸡，2为责任鸡
+	optional int32 cardSeatId = 2;//出该牌的玩家
+	optional int32 doSeatId = 3;//该鸡型的玩家
+	optional int32 card =  4;//牌
+	optional int32 jiType = 5;//鸡类型 1为冲锋鸡，2为责任鸡 5为冲锋乌骨，6为责任乌骨
+}
+
+
+//S2C:广播查缺结果
+message UserChaQue
+{
+	repeated QueOption options = 1;//查缺结果
+}
+
+message QueOption 
+{
+	optional int32 isQue = 1;//查缺结果
+	optional int32 seatId =2;//玩家座位号
+
+}
+
+//翻开牌的数据
+message fanCardData
+{
+	optional int32 card = 1;//翻开的牌
+	optional int32 shangCard = 2;//上鸡牌（翻牌顺位+1）
+	optional int32 xiaCard = 3;//下鸡牌（翻牌顺位-1）
+	optional string jiTypeName = 4;//鸡型名
+}
+
+//各鸡型数据
+message jiCardData
+{
+	repeated int32 cards = 1;//鸡型对应的鸡牌
+	optional string settleType = 4;//鸡型结算类型
+}
+
+//S2C:广播翻牌后捉鸡动画信息
+message ZhuoJi
+{
+	optional fanCardData fanCardData = 1;//翻开牌的数据
+	repeated jiCardData jiCardData = 2;//各鸡型数据
+}
+
+
+message LuaError {
+	optional int32 errCode = 1;
+	optional string msg = 2;
+}
+
+
+
+//S2C:等待一些时间再抓牌
+message Test
+{
+	optional int32 cmd = 1; //座位号
+
+}
+
+//番信息
+message FanInfo
+{
+	optional int32 type = 1;//番类型(code)
+	optional string fan = 2;//番数
+	optional string fanName = 3;//番型显示名称
+	optional string paixingId = 4;//牌型id
+	optional int32 isBigAnim = 5;//是否是大牌型 1:true, 0:false
+	optional int32 isTitle = 6;//是否显示标题 1:true, 0:false
+	optional int32 time = 7;//番型加番次数
+}
+
+//S2C：印章统一数据
+message StampInfo
+{
+	optional string stampName = 1;//印章名称
+	optional bool 	isStamp   =2;//是否印章
+}
+
+//结算统计信息
+message TotalInfo
+{
+	optional int64 turnExp = 1;//本局获得经验
+	optional int64 winMoney = 2;//本局获得钱(未扣台费)
+	optional int64 turnMoney = 3;//本局获得钱(已扣台费)
+	optional int32 isBroked = 4;//是否破产(0，1)
+	optional int32 isLessWin = 5;//是否触发以小博大(0，1)
+    optional int32 nMoney = 6 ;//玩家剩余的钱
+    optional string strUserInfo = 7;//玩家基础信息,只有结算才发
+    optional int64 totalFan = 8;//单个人的总番
+	optional int64 totalBei = 9;//单个人总倍数,番转化成倍数的总和
+    optional int32 bWin = 10;//最后总结算包才有,1是赢,0是输
+	optional int64 userId = 11;//该玩家对应的UserId
+	repeated StampInfo stampInfo = 12;//本局印章信息
+	optional string totalFanStr = 13;//单个人的总番,字符串类型
+	optional int32 isYouJiao = 14;// 玩家是否有叫
+}
+
+//番钱计算扩展信息
+message SettleFanExtendInfo
+{
+	repeated FanInfo fanInfo = 1;//番信息
+	optional int32 totalFan = 2;//总番
+	optional int32 fengDingFan = 3;//封顶番
+	optional string totalFanStr = 4;//总番,字符串类型
+}
+
+//结算moneyItem
+message SettleMoneyItem
+{
+	optional string name = 1;//类型，名字:gang, fan, cha_jiao, hua_zhu
+	repeated int64 p2pMoney = 2;//跟各个玩家之间的结算
+	repeated SettleFanExtendInfo fanExtendInfo = 3;//番钱计算扩展信息
+	optional int32 winSeatId = 4;//胡牌的玩家的座位或者当前是根据这个玩家来计算的
+    optional int32 paoSeatId = 5;//点炮玩家的座位
+    optional int32 opcode = 6; //当前做的操作码
+	optional string extendInfo = 7; //结算项扩展信息
+}
+
+//结算数据
+message SettleModel
+{
+	repeated SettleMoneyItem moneyItemList = 1;//moneyItem数组
+	repeated TotalInfo totalInfo = 2;//结算统计信息
+	
+}
+
+//一次结算的信息
+message SettleItem
+{
+	optional string settleType = 1;//结算类型:huang_zhuang\common_hu\zi_mo\gang_settle
+	optional SettleModel settleModel = 2;//结算数据
+	optional int32 isShowGameOver = 3;//1.显示结算框，其他则不弹
+	optional bool isBaoSanJia = 4; // 显示是否包三家
+	optional string jiesuanCustomData = 5;
+}
+
+message HandCards
+{
+	repeated HandCard handCards = 1;//玩家的手牌
+	repeated Common.HuSeatInfo huInfo = 2;//胡牌信息
+}
+
+message ZhongJiangInfo
+{
+	repeated int64 cardList   = 1;//每个玩家奖牌
+	optional int32 seatId     = 2;//座位号
+	optional int32 jiangValue = 3;//奖注值
+}
+
+//抽奖信息
+message ChouJiang 
+{
+	repeated int64 tableCards   = 1;//翻出牌墙的牌
+	repeated int64 doubleCards  = 2;//抽奖抽中的牌
+	optional int32 jiangValue   = 3;//奖注值
+	repeated ZhongJiangInfo jiangInfo  = 4;//抽奖抽中的牌 1 = {}, 2 = { }, 3 = { }, 4 = { }
+}
+
+//重连
+message UserReconnect
+{
+	optional Common.RoomInfo roomInfo = 1;//房间信息
+	repeated Common.PlayerInfo players = 2;//玩家(包括自己)
+	repeated SettleItem settleItems = 3;//结算数据
+	optional string customJson = 4;//游戏自定义数据 如跑钱，买点 不同的游戏对应的数据不同 {curInfo,historyInfo}
+	optional Operation operation = 5;//打牌信息
+	optional int32 timePass = 6; //等待时间
+}
+
+
+//更新玩家金币
+message UpdatePlayerMoney
+{
+	repeated int64 moneys = 1;//玩家金币,下标为seatId
+}
+
+//更新翻杠牌
+message UpdateFanGangPai
+{
+	repeated int32 cards = 1;//翻开的杠牌
+	optional int32 remainCardCount = 2;//剩余牌数
+	optional int32 gangCount = 3;//当前杠的次数
+}
+
+//选择的翻杠牌
+message SelectFanGangPai
+{
+	optional int32 card = 1;//选择的杠牌
+}
+
+
+
+//C2S 用户提交牌型测试请求
+message PaiXingTestRequest
+{
+	repeated int32 indexs = 1;//用户提交的索引
+	optional int32 request = 2;//请求码
+
+} 
+
+//牌型测试拓展信息
+message PaiXingInfo
+{
+	optional int64 id = 1;//牌型对应规则码
+	optional string displayName = 2 ;//对应显示的名称
+}
+
+//S2C 发送给用户的牌型测试信息
+message PaiXingTestResult
+{
+	repeated PaiXingInfo paiXing = 1 ;//传给用户的信息
+	optional int32 result = 2;//结果码
+	optional int32 paiXingIndex = 3;//当前配牌索引
+}
+
+//上局荒庄
+message LastTimeHuangZhuang
+{
+	optional int32 isHuang = 1;//上局是否荒庄
+	optional int32 huangNum = 2;//本局荒庄积累倍数
+}
+
+
+//广播更新剩余的牌数
+message UpdateLeftCards
+{
+	optional int32 leftCards = 1;//牌桌剩余的牌数
+}
+
+//广播翻杠的牌
+message FanGangPai
+{
+	repeated int32 cards = 1;//翻开的杠牌
+}
+
+//S2C:广播所有玩家最终拉牌结果
+message XiaZhuResults
+{
+	repeated int32 options = 1;//下注的倍数选项: 1拉牌；0不拉；-2不进行拉牌
+}
+
+//S2C:广播玩家完成吃三口
+
+message ChiSanKouResult 
+{
+	optional bool isChiSanKou = 1;//是否完成吃三口
+	optional int32 seat 	   = 2;//完成吃三口玩家的座位号
+
+}
+
+//S2C:广播等待认输或取钱
+message ToWaitGiveup
+{
+	repeated int32 seatIdList = 1; //执行此操作的座位号列表	
+}
+
+//S2C,C2S:继续游戏还是认输
+message UserGiveUpOption
+{
+	optional int32 seatId = 1;//座位号
+	optional int64 userId = 2;//userid
+	optional int32 isGiveUp = 3;//是否认输(1:认输，0:继续，-1:未决定)
+}
+
+//S2C : 广播买马信息
+message MaiMaResult
+{
+    optional int32 zhuangSeatId = 1;  // 庄家seatId
+    repeated HorseInfo options = 2; //买马详情
+
+}
+
+message HorseInfo
+{
+    optional int32 horseSeatId = 1;// 座位号
+    optional int32 horseCard = 2;// 马牌
+}
+
+//S2C : 广播买马结果
+message MaiMaSettle
+{
+    repeated int32 options = 1; //买中的牌 {0x01,0x02,...}
+    repeated int32 monenys = 2; // 结算的钱 {-1000,2000,-1000,0}
+}
+
+message DiTingStatus
+{
+	optional int32 status = 1;// 状态
+}
+
+message UpdatePaoCard
+{
+	optional int32 langQiSeatId = 1;//廊起玩家的座位号
+	repeated int32 paoCardTBytes = 2;//所有炮牌tByte值
+	repeated int32 newPaoCardTBytes = 3;//新增的炮牌tByte值
+}
+
+//S2C ：关死
+message GuanSi
+{
+	optional int32 seatId = 1; // 关死玩家的seatId
+}
+
+//S2C ：鸡枪信息
+message JiQiangResult
+{
+    repeated int32 cardList = 1;//鸡枪牌
+}
+
+//S2C ：斗地主
+message DouDiZhu
+{
+	optional int32 seatId = 1; // 斗地主玩家的seatId
+}
+
+//S2C : 换三张
+message HuanSanZhang
+{
+	optional int32 seatId = 1;
+	repeated int32 cards = 2;//换三张的拍
+}
+
+//S2C : 包胡信息
+message BaoHuInfo
+{
+	repeated int32 baoHuInfo = 1;//包胡信息
+}
+
+//S2C : 补花后抓牌
+message BuHuaZhaPai
+{
+	optional int32 seatId = 1;//座位号
+	repeated int32 cards = 2;//牌
+	optional bool isBanker = 3; //是否为庄家
+	optional int32 remainCardNum = 4; //剩余牌数
+
+}
+
+//S2C:宝牌
+message BaoPai
+{
+	optional int32 seatId = 1; //座位号
+	repeated int64 tingSeatId = 2; //听牌玩家
+	repeated int32 cards = 3;//宝牌
+	optional int32 status = 4; //状态
+	optional int32 showType = 5; //-1.牌背  1.牌面
+	optional int32 curSeat = 6; //当前听牌玩家座位
+}
+
+//S2C:换宝
+message HuanBao
+{
+	optional int32 seatId = 1; //座位号
+	optional int32 curSeat = 2; //当前听牌玩家座位
+	optional int32 new_cards = 3;//旧宝牌
+	repeated int32 old_cards = 4;//新宝牌
+	optional int32 status = 5; //状态
+	optional int32 showType = 6; //-1.牌背  1.牌面
+	optional int32 remainCardCount = 7; //剩余牌数
+}
+
+message KeGroupInfo
+{
+	repeated Common.Cards groupList = 1;//牌列表
+}
+
+//C2S :玩家提交选刻信息
+message UserChoseGroups
+{
+	optional KeGroupInfo chosenGroups = 1;//选刻信息
+	optional int32 seatId = 2;//座位号
+} 
+
+//C2S :玩家提交赌自摸结果
+message UserDuResult
+{
+	optional int32 isDu = 1;
+	optional int32 seatId = 2;//座位号
+}
+
+//S2C :恢复玩家原来的调牌
+message RestoreDiao
+{
+	optional int32 seatId = 1; //座位号
+	optional int32 laiZiCard = 2;//被调的癞子牌
+	optional int32 nativeCard = 3;//要调的本牌
+	optional HandCard handCard = 4;//玩家的手牌
+}
+
+//S2C 广播下个操作的玩家
+message NextOperationUser
+{
+	optional int32 seatId = 1; //座位号
+	optional string customStr = 2; //额外数据
+}
+
+//S2C 版本检测结果
+message CheckVersionResult
+{
+	optional string result = 1; //结果
+	optional string msg = 2; //提示信息
+	optional string customStr = 3; //额外数据
+}
+
+//C2S 客户端提交版本信息
+message CheckVersion
+{
+	optional string version = 1; //版本信息
+	optional string customStr = 2; //额外数据
+}
+
+//S2C:广播立牌信息
+message DingLiPai
+{	
+	optional string liPaiCards = 1;// 立牌
+}
+
+//S2C:广播游金状态
+message YouJinStatus
+{	
+	optional int32 seatId = 1; //座位号
+	optional int32 youJinStatus = 2; //游金状态
+}

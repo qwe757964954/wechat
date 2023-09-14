@@ -1,0 +1,18 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "XC_paihangbang",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "00547ea8-fc80-4245-b2f6-1b63008de04a@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "XC_paihangbang.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\nXC_paihangbang.png\nsize: 271,54\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nXC_paihang\n  rotate: true\n  xy: 0, 1\n  size: 53, 172\n  orig: 58, 212\n  offset: 3, 0\n  index: -1\nXC_paihang_jiao\n  rotate: false\n  xy: 230, 22\n  size: 41, 32\n  orig: 41, 32\n  offset: 0, 0\n  index: -1\nXC_paihang_shou\n  rotate: false\n  xy: 230, 1\n  size: 38, 21\n  orig: 38, 21\n  offset: 0, 0\n  index: -1\nXC_paihang_tou\n  rotate: false\n  xy: 172, 0\n  size: 58, 54\n  orig: 58, 54\n  offset: 0, 0\n  index: -1\n"
+}

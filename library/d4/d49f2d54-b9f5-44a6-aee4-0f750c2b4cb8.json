@@ -1,0 +1,18 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "kuaisukaishi",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "e2901cdb-b4c2-4e40-9ace-608fe47c3e1f@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "kuaisukaishi.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\nkuaisukaishi.png\nsize: 299,202\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nBG_light\n  rotate: false\n  xy: 164, 0\n  size: 50, 50\n  orig: 50, 50\n  offset: 0, 0\n  index: -1\nqian/DT_icon_ksks_di\n  rotate: true\n  xy: 164, 52\n  size: 150, 106\n  orig: 150, 106\n  offset: 0, 0\n  index: -1\nqian/DT_icon_ksks_di2\n  rotate: false\n  xy: 0, 40\n  size: 162, 162\n  orig: 162, 162\n  offset: 0, 0\n  index: -1\nqian/DT_icon_ksks_hudie\n  rotate: false\n  xy: 272, 52\n  size: 21, 29\n  orig: 21, 29\n  offset: 0, 0\n  index: -1\nqian/DT_icon_ksks_text\n  rotate: false\n  xy: 0, 2\n  size: 138, 36\n  orig: 138, 36\n  offset: 0, 0\n  index: -1\nqian/DT_icon_ksks_yun\n  rotate: true\n  xy: 272, 83\n  size: 119, 27\n  orig: 119, 27\n  offset: 0, 0\n  index: -1\n"
+}

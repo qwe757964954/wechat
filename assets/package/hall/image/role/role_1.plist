@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>role/res/name_qk.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{97,354},{91,131}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{91,131}</string>
+			</dict>
+			<key>role/res/name_nn.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{149,191},{90,131}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{90,132}</string>
+			</dict>
+			<key>role/res/icon_mask_nn.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,191},{143,159}}</string>
+				<key>offset</key>
+				<string>{-6,4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{169,193}</string>
+			</dict>
+			<key>role/res/icon_select_nn.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{166,185}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{169,193}</string>
+			</dict>
+			<key>role/res/name_bl.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{286,270},{88,129}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{88,129}</string>
+			</dict>
+			<key>role/res/name_gy.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{172,2},{88,131}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{88,131}</string>
+			</dict>
+			<key>role/res/name_tw.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{243,137},{89,129}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{89,129}</string>
+			</dict>
+			<key>role/res/name_xb.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{192,326},{90,131}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{90,131}</string>
+			</dict>
+			<key>role/res/name_xya.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,354},{91,132}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{91,132}</string>
+			</dict>
+			<key>role/res/name_xyi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{264,2},{89,129}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{89,129}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>role_1.png</string>
+			<key>realTextureFileName</key>
+			<string>role_1.png</string>
+			<key>size</key>
+			<string>{512,512}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>512</integer>
+			<key>height</key>
+			<integer>512</integer>
+		</dict>
+	</dict>
+</plist>

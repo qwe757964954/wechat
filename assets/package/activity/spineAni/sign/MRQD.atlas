@@ -1,0 +1,104 @@
+
+MRQD.png
+size: 660,337
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_light
+  rotate: false
+  xy: 377, 23
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+QRLW_xian
+  rotate: true
+  xy: 2, 4
+  size: 14, 63
+  orig: 14, 316
+  offset: 0, 0
+  index: -1
+biaoti_hua_l_1
+  rotate: false
+  xy: 475, 24
+  size: 47, 49
+  orig: 47, 49
+  offset: 0, 0
+  index: -1
+biaoti_hua_l_2
+  rotate: false
+  xy: 524, 22
+  size: 41, 51
+  orig: 43, 51
+  offset: 0, 0
+  index: -1
+biaoti_hua_r
+  rotate: true
+  xy: 567, 4
+  size: 48, 41
+  orig: 48, 41
+  offset: 0, 0
+  index: -1
+biaoti_shuzhi_l
+  rotate: true
+  xy: 567, 54
+  size: 141, 88
+  orig: 186, 88
+  offset: 0, 0
+  index: -1
+biaoti_shuzhi_r
+  rotate: true
+  xy: 559, 197
+  size: 138, 99
+  orig: 139, 99
+  offset: 1, 0
+  index: -1
+buqian_di_light
+  rotate: true
+  xy: 429, 18
+  size: 55, 44
+  orig: 55, 44
+  offset: 0, 0
+  index: -1
+guangquan
+  rotate: true
+  xy: 306, 75
+  size: 260, 251
+  orig: 273, 264
+  offset: 10, 4
+  index: -1
+leaf
+  rotate: true
+  xy: 610, 12
+  size: 40, 26
+  orig: 43, 28
+  offset: 1, 1
+  index: -1
+light1
+  rotate: true
+  xy: 2, 20
+  size: 315, 302
+  orig: 372, 370
+  offset: 28, 29
+  index: -1
+lizi_light
+  rotate: false
+  xy: 306, 2
+  size: 69, 71
+  orig: 105, 105
+  offset: 18, 17
+  index: -1
+xj_name_hudie_l
+  rotate: true
+  xy: 98, 3
+  size: 15, 27
+  orig: 15, 29
+  offset: 0, 2
+  index: -1
+xj_name_hudie_r
+  rotate: true
+  xy: 67, 3
+  size: 15, 29
+  orig: 15, 29
+  offset: 0, 0
+  index: -1

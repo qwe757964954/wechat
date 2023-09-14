@@ -1,0 +1,36 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "dialog_title",
+    "spriteFrames": [
+      "dialog_title/buyProp_title",
+      "49bf5c5c-5631-468e-9424-4f6d045575b8@917e8",
+      "dialog_title/change_head",
+      "49bf5c5c-5631-468e-9424-4f6d045575b8@199b7",
+      "dialog_title/ddz_title",
+      "49bf5c5c-5631-468e-9424-4f6d045575b8@5023a",
+      "dialog_title/friend_list",
+      "49bf5c5c-5631-468e-9424-4f6d045575b8@705c2",
+      "dialog_title/gift_comtent",
+      "49bf5c5c-5631-468e-9424-4f6d045575b8@b5bbe",
+      "dialog_title/goods_comtent",
+      "49bf5c5c-5631-468e-9424-4f6d045575b8@0e0fb",
+      "dialog_title/indulge",
+      "49bf5c5c-5631-468e-9424-4f6d045575b8@32aff",
+      "dialog_title/new_version",
+      "49bf5c5c-5631-468e-9424-4f6d045575b8@9d3da",
+      "dialog_title/real_name",
+      "49bf5c5c-5631-468e-9424-4f6d045575b8@06a76",
+      "dialog_title/sellProp_title",
+      "49bf5c5c-5631-468e-9424-4f6d045575b8@bdfc2",
+      "dialog_title/tips",
+      "49bf5c5c-5631-468e-9424-4f6d045575b8@1e7b4",
+      "dialog_title/tobuy",
+      "49bf5c5c-5631-468e-9424-4f6d045575b8@72cd9",
+      "dialog_title/update_msg",
+      "49bf5c5c-5631-468e-9424-4f6d045575b8@faede",
+      "dialog_title/use_rule",
+      "49bf5c5c-5631-468e-9424-4f6d045575b8@e5dc5"
+    ]
+  }
+}

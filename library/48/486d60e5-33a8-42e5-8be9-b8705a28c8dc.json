@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "hall",
+    "spriteFrames": [
+      "hall/dian",
+      "486d60e5-33a8-42e5-8be9-b8705a28c8dc@2198c",
+      "hall/icon_activity_bg",
+      "486d60e5-33a8-42e5-8be9-b8705a28c8dc@b36c3",
+      "hall/icon_friend_1",
+      "486d60e5-33a8-42e5-8be9-b8705a28c8dc@cf955",
+      "hall/icon_role",
+      "486d60e5-33a8-42e5-8be9-b8705a28c8dc@c3255",
+      "hall/icon_signin_1",
+      "486d60e5-33a8-42e5-8be9-b8705a28c8dc@8fb4a",
+      "hall/icon_task",
+      "486d60e5-33a8-42e5-8be9-b8705a28c8dc@9d3d7",
+      "hall/img_avatar_bg",
+      "486d60e5-33a8-42e5-8be9-b8705a28c8dc@c6e4f",
+      "hall/img_mask",
+      "486d60e5-33a8-42e5-8be9-b8705a28c8dc@6ad8f",
+      "hall/img_menu_bg",
+      "486d60e5-33a8-42e5-8be9-b8705a28c8dc@c649a",
+      "hall/img_pop_menu",
+      "486d60e5-33a8-42e5-8be9-b8705a28c8dc@d300c",
+      "hall/img_status_bg",
+      "486d60e5-33a8-42e5-8be9-b8705a28c8dc@1fda4",
+      "hall/kefu",
+      "486d60e5-33a8-42e5-8be9-b8705a28c8dc@49144"
+    ]
+  }
+}

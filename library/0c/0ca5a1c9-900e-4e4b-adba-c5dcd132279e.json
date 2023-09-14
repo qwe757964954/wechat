@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "settle_hu_fail",
+    "spriteFrames": [
+      "0",
+      "0ca5a1c9-900e-4e4b-adba-c5dcd132279e@c869a",
+      "1",
+      "0ca5a1c9-900e-4e4b-adba-c5dcd132279e@c30fb",
+      "2",
+      "0ca5a1c9-900e-4e4b-adba-c5dcd132279e@c86cc",
+      "3",
+      "0ca5a1c9-900e-4e4b-adba-c5dcd132279e@e7223",
+      "4",
+      "0ca5a1c9-900e-4e4b-adba-c5dcd132279e@a795c",
+      "5",
+      "0ca5a1c9-900e-4e4b-adba-c5dcd132279e@e7d45",
+      "6",
+      "0ca5a1c9-900e-4e4b-adba-c5dcd132279e@116ec",
+      "7",
+      "0ca5a1c9-900e-4e4b-adba-c5dcd132279e@855b3",
+      "8",
+      "0ca5a1c9-900e-4e4b-adba-c5dcd132279e@c959d",
+      "9",
+      "0ca5a1c9-900e-4e4b-adba-c5dcd132279e@4ce76",
+      "ci",
+      "0ca5a1c9-900e-4e4b-adba-c5dcd132279e@3b480",
+      "gonghu",
+      "0ca5a1c9-900e-4e4b-adba-c5dcd132279e@2c59d"
+    ]
+  }
+}

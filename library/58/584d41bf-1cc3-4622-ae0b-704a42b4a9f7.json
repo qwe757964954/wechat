@@ -1,0 +1,18 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "TongYong_hudie",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "b5fdcba9-c703-4112-9b3c-a5c6c48153c7@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "TongYong_hudie.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\nTongYong_hudie.png\nsize: 108,44\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nBG_light\n  rotate: false\n  xy: 0, 0\n  size: 44, 44\n  orig: 50, 50\n  offset: 3, 3\n  index: -1\nXC_hudie_1\n  rotate: false\n  xy: 78, 19\n  size: 30, 25\n  orig: 30, 26\n  offset: 0, 0\n  index: -1\nXC_hudie_2\n  rotate: false\n  xy: 78, 0\n  size: 30, 19\n  orig: 31, 19\n  offset: 1, 0\n  index: -1\nXC_hudie_3\n  rotate: false\n  xy: 44, 6\n  size: 34, 38\n  orig: 42, 38\n  offset: 1, 0\n  index: -1\n"
+}

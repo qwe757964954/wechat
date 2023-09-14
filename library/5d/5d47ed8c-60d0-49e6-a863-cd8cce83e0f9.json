@@ -1,0 +1,18 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "PX_ty",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "325bcde0-b040-45f5-bd1d-7359872cebd7@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "PX_ty.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nPX_ty.png\r\nsize: 898,501\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n222\r\n  rotate: false\r\n  xy: 0, 114\r\n  size: 386, 387\r\n  orig: 386, 387\r\n  offset: 0, 0\r\n  index: -1\r\nBG_light\r\n  rotate: false\r\n  xy: 162, 21\r\n  size: 50, 50\r\n  orig: 50, 50\r\n  offset: 0, 0\r\n  index: -1\r\ndi\r\n  rotate: true\r\n  xy: 388, 7\r\n  size: 494, 223\r\n  orig: 494, 223\r\n  offset: 0, 0\r\n  index: -1\r\nhudie\r\n  rotate: false\r\n  xy: 0, 0\r\n  size: 28, 37\r\n  orig: 28, 37\r\n  offset: 0, 0\r\n  index: -1\r\nlight4\r\n  rotate: false\r\n  xy: 613, 13\r\n  size: 266, 150\r\n  orig: 266, 150\r\n  offset: 0, 0\r\n  index: -1\r\nniao\r\n  rotate: false\r\n  xy: 761, 341\r\n  size: 137, 160\r\n  orig: 137, 160\r\n  offset: 0, 0\r\n  index: -1\r\nsheguang\r\n  rotate: false\r\n  xy: 761, 212\r\n  size: 134, 127\r\n  orig: 134, 127\r\n  offset: 0, 0\r\n  index: -1\r\nshenglvguang_2\r\n  rotate: false\r\n  xy: 30, 15\r\n  size: 21, 22\r\n  orig: 21, 22\r\n  offset: 0, 0\r\n  index: -1\r\ntext_qgh\r\n  rotate: true\r\n  xy: 613, 165\r\n  size: 336, 146\r\n  orig: 336, 146\r\n  offset: 0, 0\r\n  index: -1\r\nyun_l\r\n  rotate: false\r\n  xy: 0, 73\r\n  size: 201, 39\r\n  orig: 201, 39\r\n  offset: 0, 0\r\n  index: -1\r\nyun_r\r\n  rotate: false\r\n  xy: 0, 39\r\n  size: 160, 32\r\n  orig: 160, 32\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

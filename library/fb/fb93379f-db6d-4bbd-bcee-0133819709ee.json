@@ -1,0 +1,18 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "netLoad",
+    "spriteFrames": [
+      "close",
+      "fb93379f-db6d-4bbd-bcee-0133819709ee@73467",
+      "img_bg",
+      "fb93379f-db6d-4bbd-bcee-0133819709ee@0b3e0",
+      "img_progress",
+      "fb93379f-db6d-4bbd-bcee-0133819709ee@09d3f",
+      "img_progress_bg",
+      "fb93379f-db6d-4bbd-bcee-0133819709ee@83a7b",
+      "img_progress_cat",
+      "fb93379f-db6d-4bbd-bcee-0133819709ee@26242"
+    ]
+  }
+}

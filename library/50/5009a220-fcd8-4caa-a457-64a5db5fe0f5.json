@@ -1,0 +1,12 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "firstPay",
+    "spriteFrames": [
+      "bg",
+      "5009a220-fcd8-4caa-a457-64a5db5fe0f5@58cb7",
+      "buybutton",
+      "5009a220-fcd8-4caa-a457-64a5db5fe0f5@c1dff"
+    ]
+  }
+}

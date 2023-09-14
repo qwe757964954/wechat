@@ -1,0 +1,222 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 20,
+      "max": [
+        0.00966355949640274,
+        0.011271740309894085,
+        0.008700810372829437
+      ],
+      "min": [
+        -0.015691090375185013,
+        0.00931198988109827,
+        -0.020690279081463814
+      ],
+      "name": "biaoji_que/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 20,
+      "name": "biaoji_que/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 20,
+      "name": "biaoji_que/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 78,
+      "name": "biaoji_que/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 640,
+      "byteStride": 32,
+      "name": "biaoji_que",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 312,
+      "byteOffset": 640
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 952,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 24.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 22,
+          "hour": 18,
+          "millisecond": 81,
+          "minute": 15,
+          "month": 8,
+          "second": 34,
+          "year": 2023
+        },
+        "creator": "FBX SDK/FBX Plugins version 2020.3",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "Maya",
+            "applicationVendor": "Autodesk",
+            "applicationVersion": "2023",
+            "fileName": "D:\\UserProfiles\\ArvinZhou\\Documents\\maya\\projects\\default\\scenes\\biaoji.fbx"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/mesh/biaoji.fbx"
+        }
+      }
+    }
+  },
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "ambient": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "ambientFactor": {
+                "value": 1.0
+              },
+              "bump": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bumpFactor": {
+                "value": 1.0
+              },
+              "diffuse": {
+                "value": [
+                  0.5,
+                  0.5,
+                  0.5
+                ]
+              },
+              "diffuseFactor": {
+                "value": 0.800000011920929
+              },
+              "displacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "displacementFactor": {
+                "value": 1.0
+              },
+              "emissive": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "emissiveFactor": {
+                "value": 1.0
+              },
+              "normalMap": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "shadingModel": "Lambert",
+              "transparencyFactor": {
+                "value": 1.0
+              },
+              "transparentColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementFactor": {
+                "value": 1.0
+              }
+            },
+            "type": "lambert"
+          }
+        }
+      },
+      "name": "lambert1"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "biaoji_que",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "biaoji_que"
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

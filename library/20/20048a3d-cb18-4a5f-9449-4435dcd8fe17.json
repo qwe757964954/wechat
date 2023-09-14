@@ -1,0 +1,18 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "MJ_DJJS",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "b3275769-50f0-4b33-b17d-de299c6e70be@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "MJ_DJJS.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\nMJ_DJJS.png\nsize: 478,300\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nBG_light\n  rotate: false\n  xy: 0, 0\n  size: 300, 300\n  orig: 300, 300\n  offset: 0, 0\n  index: -1\nDJJS\n  rotate: true\n  xy: 302, 38\n  size: 262, 72\n  orig: 262, 72\n  offset: 0, 0\n  index: -1\nicon_saoguang\n  rotate: true\n  xy: 376, 162\n  size: 138, 102\n  orig: 138, 102\n  offset: 0, 0\n  index: -1\n"
+}

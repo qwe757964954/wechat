@@ -1,0 +1,247 @@
+import { AppEvent } from "../config/AppEvent";
+import { GConstants } from "../config/GameConstant";
+import { GameRes } from "../config/GameRes";
+import { GameTxt } from "../config/GameTxt";
+import { EventManager } from "../framework/manager/EventManager";
+import { Utils } from "../framework/Utils";
+import { BaseCache } from "../framework/vc/BaseCache";
+import { User } from "./User";
+/**
+ * Name = ShareInfo
+ * URL = db://assets/cache/ShareInfo.ts
+ * Time = Mon May 09 2022 14:43:04 GMT+0800 (中国标准时间)
+ * Author = xueya
+ * 商城缓存
+ */
+export class ShareInfo extends BaseCache {
+    /** 用户类 */
+    private __User: User = null;
+
+    private _shareConfVer: number = null;
+    /** 分享配置 */
+    /** 枚举key与服务端返回一致 */
+    private _shareConfig = {};
+    /** 下一次的分享次数 */
+    private _shareCount: number = 0;
+    /** 分享之后开始计时的定时器 */
+    private timer = null
+    /** 储存Goods.gid用于对比 */
+    private goodsgidArray: Array<any> = [];
+
+    /** 已经分享的好友openid */
+    private shareFriendsList = [];
+
+    /** 记录分享开始的时间 */
+    private recodeShareStart = 0;
+
+    //实例化
+    constructor(superClass) {
+        super("ShareInfo");
+        this.__User = superClass;
+    };
+    /** 获取分享配置 */
+    get ShareConfig() {
+        return Utils.clone(Utils.table_verify(this._shareConfig));
+    }
+    /** 更新分享配置 */
+    updateConfig(shareCof) {
+        if (Utils.table_isEmpty(shareCof)) {
+            return;
+        }
+        Object.keys(shareCof).forEach(key => {
+            this._shareConfig[key] = shareCof[key]
+        })
+        console.log('拉取到的分享配置', shareCof)
+        console.log('缓存的分享配置', this._shareConfig)
+        //通知：分享配置有更新
+        EventManager.dispatch(AppEvent.NET_RESP_SHARE_CONFIG, true, this._shareConfig);
+    }
+    /** 根据分享的key获得当前的分享配置 */
+    getShareConfigByType(type) {
+        let currentConfig = {}
+        Object.keys(this._shareConfig).forEach(key => {
+            if (type == key) {
+                currentConfig = this._shareConfig[type]
+            }
+        })
+        return currentConfig
+    }
+    /** 拿到分享次数 */
+    getShareCount(): number {
+        return this._shareCount;
+    }
+    /** 更新同步分享次数 */
+    refreshShareCount(body) {
+        if (Utils.table_isEmpty(body)) {
+            return;
+        }
+        this._shareCount = Utils.number_valueOf(body["cur_cnt"]) + 1;
+    }
+    /** 取分享开关 */
+    getShareSwitch(): boolean {
+        return this._shareConfig["switch"] || false;
+    }
+    /** 取触发分享连胜局数 */
+    getWinStreak(): number {
+        return Utils.number_valueOf(this._shareConfig["win_streak"], 1);
+    }
+
+    /** 
+     * 下一次分享是否有奖励
+     * @returns Object 或 {}
+     */
+    getAwardByNextCount(): Object {
+        let count = this.getShareCount();
+        count = count + 1;
+        let res = {};
+        /**
+         * idx: 1
+         * item_cnt: 2000
+         * item_id: 9
+         * item_type: 0
+         */
+        let rewards = Utils.table_verify(this._shareConfig["rewards"], true);
+        for (let i = 0; i < rewards.length; i++) {
+            if (rewards[i]["idx"] == count) {
+                res = rewards[i];
+                break;
+            };
+
+        }
+        return res;
+    }
+    /** 获取一共有多少次奖励 */
+    getAwardCount(): number {
+        let rewards = Utils.table_verify(this._shareConfig["rewards"], true);
+        return rewards.length;
+    }
+    /** 下一次分享是否有奖励 */
+    isAwardNext(): boolean {
+        let count = this.getShareCount();
+        count = count + 1;
+        let totalCount = this.getAwardCount();
+        return (count > totalCount) ? false : true;
+    }
+    /** 获取触发分享结算倍数 */
+    getComTimes(): number {
+        return Utils.number_valueOf(this._shareConfig["com_times"], 1);
+    }
+    /** 分享配置推送更新,重新拉取 */
+    notifyConfigUpdate(body) {
+        if (body) {
+            let newVer = Utils.number_valueOf(body["ver"], -1);
+            let localVer = this.getShareConfVer();
+            if (newVer > localVer) {
+                //请求分享配置
+                EventManager.dispatch(AppEvent.NET_REQ_SHARE_CONFIG);
+            }
+        }
+    }
+    /** 分享成功更新分享成功次数 */
+    updateShareCountBySuccess(data) {
+        //只有当奖励不为空的时候，才去更新分享次数
+        if (Utils.table_isEmpty(data) == false) {
+            this._shareCount = this._shareCount + 1;
+            //分享成功之后，无气泡不需要展示分享次数
+            // EventManager.dispatch(AppEvent.NOTIFY_SHARE_AWARD_REFRESH);
+        }
+    }
+
+    /** 获取分享更新配置的版本 */
+    getShareConfVer(): number | null {
+        return Utils.number_valueOf(this._shareConfVer);
+    }
+    /** 清理版本信息 */
+    clearVer(): void {
+        this._shareConfVer = null;
+    }
+    /**商城分享成功之后开始读秒 */
+    shareSuccessTimeAdd(gid) {
+        //判断是否是之前点击过的商品
+        let _gidIndex = this.goodsgidArray.findIndex(item => { return item['gid'] == gid })
+        if (_gidIndex > -1) {
+            this.goodsgidArray.splice(_gidIndex, 1, { gid: gid, time: 0 })
+        } else {
+            this.goodsgidArray.push({ gid: gid, time: 0 })
+        }
+        //清空上次的定时器
+        clearInterval(this.timer)
+        this.timer = setInterval(() => {
+            if (this.goodsgidArray.length > 0) {
+                this.goodsgidArray.forEach((item, index) => {
+                    item['time']++
+                })
+            }
+        }, 1000)
+    }
+    /** 获取距离上次分享成功的时间  */
+    getAfterSharetime(gid) {
+        let currentTime = this.goodsgidArray.find(item => { return item['gid'] == gid })
+        return currentTime ? { workTime: currentTime['time'], effective: true } : { workTime: 0, effective: false }
+    }
+    /**
+     * 计算当前分享是否在允许时间范围
+     * gid :比对分享时间
+     * shareType获得当前分享类型的参数
+     */
+    shareTimeAllowed(gid, shareType) {
+        let shopShareMsg = this.getShareConfigByType(shareType)
+        let coolDownTime = 0
+        let shareParams = {}
+        // 空数组返回 true
+        if (Utils.table_isEmpty(shopShareMsg)) {
+            shareParams = {
+                title: GameTxt.share_wx_friends_txt, //通用标题
+                imageUrl: GameRes.AppCommon_Share_Friend_Comm.path,
+            }
+        } else {
+            shareParams = {
+                title: shopShareMsg[0]['title'], //转发标题，不传则默认使用当前小游戏的昵称
+                imageUrl: shopShareMsg[0]['img'],
+            }
+            shopShareMsg[0]['cool_down_type'] ? shopShareMsg[0]['cool_down_time'] * 60 : 0
+        }
+        //当前物品 距离上次分享的时间
+        let lastShareMSg = this.getAfterSharetime(gid)
+        let allowShareMsg = {
+            gid: gid,
+            allowShare: true, //默认允许分享
+            nextSharetime: 0,
+            shareParams: shareParams,
+        }
+        //允许分享：1，找到了当前定时器时间大于冷却时间 或者此时没找到,2，第一次分享找不到
+        if (lastShareMSg['workTime'] >= coolDownTime || !lastShareMSg['effective']) {
+            allowShareMsg.allowShare = true
+            allowShareMsg.nextSharetime = 0 //允许
+            allowShareMsg.gid = gid
+        }
+        //不允许分享
+        else {
+            allowShareMsg.allowShare = false
+            allowShareMsg.gid = gid
+            allowShareMsg.nextSharetime = coolDownTime - lastShareMSg['workTime'] //允许
+
+        }
+        return allowShareMsg
+    }
+    /**
+     *  计算当前分享时间范围
+    */
+    recodeShareFriendStart() {
+        this.recodeShareStart = Utils.time();
+    }
+    /**
+     * 校验是否可以分享到好友
+     */
+    checkCanShareToFriend(): boolean {
+        let currowTime = Utils.time();
+        return (currowTime - this.recodeShareStart) >= GConstants.shareSucConditions.shareUseTime;
+    }
+    /** 记录已经分享的好友 */
+    insertShareFriend(openID) {
+        if (Utils.string_isEmpty(openID) == false) {
+            this.shareFriendsList.push(openID);
+        }
+    }
+
+}

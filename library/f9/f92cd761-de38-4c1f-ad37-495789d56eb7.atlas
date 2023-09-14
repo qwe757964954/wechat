@@ -1,0 +1,27 @@
+
+MJ_DJJS.png
+size: 478,300
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_light
+  rotate: false
+  xy: 0, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+DJJS
+  rotate: true
+  xy: 302, 38
+  size: 262, 72
+  orig: 262, 72
+  offset: 0, 0
+  index: -1
+icon_saoguang
+  rotate: true
+  xy: 376, 162
+  size: 138, 102
+  orig: 138, 102
+  offset: 0, 0
+  index: -1

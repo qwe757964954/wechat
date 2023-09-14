@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "startGameBtn",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 1,
+      "width": 351,
+      "height": 95
+    },
+    "offset": {
+      "x": 0,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 351,
+      "height": 96
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -175.5,
+        -47.5,
+        0,
+        175.5,
+        -47.5,
+        0,
+        -175.5,
+        47.5,
+        0,
+        175.5,
+        47.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        95,
+        351,
+        95,
+        0,
+        0,
+        351,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.9895833333333334,
+        1,
+        0.9895833333333334
+      ],
+      "minPos": {
+        "x": -175.5,
+        "y": -47.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 175.5,
+        "y": 47.5,
+        "z": 0
+      }
+    },
+    "texture": "39eb1260-6d05-4a26-852b-ad827e4d10cc@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

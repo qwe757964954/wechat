@@ -1,0 +1,62 @@
+
+MRQD_lingqu.png
+size: 627,194
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_light
+  rotate: false
+  xy: 579, 97
+  size: 44, 44
+  orig: 50, 50
+  offset: 3, 3
+  index: -1
+WZ_huase_00000
+  rotate: false
+  xy: 535, 144
+  size: 40, 46
+  orig: 40, 46
+  offset: 0, 0
+  index: -1
+WZ_huase_00002
+  rotate: false
+  xy: 535, 94
+  size: 40, 46
+  orig: 40, 46
+  offset: 0, 0
+  index: -1
+WZ_huase_00004
+  rotate: false
+  xy: 535, 44
+  size: 40, 46
+  orig: 40, 46
+  offset: 0, 0
+  index: -1
+WZ_huase_00006
+  rotate: false
+  xy: 579, 145
+  size: 40, 45
+  orig: 40, 46
+  offset: 0, 1
+  index: -1
+di_da
+  rotate: true
+  xy: 161, 8
+  size: 182, 370
+  orig: 184, 372
+  offset: 1, 1
+  index: -1
+di_saoguang
+  rotate: false
+  xy: 535, 18
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+di_xiao
+  rotate: false
+  xy: 4, 4
+  size: 153, 186
+  orig: 153, 186
+  offset: 0, 0
+  index: -1

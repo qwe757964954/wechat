@@ -1,0 +1,20 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "dialog_bg",
+    "spriteFrames": [
+      "dialog_bg/bg_1006",
+      "a7739ff4-8b7e-40b9-b2ca-008e5f027075@374b2",
+      "dialog_bg/bg_706",
+      "a7739ff4-8b7e-40b9-b2ca-008e5f027075@8cf3f",
+      "dialog_bg/bg_806",
+      "a7739ff4-8b7e-40b9-b2ca-008e5f027075@6bc7c",
+      "dialog_bg/bg_mask",
+      "a7739ff4-8b7e-40b9-b2ca-008e5f027075@55128",
+      "dialog_bg/close",
+      "a7739ff4-8b7e-40b9-b2ca-008e5f027075@24a57",
+      "dialog_bg/title_bg",
+      "a7739ff4-8b7e-40b9-b2ca-008e5f027075@cd7a9"
+    ]
+  }
+}

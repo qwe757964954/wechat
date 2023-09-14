@@ -1,0 +1,30 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="friend" Type="Plist" ID="99de5d25-1c2e-434b-a16b-8ac2e10fc3de" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="2" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="friend/res/add_friend.png" />
+      <FilePathData Path="friend/res/friend_list.png" />
+      <FilePathData Path="friend/res/friend_msg.png" />
+      <FilePathData Path="friend/res/icon_del.png" />
+      <FilePathData Path="friend/res/icon_invitation.png" />
+      <FilePathData Path="friend/res/icon_send.png" />
+      <FilePathData Path="friend/res/new.png" />
+      <FilePathData Path="friend/res/line_curved.png" />
+      <FilePathData Path="friend/res/friend_list_bg.png" />
+      <FilePathData Path="friend/res/female.png" />
+      <FilePathData Path="friend/res/male.png" />
+      <FilePathData Path="friend/res/img_title.png" />
+      <FilePathData Path="friend/res/img_input_bg.png" />
+      <FilePathData Path="friend/res/add_friend_tip.png" />
+      <FilePathData Path="friend/res/img_dress.png" />
+      <FilePathData Path="friend/res/icon_add.png" />
+      <FilePathData Path="friend/res/line_curved_1.png" />
+      <FilePathData Path="friend/res/select.png" />
+      <FilePathData Path="friend/res/icon_had_add.png" />
+      <FilePathData Path="friend/res/img_clear.png" />
+      <FilePathData Path="friend/res/select_bg.png" />
+      <FilePathData Path="friend/res/img_find_bg.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

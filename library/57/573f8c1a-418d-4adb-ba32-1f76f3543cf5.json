@@ -1,0 +1,16 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "ai",
+    "spriteFrames": [
+      "ai_head_bg",
+      "573f8c1a-418d-4adb-ba32-1f76f3543cf5@df60a",
+      "ai_ing",
+      "573f8c1a-418d-4adb-ba32-1f76f3543cf5@7e308",
+      "ai_mask",
+      "573f8c1a-418d-4adb-ba32-1f76f3543cf5@087f8",
+      "click_ai_text",
+      "573f8c1a-418d-4adb-ba32-1f76f3543cf5@a5bd3"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": "2.3.1",
+  "sourceTimeStamp": 1692319083273.6663,
+  "outputTimeStamps": {
+    "1.png": 1692321781877.7524,
+    "log.json": 1692321781879.5151,
+    "out.bin": 1692321781878.0479,
+    "out.gltf": 1692321781879.355,
+    ".fbm/4DA81CEA/majiangzi.fbm/1.png": 1692321781871.5066
+  },
+  "options": {
+    "smartMaterialEnabled": true
+  }
+}

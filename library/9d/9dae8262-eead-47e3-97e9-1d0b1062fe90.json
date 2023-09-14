@@ -1,0 +1,12 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "icon",
+    "spriteFrames": [
+      "firstPayGift",
+      "9dae8262-eead-47e3-97e9-1d0b1062fe90@fc6cf",
+      "limitGift",
+      "9dae8262-eead-47e3-97e9-1d0b1062fe90@3abbd"
+    ]
+  }
+}

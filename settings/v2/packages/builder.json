@@ -1,0 +1,12 @@
+{
+  "splash-setting": {
+    "url": "E:\\Workspace\\git\\WXGame_FlySmallChick\\小游戏配置\\firstPage.png",
+    "displayWatermark": false,
+    "clearColor": {
+      "x": 1,
+      "y": 1,
+      "z": 1,
+      "w": 1
+    }
+  }
+}

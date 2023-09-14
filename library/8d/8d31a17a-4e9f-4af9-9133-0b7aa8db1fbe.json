@@ -1,0 +1,12 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "xiaoya",
+    "spriteFrames": [
+      "xiaoya_fail",
+      "8d31a17a-4e9f-4af9-9133-0b7aa8db1fbe@36db0",
+      "xiaoya_win",
+      "8d31a17a-4e9f-4af9-9133-0b7aa8db1fbe@a71c2"
+    ]
+  }
+}

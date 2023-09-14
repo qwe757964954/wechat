@@ -1,0 +1,97 @@
+
+get.png
+size: 947,829
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_light
+  rotate: false
+  xy: 0, 183
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+L
+  rotate: true
+  xy: 902, 384
+  size: 445, 45
+  orig: 445, 45
+  offset: 0, 0
+  index: -1
+L_lizi
+  rotate: false
+  xy: 0, 0
+  size: 331, 51
+  orig: 331, 51
+  offset: 0, 0
+  index: -1
+XZ_light_1
+  rotate: false
+  xy: 602, 220
+  size: 260, 263
+  orig: 260, 263
+  offset: 0, 0
+  index: -1
+XZ_light_2
+  rotate: false
+  xy: 302, 188
+  size: 298, 295
+  orig: 298, 295
+  offset: 0, 0
+  index: -1
+close
+  rotate: false
+  xy: 302, 138
+  size: 306, 48
+  orig: 306, 48
+  offset: 0, 0
+  index: -1
+diban
+  rotate: false
+  xy: 0, 485
+  size: 900, 344
+  orig: 900, 344
+  offset: 0, 0
+  index: -1
+doudou
+  rotate: false
+  xy: 610, 157
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+light_00000
+  rotate: false
+  xy: 673, 164
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+mask
+  rotate: false
+  xy: 602, 212
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+shanzi
+  rotate: false
+  xy: 0, 53
+  size: 298, 128
+  orig: 298, 128
+  offset: 0, 0
+  index: -1
+shenglvguang_2
+  rotate: false
+  xy: 745, 18
+  size: 199, 200
+  orig: 199, 200
+  offset: 0, 0
+  index: -1
+text
+  rotate: false
+  xy: 333, 28
+  size: 410, 108
+  orig: 410, 108
+  offset: 0, 0
+  index: -1

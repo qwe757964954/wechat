@@ -1,0 +1,18 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "JS-SB",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "eb3b7b06-b88e-4f2b-9b4f-1f342039f49e@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "JS-SB.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nJS-SB.png\r\nsize: 2005,1032\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n666\r\n  rotate: true\r\n  xy: 1429, 2\r\n  size: 66, 61\r\n  orig: 66, 61\r\n  offset: 0, 0\r\n  index: -1\r\nSS1\r\n  rotate: false\r\n  xy: 786, 8\r\n  size: 54, 54\r\n  orig: 70, 66\r\n  offset: 9, 5\r\n  index: -1\r\nSS2\r\n  rotate: true\r\n  xy: 984, 18\r\n  size: 44, 43\r\n  orig: 59, 56\r\n  offset: 9, 6\r\n  index: -1\r\nXX4\r\n  rotate: false\r\n  xy: 1621, 121\r\n  size: 374, 98\r\n  orig: 376, 100\r\n  offset: 1, 1\r\n  index: -1\r\nXX5\r\n  rotate: true\r\n  xy: 1429, 70\r\n  size: 149, 125\r\n  orig: 151, 127\r\n  offset: 1, 1\r\n  index: -1\r\nXX6\r\n  rotate: true\r\n  xy: 1621, 16\r\n  size: 103, 83\r\n  orig: 105, 85\r\n  offset: 1, 1\r\n  index: -1\r\nbaoguang\r\n  rotate: false\r\n  xy: 1872, 55\r\n  size: 64, 64\r\n  orig: 64, 64\r\n  offset: 0, 0\r\n  index: -1\r\ndd1\r\n  rotate: false\r\n  xy: 133, 544\r\n  size: 1600, 486\r\n  orig: 1600, 486\r\n  offset: 0, 0\r\n  index: -1\r\ndd2\r\n  rotate: false\r\n  xy: 786, 64\r\n  size: 641, 478\r\n  orig: 641, 478\r\n  offset: 0, 0\r\n  index: -1\r\ndd3\r\n  rotate: true\r\n  xy: 2, 30\r\n  size: 1000, 114\r\n  orig: 1000, 114\r\n  offset: 0, 0\r\n  index: -1\r\ndd6\r\n  rotate: false\r\n  xy: 118, 46\r\n  size: 666, 496\r\n  orig: 666, 496\r\n  offset: 0, 0\r\n  index: -1\r\nshengli\r\n  rotate: false\r\n  xy: 1735, 899\r\n  size: 245, 131\r\n  orig: 254, 136\r\n  offset: 4, 4\r\n  index: -1\r\ntuowei\r\n  rotate: false\r\n  xy: 1492, 4\r\n  size: 127, 64\r\n  orig: 127, 64\r\n  offset: 0, 0\r\n  index: -1\r\nxx1\r\n  rotate: true\r\n  xy: 842, 9\r\n  size: 53, 140\r\n  orig: 55, 142\r\n  offset: 1, 1\r\n  index: -1\r\nxx2\r\n  rotate: true\r\n  xy: 133, 6\r\n  size: 38, 52\r\n  orig: 40, 54\r\n  offset: 1, 1\r\n  index: -1\r\nxx3\r\n  rotate: false\r\n  xy: 1429, 221\r\n  size: 574, 321\r\n  orig: 574, 321\r\n  offset: 0, 0\r\n  index: -1\r\ny1\r\n  rotate: true\r\n  xy: 187, 15\r\n  size: 29, 27\r\n  orig: 31, 29\r\n  offset: 1, 1\r\n  index: -1\r\ny11\r\n  rotate: false\r\n  xy: 2, 23\r\n  size: 129, 5\r\n  orig: 136, 9\r\n  offset: 4, 1\r\n  index: -1\r\ny2\r\n  rotate: true\r\n  xy: 216, 15\r\n  size: 29, 27\r\n  orig: 34, 29\r\n  offset: 4, 1\r\n  index: -1\r\ny22\r\n  rotate: false\r\n  xy: 2, 16\r\n  size: 129, 5\r\n  orig: 133, 7\r\n  offset: 3, 1\r\n  index: -1\r\nzhu\r\n  rotate: true\r\n  xy: 1706, 25\r\n  size: 94, 92\r\n  orig: 100, 97\r\n  offset: 2, 3\r\n  index: -1\r\nzhu1\r\n  rotate: false\r\n  xy: 1800, 49\r\n  size: 70, 70\r\n  orig: 70, 70\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

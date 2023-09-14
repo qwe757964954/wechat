@@ -1,0 +1,20 @@
+
+light.png
+size: 409,107
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+close
+  rotate: false
+  xy: 2, 59
+  size: 300, 46
+  orig: 306, 48
+  offset: 3, 1
+  index: -1
+shenglvguang_3
+  rotate: false
+  xy: 304, 2
+  size: 103, 103
+  orig: 116, 116
+  offset: 6, 7
+  index: -1

@@ -1,0 +1,14 @@
+{
+  /* Base configuration. Do not edit this field. */
+  "extends": "./temp/tsconfig.cocos.json",
+  /* Add your custom configuration here. */
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "ES2015",
+    "strict": false,
+    "removeComments": true, // 删除注释 
+    "types": [
+      // "./node_modules/*"
+    ],
+  }
+}

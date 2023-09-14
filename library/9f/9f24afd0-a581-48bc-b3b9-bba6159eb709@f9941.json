@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "DT_icon",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 138,
+      "height": 538
+    },
+    "offset": {
+      "x": 0,
+      "y": 8
+    },
+    "originalSize": {
+      "width": 138,
+      "height": 554
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -69,
+        -269,
+        0,
+        69,
+        -269,
+        0,
+        -69,
+        269,
+        0,
+        69,
+        269,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        554,
+        138,
+        554,
+        0,
+        16,
+        138,
+        16
+      ],
+      "nuv": [
+        0,
+        0.02888086642599278,
+        1,
+        0.02888086642599278,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -69,
+        "y": -269,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 69,
+        "y": 269,
+        "z": 0
+      }
+    },
+    "texture": "9f24afd0-a581-48bc-b3b9-bba6159eb709@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

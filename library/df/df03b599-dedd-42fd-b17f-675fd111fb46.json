@@ -1,0 +1,26 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "loadingAnim",
+    "spriteFrames": [
+      "1",
+      "df03b599-dedd-42fd-b17f-675fd111fb46@c30fb",
+      "2",
+      "df03b599-dedd-42fd-b17f-675fd111fb46@c86cc",
+      "3",
+      "df03b599-dedd-42fd-b17f-675fd111fb46@e7223",
+      "4",
+      "df03b599-dedd-42fd-b17f-675fd111fb46@a795c",
+      "5",
+      "df03b599-dedd-42fd-b17f-675fd111fb46@e7d45",
+      "6",
+      "df03b599-dedd-42fd-b17f-675fd111fb46@116ec",
+      "7",
+      "df03b599-dedd-42fd-b17f-675fd111fb46@855b3",
+      "8",
+      "df03b599-dedd-42fd-b17f-675fd111fb46@c959d",
+      "static",
+      "df03b599-dedd-42fd-b17f-675fd111fb46@ac2e7"
+    ]
+  }
+}

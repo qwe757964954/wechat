@@ -1,0 +1,52 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "doudizhu/desk/bg_card_task",
+    "atlas": "39f103a9-9e50-465d-9513-2407079a7d8b",
+    "rect": {
+      "x": 548,
+      "y": 307,
+      "width": 310,
+      "height": 43
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 310,
+      "height": 43
+    },
+    "rotated": false,
+    "capInsets": [
+      38,
+      0,
+      41,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [],
+      "indexes": [],
+      "uv": [],
+      "nuv": [],
+      "minPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "texture": "3b4b238e-18b2-434b-8891-9f20a2ede2c0@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

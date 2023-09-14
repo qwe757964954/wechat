@@ -1,0 +1,109 @@
+{
+  "ver": "1.0.7",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "5009a220-fcd8-4caa-a457-64a5db5fe0f5",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "58cb7": {
+      "importer": "sprite-frame",
+      "uuid": "5009a220-fcd8-4caa-a457-64a5db5fe0f5@58cb7",
+      "displayName": "",
+      "id": "58cb7",
+      "name": "bg",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": true,
+        "offsetX": 1,
+        "offsetY": 21,
+        "trimX": 2,
+        "trimY": 2,
+        "width": 1278,
+        "height": 672,
+        "rawWidth": 1280,
+        "rawHeight": 720,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "19be09d2-b5ae-43b0-a146-788b16415f34@6c48a",
+        "atlasUuid": "5009a220-fcd8-4caa-a457-64a5db5fe0f5"
+      },
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c1dff": {
+      "importer": "sprite-frame",
+      "uuid": "5009a220-fcd8-4caa-a457-64a5db5fe0f5@c1dff",
+      "displayName": "",
+      "id": "c1dff",
+      "name": "buybutton",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 676,
+        "trimY": 2,
+        "width": 284,
+        "height": 68,
+        "rawWidth": 284,
+        "rawHeight": 68,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "19be09d2-b5ae-43b0-a146-788b16415f34@6c48a",
+        "atlasUuid": "5009a220-fcd8-4caa-a457-64a5db5fe0f5"
+      },
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "firstPay.png",
+    "format": 2,
+    "uuid": "5009a220-fcd8-4caa-a457-64a5db5fe0f5",
+    "textureUuid": "19be09d2-b5ae-43b0-a146-788b16415f34@6c48a"
+  }
+}

@@ -1,0 +1,13 @@
+
+JDDD_btn.png
+size: 287,96
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BTN_light
+  rotate: false
+  xy: 2, 2
+  size: 283, 92
+  orig: 287, 95
+  offset: 2, 2
+  index: -1

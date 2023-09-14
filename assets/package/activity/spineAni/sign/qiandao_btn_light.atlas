@@ -1,0 +1,13 @@
+
+qiandao_btn_light.png
+size: 194,85
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+btn_qiandao_light
+  rotate: false
+  xy: 0, 0
+  size: 194, 85
+  orig: 194, 85
+  offset: 0, 0
+  index: -1

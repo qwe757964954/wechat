@@ -1,0 +1,18 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "XC_btn",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "518eedf6-4030-4716-a86f-1e885d323e40@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "XC_btn.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\nXC_btn.png\nsize: 304,136\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nXC_btn\n  rotate: false\n  xy: 0, 72\n  size: 202, 64\n  orig: 202, 64\n  offset: 0, 0\n  index: -1\nbtn_light\n  rotate: false\n  xy: 0, 8\n  size: 200, 62\n  orig: 200, 62\n  offset: 0, 0\n  index: -1\nicon_saoguang\n  rotate: true\n  xy: 204, 0\n  size: 136, 100\n  orig: 136, 100\n  offset: 0, 0\n  index: -1\n"
+}

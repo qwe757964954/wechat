@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>doudizhu/handCard/card_num/0.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,31},{18,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{18,28}</string>
+			</dict>
+			<key>doudizhu/handCard/card_num/1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,271},{14,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{14,28}</string>
+			</dict>
+			<key>doudizhu/handCard/card_num/2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,61},{18,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{18,28}</string>
+			</dict>
+			<key>doudizhu/handCard/card_num/3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{22,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{22,28}</string>
+			</dict>
+			<key>doudizhu/handCard/card_num/4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,91},{18,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{18,28}</string>
+			</dict>
+			<key>doudizhu/handCard/card_num/5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,121},{18,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{18,28}</string>
+			</dict>
+			<key>doudizhu/handCard/card_num/6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,151},{18,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{18,28}</string>
+			</dict>
+			<key>doudizhu/handCard/card_num/7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,181},{18,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{18,28}</string>
+			</dict>
+			<key>doudizhu/handCard/card_num/8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,211},{18,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{18,28}</string>
+			</dict>
+			<key>doudizhu/handCard/card_num/9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,241},{18,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{18,28}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>card_num.png</string>
+			<key>realTextureFileName</key>
+			<string>card_num.png</string>
+			<key>size</key>
+			<string>{24,300}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>24</integer>
+			<key>height</key>
+			<integer>300</integer>
+		</dict>
+	</dict>
+</plist>

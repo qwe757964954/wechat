@@ -1,0 +1,818 @@
+; FBX 7.5.0 project file
+; ----------------------------------------------------
+
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 7500
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2023
+		Month: 5
+		Day: 29
+		Hour: 9
+		Minute: 31
+		Second: 53
+		Millisecond: 232
+	}
+	Creator: "FBX SDK/FBX Plugins version 2018.1.1"
+	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
+		Type: "UserData"
+		Version: 100
+		MetaData:  {
+			Version: 100
+			Title: ""
+			Subject: ""
+			Author: ""
+			Keywords: ""
+			Revision: ""
+			Comment: ""
+		}
+		Properties70:  {
+			P: "DocumentUrl", "KString", "Url", "", "E:\20220322_yjy\23_04_model\majiang\麻将\biaodian\biaodian.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "E:\20220322_yjy\23_04_model\majiang\麻将\biaodian\biaodian.fbx"
+			P: "Original", "Compound", "", ""
+			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
+			P: "Original|ApplicationName", "KString", "", "", "Maya"
+			P: "Original|ApplicationVersion", "KString", "", "", "201800"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "29/05/2023 01:31:53.230"
+			P: "Original|FileName", "KString", "", "", "E:\20220322_yjy\23_04_model\majiang\麻将\biaodian\biaodian.fbx"
+			P: "LastSaved", "Compound", "", ""
+			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
+			P: "LastSaved|ApplicationName", "KString", "", "", "Maya"
+			P: "LastSaved|ApplicationVersion", "KString", "", "", "201800"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "29/05/2023 01:31:53.230"
+			P: "Original|ApplicationActiveProject", "KString", "", "", "E:\20220322_yjy\23_04_model\majiang\麻将\biaodian"
+		}
+	}
+}
+GlobalSettings:  {
+	Version: 1000
+	Properties70:  {
+		P: "UpAxis", "int", "Integer", "",1
+		P: "UpAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",2
+		P: "FrontAxisSign", "int", "Integer", "",1
+		P: "CoordAxis", "int", "Integer", "",0
+		P: "CoordAxisSign", "int", "Integer", "",1
+		P: "OriginalUpAxis", "int", "Integer", "",1
+		P: "OriginalUpAxisSign", "int", "Integer", "",1
+		P: "UnitScaleFactor", "double", "Number", "",1
+		P: "OriginalUnitScaleFactor", "double", "Number", "",1
+		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
+		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
+		P: "TimeMode", "enum", "", "",6
+		P: "TimeProtocol", "enum", "", "",2
+		P: "SnapOnFrameMode", "enum", "", "",0
+		P: "TimeSpanStart", "KTime", "Time", "",1539538600
+		P: "TimeSpanStop", "KTime", "Time", "",46186158000
+		P: "CustomFrameRate", "double", "Number", "",-1
+		P: "TimeMarker", "Compound", "", ""
+		P: "CurrentTimeMarker", "int", "Integer", "",-1
+	}
+}
+
+; Documents Description
+;------------------------------------------------------------------
+
+Documents:  {
+	Count: 1
+	Document: 2592136867392, "", "Scene" {
+		Properties70:  {
+			P: "SourceObject", "object", "", ""
+			P: "ActiveAnimStackName", "KString", "", "", "Take 001"
+		}
+		RootNode: 0
+	}
+}
+
+; Document References
+;------------------------------------------------------------------
+
+References:  {
+}
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+	Version: 100
+	Count: 24
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+	ObjectType: "AnimationStack" {
+		Count: 1
+		PropertyTemplate: "FbxAnimStack" {
+			Properties70:  {
+				P: "Description", "KString", "", "", ""
+				P: "LocalStart", "KTime", "Time", "",0
+				P: "LocalStop", "KTime", "Time", "",0
+				P: "ReferenceStart", "KTime", "Time", "",0
+				P: "ReferenceStop", "KTime", "Time", "",0
+			}
+		}
+	}
+	ObjectType: "AnimationLayer" {
+		Count: 1
+		PropertyTemplate: "FbxAnimLayer" {
+			Properties70:  {
+				P: "Weight", "Number", "", "A",100
+				P: "Mute", "bool", "", "",0
+				P: "Solo", "bool", "", "",0
+				P: "Lock", "bool", "", "",0
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BlendMode", "enum", "", "",0
+				P: "RotationAccumulationMode", "enum", "", "",0
+				P: "ScaleAccumulationMode", "enum", "", "",0
+				P: "BlendModeBypass", "ULongLong", "", "",0
+			}
+		}
+	}
+	ObjectType: "NodeAttribute" {
+		Count: 1
+		PropertyTemplate: "FbxNull" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "Size", "double", "Number", "",100
+				P: "Look", "enum", "", "",1
+			}
+		}
+	}
+	ObjectType: "Model" {
+		Count: 2
+		PropertyTemplate: "FbxNode" {
+			Properties70:  {
+				P: "QuaternionInterpolate", "enum", "", "",0
+				P: "RotationOffset", "Vector3D", "Vector", "",0,0,0
+				P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingOffset", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationActive", "bool", "", "",0
+				P: "TranslationMin", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMax", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMinX", "bool", "", "",0
+				P: "TranslationMinY", "bool", "", "",0
+				P: "TranslationMinZ", "bool", "", "",0
+				P: "TranslationMaxX", "bool", "", "",0
+				P: "TranslationMaxY", "bool", "", "",0
+				P: "TranslationMaxZ", "bool", "", "",0
+				P: "RotationOrder", "enum", "", "",0
+				P: "RotationSpaceForLimitOnly", "bool", "", "",0
+				P: "RotationStiffnessX", "double", "Number", "",0
+				P: "RotationStiffnessY", "double", "Number", "",0
+				P: "RotationStiffnessZ", "double", "Number", "",0
+				P: "AxisLen", "double", "Number", "",10
+				P: "PreRotation", "Vector3D", "Vector", "",0,0,0
+				P: "PostRotation", "Vector3D", "Vector", "",0,0,0
+				P: "RotationActive", "bool", "", "",0
+				P: "RotationMin", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMax", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMinX", "bool", "", "",0
+				P: "RotationMinY", "bool", "", "",0
+				P: "RotationMinZ", "bool", "", "",0
+				P: "RotationMaxX", "bool", "", "",0
+				P: "RotationMaxY", "bool", "", "",0
+				P: "RotationMaxZ", "bool", "", "",0
+				P: "InheritType", "enum", "", "",0
+				P: "ScalingActive", "bool", "", "",0
+				P: "ScalingMin", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingMax", "Vector3D", "Vector", "",1,1,1
+				P: "ScalingMinX", "bool", "", "",0
+				P: "ScalingMinY", "bool", "", "",0
+				P: "ScalingMinZ", "bool", "", "",0
+				P: "ScalingMaxX", "bool", "", "",0
+				P: "ScalingMaxY", "bool", "", "",0
+				P: "ScalingMaxZ", "bool", "", "",0
+				P: "GeometricTranslation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricRotation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricScaling", "Vector3D", "Vector", "",1,1,1
+				P: "MinDampRangeX", "double", "Number", "",0
+				P: "MinDampRangeY", "double", "Number", "",0
+				P: "MinDampRangeZ", "double", "Number", "",0
+				P: "MaxDampRangeX", "double", "Number", "",0
+				P: "MaxDampRangeY", "double", "Number", "",0
+				P: "MaxDampRangeZ", "double", "Number", "",0
+				P: "MinDampStrengthX", "double", "Number", "",0
+				P: "MinDampStrengthY", "double", "Number", "",0
+				P: "MinDampStrengthZ", "double", "Number", "",0
+				P: "MaxDampStrengthX", "double", "Number", "",0
+				P: "MaxDampStrengthY", "double", "Number", "",0
+				P: "MaxDampStrengthZ", "double", "Number", "",0
+				P: "PreferedAngleX", "double", "Number", "",0
+				P: "PreferedAngleY", "double", "Number", "",0
+				P: "PreferedAngleZ", "double", "Number", "",0
+				P: "LookAtProperty", "object", "", ""
+				P: "UpVectorProperty", "object", "", ""
+				P: "Show", "bool", "", "",1
+				P: "NegativePercentShapeSupport", "bool", "", "",1
+				P: "DefaultAttributeIndex", "int", "Integer", "",-1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+				P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+				P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+				P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+				P: "Visibility", "Visibility", "", "A",1
+				P: "Visibility Inheritance", "Visibility Inheritance", "", "",1
+			}
+		}
+	}
+	ObjectType: "Geometry" {
+		Count: 1
+		PropertyTemplate: "FbxMesh" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BBoxMin", "Vector3D", "Vector", "",0,0,0
+				P: "BBoxMax", "Vector3D", "Vector", "",0,0,0
+				P: "Primary Visibility", "bool", "", "",1
+				P: "Casts Shadows", "bool", "", "",1
+				P: "Receive Shadows", "bool", "", "",1
+			}
+		}
+	}
+	ObjectType: "Material" {
+		Count: 1
+		PropertyTemplate: "FbxSurfacePhong" {
+			Properties70:  {
+				P: "ShadingModel", "KString", "", "", "Phong"
+				P: "MultiLayer", "bool", "", "",0
+				P: "EmissiveColor", "Color", "", "A",0,0,0
+				P: "EmissiveFactor", "Number", "", "A",1
+				P: "AmbientColor", "Color", "", "A",0.2,0.2,0.2
+				P: "AmbientFactor", "Number", "", "A",1
+				P: "DiffuseColor", "Color", "", "A",0.8,0.8,0.8
+				P: "DiffuseFactor", "Number", "", "A",1
+				P: "Bump", "Vector3D", "Vector", "",0,0,0
+				P: "NormalMap", "Vector3D", "Vector", "",0,0,0
+				P: "BumpFactor", "double", "Number", "",1
+				P: "TransparentColor", "Color", "", "A",0,0,0
+				P: "TransparencyFactor", "Number", "", "A",0
+				P: "DisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "DisplacementFactor", "double", "Number", "",1
+				P: "VectorDisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "VectorDisplacementFactor", "double", "Number", "",1
+				P: "SpecularColor", "Color", "", "A",0.2,0.2,0.2
+				P: "SpecularFactor", "Number", "", "A",1
+				P: "ShininessExponent", "Number", "", "A",20
+				P: "ReflectionColor", "Color", "", "A",0,0,0
+				P: "ReflectionFactor", "Number", "", "A",1
+			}
+		}
+	}
+	ObjectType: "Texture" {
+		Count: 1
+		PropertyTemplate: "FbxFileTexture" {
+			Properties70:  {
+				P: "TextureTypeUse", "enum", "", "",0
+				P: "Texture alpha", "Number", "", "A",1
+				P: "CurrentMappingType", "enum", "", "",0
+				P: "WrapModeU", "enum", "", "",0
+				P: "WrapModeV", "enum", "", "",0
+				P: "UVSwap", "bool", "", "",0
+				P: "PremultiplyAlpha", "bool", "", "",1
+				P: "Translation", "Vector", "", "A",0,0,0
+				P: "Rotation", "Vector", "", "A",0,0,0
+				P: "Scaling", "Vector", "", "A",1,1,1
+				P: "TextureRotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TextureScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "CurrentTextureBlendMode", "enum", "", "",1
+				P: "UVSet", "KString", "", "", "default"
+				P: "UseMaterial", "bool", "", "",0
+				P: "UseMipMap", "bool", "", "",0
+			}
+		}
+	}
+	ObjectType: "AnimationCurveNode" {
+		Count: 4
+		PropertyTemplate: "FbxAnimCurveNode" {
+			Properties70:  {
+				P: "d", "Compound", "", ""
+			}
+		}
+	}
+	ObjectType: "AnimationCurve" {
+		Count: 10
+	}
+	ObjectType: "Video" {
+		Count: 1
+		PropertyTemplate: "FbxVideo" {
+			Properties70:  {
+				P: "Path", "KString", "XRefUrl", "", ""
+				P: "RelPath", "KString", "XRefUrl", "", ""
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "ClipIn", "KTime", "Time", "",0
+				P: "ClipOut", "KTime", "Time", "",0
+				P: "Offset", "KTime", "Time", "",0
+				P: "PlaySpeed", "double", "Number", "",0
+				P: "FreeRunning", "bool", "", "",0
+				P: "Loop", "bool", "", "",0
+				P: "Mute", "bool", "", "",0
+				P: "AccessMode", "enum", "", "",0
+				P: "ImageSequence", "bool", "", "",0
+				P: "ImageSequenceOffset", "int", "Integer", "",0
+				P: "FrameRate", "double", "Number", "",0
+				P: "LastFrame", "int", "Integer", "",0
+				P: "Width", "int", "Integer", "",0
+				P: "Height", "int", "Integer", "",0
+				P: "StartFrame", "int", "Integer", "",0
+				P: "StopFrame", "int", "Integer", "",0
+				P: "InterlaceMode", "enum", "", "",0
+			}
+		}
+	}
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+	NodeAttribute: 2592117378800, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Geometry: 2592198276224, "Geometry::", "Mesh" {
+		Vertices: *27 {
+			a: 0,4.06027698516846,4.65072545294157e-16,8.17783600837174e-08,6.22404146194458,0.575658142566681,8.99390215636231e-08,6.07350730895996,0.685855031013489,-0.575658142566681,6.22404146194458,5.03256316619627e-08,-0.685855031013489,6.07350730895996,5.99593548145094e-08,-2.51628158309813e-08,6.22404146194458,-0.575658142566681,-2.99796774072547e-08,6.07350730895996,-0.685855031013489,0.575658142566681,6.22404146194458,6.2899179198439e-09,0.685855031013489,6.07350730895996,2.18522959567703e-16
+		} 
+		PolygonVertexIndex: *32 {
+			a: 1,2,8,-8,2,1,3,-5,4,3,5,-7,6,5,7,-9,1,7,5,-4,2,4,-1,4,6,-1,6,8,-1,8,2,-1
+		} 
+		Edges: *16 {
+			a: 0,1,2,3,5,6,7,9,10,11,13,15,21,22,24,27
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: ""
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *96 {
+				a: 0.627964615821838,0.459694981575012,0.627965867519379,0.627964675426483,0.459694892168045,0.627965867519379,0.627964675426483,0.459694892168045,0.627965867519379,0.627964615821838,0.459694981575012,0.627965867519379,-0.627965152263641,0.459695428609848,0.627964854240417,-0.627965152263641,0.459695488214493,0.627964854240417,-0.627965152263641,0.459695488214493,0.627964854240417,-0.627965152263641,0.459695428609848,0.627964854240417,-0.627964615821838,0.459694981575012,-0.627965867519379,-0.627964615821838,0.459694981575012,-0.627965807914734,-0.627964615821838,0.459694981575012,-0.627965807914734,-0.627964615821838,0.459694981575012,-0.627965867519379,0.627965211868286,0.45969545841217,-0.627964913845062,0.627965211868286,0.459695398807526,-0.627964913845062,0.627965211868286,0.459695398807526,-0.627964913845062,0.627965211868286,0.45969545841217,-0.627964913845062,0,1,0,0,1,0,0,1,0,0,1,0,-0.687442064285278,-0.234193578362465,0.687442243099213,-0.687442064285278,-0.234193578362465,0.687442243099213,-0.687442004680634,-0.234193578362465,0.687442243099213,-0.687442302703857,-0.234193652868271,-0.687442004680634,-0.687442302703857,-0.234193652868271,-0.687442004680634,-0.687442302703857,-0.234193608164787,-0.687441945075989,0.687442064285278,-0.234193548560143,-0.687442183494568,0.687442064285278,-0.234193548560143,-0.687442183494568,0.687442064285278,-0.234193578362465,-0.687442183494568,0.687442243099213,-0.234193652868271,0.687442004680634,0.687442243099213,-0.234193652868271,0.687442004680634,0.687442302703857,-0.234193652868271,0.687442004680634
+			} 
+			NormalsW: *32 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "map1"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *28 {
+				a: 0.500000059604645,0.011708527803421,0.500000059604645,0.0499950349330902,0.261708527803421,0.249999985098839,0.299995005130768,0.249999970197678,0.5,0.488291501998901,0.5,0.450005024671555,0.738291501998901,0.249999985098839,0.700004994869232,0.25,0.261708498001099,0.523416996002197,0.380854249000549,0.523416996002197,0.5,0.523416996002197,0.619145750999451,0.523416996002197,0.738291501998901,0.523416996002197,0.5,0.99999988079071
+			} 
+			UVIndex: *32 {
+				a: 1,0,6,7,0,1,3,2,2,3,5,4,4,5,7,6,1,7,5,3,8,9,13,9,10,13,10,11,13,11,12,13
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Model: 2593554851776, "Model::locator1", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationPivot", "Vector3D", "Vector", "",0,4.06027698516846,4.65072545294157e-16
+			P: "ScalingPivot", "Vector3D", "Vector", "",0,4.06027698516846,4.65072545294157e-16
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "GeometricTranslation", "Vector3D", "Vector", "",0,5.23571909416644,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 2592044018432, "Model::baiodian", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "currentUVSet", "KString", "", "U", "map1"
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Material: 2592141814496, "Material::blinn1", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "AmbientColor", "Color", "", "A",0,0,0
+			P: "DiffuseColor", "Color", "", "A",1,1,1
+			P: "DiffuseFactor", "Number", "", "A",0.800000011920929
+			P: "TransparencyFactor", "Number", "", "A",1
+			P: "SpecularColor", "Color", "", "A",0.5,0.5,0.5
+			P: "ShininessExponent", "Number", "", "A",6.31179094314575
+			P: "ReflectionFactor", "Number", "", "A",0.5
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0,0,0
+			P: "Diffuse", "Vector3D", "Vector", "",0.800000011920929,0.800000011920929,0.800000011920929
+			P: "Specular", "Vector3D", "Vector", "",0.5,0.5,0.5
+			P: "Shininess", "double", "Number", "",6.31179094314575
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Video: 2592141814976, "Video::file15", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\JIEYUY~1\AppData\Local\Temp\biaodian.fbm\biaodian.png"
+			P: "RelPath", "KString", "XRefUrl", "", "C:\Users\JIEYUY~1\AppData\Local\Temp\biaodian.fbm\biaodian.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\JIEYUY~1\AppData\Local\Temp\biaodian.fbm\biaodian.png"
+		RelativeFilename: "C:\Users\JIEYUY~1\AppData\Local\Temp\biaodian.fbm\biaodian.png"
+		Content: ,
+ "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"
+	}
+	Texture: 2592141815456, "Texture::file15", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::file15"
+		Properties70:  {
+			P: "CurrentTextureBlendMode", "enum", "", "",0
+			P: "UVSet", "KString", "", "", "map1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::file15"
+		FileName: "C:\Users\JIEYUY~1\AppData\Local\Temp\biaodian.fbm\biaodian.png"
+		RelativeFilename: "C:\Users\JIEYUY~1\AppData\Local\Temp\biaodian.fbm\biaodian.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	AnimationStack: 2592139398944, "AnimStack::Take 001", "" {
+		Properties70:  {
+			P: "LocalStart", "KTime", "Time", "",1539538600
+			P: "LocalStop", "KTime", "Time", "",46186158000
+			P: "ReferenceStart", "KTime", "Time", "",1539538600
+			P: "ReferenceStop", "KTime", "Time", "",46186158000
+		}
+	}
+	AnimationCurve: 2592135004688, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *250 {
+			a: 1539538600,3079077200,4618615800,6158154400,7697693000,9237231600,10776770200,12316308800,13855847400,15395386000,16934924600,18474463200,20014001800,21553540400,23093079000,24632617600,26172156200,27711694800,29251233400,30790772000,32330310600,33869849200,35409387800,36948926400,38488465000,40028003600,41567542200,43107080800,44646619400,46186158000,47725696600,49265235200,50804773800,52344312400,53883851000,55423389600,56962928200,58502466800,60042005400,61581544000,63121082600,64660621200,66200159800,67739698400,69279237000,70818775600,72358314200,73897852800,75437391400,76976930000,78516468600,80056007200,81595545800,83135084400,84674623000,86214161600,87753700200,89293238800,90832777400,92372316000,93911854600,95451393200,96990931800,98530470400,100070009000,101609547600,103149086200,104688624800,106228163400,107767702000,109307240600,110846779200,112386317800,113925856400,115465395000,117004933600,118544472200,120084010800,121623549400,123163088000,124702626600,126242165200,127781703800,129321242400,130860781000,132400319600,133939858200,135479396800,137018935400,138558474000,140098012600,141637551200,143177089800,144716628400,146256167000,147795705600,149335244200,150874782800,152414321400,153953860000,155493398600,157032937200,158572475800,160112014400,161651553000,163191091600,164730630200,166270168800,167809707400,169349246000,170888784600,172428323200,173967861800,175507400400,177046939000,178586477600,180126016200,181665554800,183205093400,184744632000,186284170600,187823709200,189363247800,190902786400,192442325000,193981863600,195521402200,197060940800,198600479400,200140018000,201679556600,203219095200,204758633800,206298172400,207837711000,209377249600,210916788200,212456326800,213995865400,215535404000,217074942600,218614481200,220154019800,221693558400,223233097000,224772635600,226312174200,227851712800,229391251400,230930790000,232470328600,234009867200,235549405800,237088944400,238628483000,240168021600,241707560200,243247098800,244786637400,246326176000,247865714600,249405253200,
+250944791800,252484330400,254023869000,255563407600,257102946200,258642484800,260182023400,261721562000,263261100600,264800639200,266340177800,267879716400,269419255000,270958793600,272498332200,274037870800,275577409400,277116948000,278656486600,280196025200,281735563800,283275102400,284814641000,286354179600,287893718200,289433256800,290972795400,292512334000,294051872600,295591411200,297130949800,298670488400,300210027000,301749565600,303289104200,304828642800,306368181400,307907720000,309447258600,310986797200,312526335800,314065874400,315605413000,317144951600,318684490200,320224028800,321763567400,323303106000,324842644600,326382183200,327921721800,329461260400,331000799000,332540337600,334079876200,335619414800,337158953400,338698492000,340238030600,341777569200,343317107800,344856646400,346396185000,347935723600,349475262200,351014800800,352554339400,354093878000,355633416600,357172955200,358712493800,360252032400,361791571000,363331109600,364870648200,366410186800,367949725400,369489264000,371028802600,372568341200,374107879800,375647418400,377186957000,378726495600,380266034200,381805572800,383345111400,384884650000
+		} 
+		KeyValueFloat: *250 {
+			a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+		} 
+		;KeyAttrFlags: Constant|ConstantStandard, Constant|ConstantNext, Cubic|TangeantUser
+		KeyAttrFlags: *3 {
+			a: 2,258,1032
+		} 
+		;KeyAttrDataFloat: RightSlope:0, NextLeftSlope:0, RightWeight:0.333333, NextLeftWeight:0.333333, RightVelocity:0, NextLeftVelocity:0; RightAuto:0, NextLeftAuto:0; RightSlope:0, NextLeftSlope:0, RightWeight:0.333333, NextLeftWeight:0.333333, RightVelocity:0, NextLeftVelocity:0
+		KeyAttrDataFloat: *12 {
+			a: 0,0,218434821,0,0,0,218434821,0,0,0,218434821,0
+		} 
+		KeyAttrRefCount: *3 {
+			a: 30,219,1
+		} 
+	}
+	AnimationCurve: 2592135002928, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *250 {
+			a: 1539538600,3079077200,4618615800,6158154400,7697693000,9237231600,10776770200,12316308800,13855847400,15395386000,16934924600,18474463200,20014001800,21553540400,23093079000,24632617600,26172156200,27711694800,29251233400,30790772000,32330310600,33869849200,35409387800,36948926400,38488465000,40028003600,41567542200,43107080800,44646619400,46186158000,47725696600,49265235200,50804773800,52344312400,53883851000,55423389600,56962928200,58502466800,60042005400,61581544000,63121082600,64660621200,66200159800,67739698400,69279237000,70818775600,72358314200,73897852800,75437391400,76976930000,78516468600,80056007200,81595545800,83135084400,84674623000,86214161600,87753700200,89293238800,90832777400,92372316000,93911854600,95451393200,96990931800,98530470400,100070009000,101609547600,103149086200,104688624800,106228163400,107767702000,109307240600,110846779200,112386317800,113925856400,115465395000,117004933600,118544472200,120084010800,121623549400,123163088000,124702626600,126242165200,127781703800,129321242400,130860781000,132400319600,133939858200,135479396800,137018935400,138558474000,140098012600,141637551200,143177089800,144716628400,146256167000,147795705600,149335244200,150874782800,152414321400,153953860000,155493398600,157032937200,158572475800,160112014400,161651553000,163191091600,164730630200,166270168800,167809707400,169349246000,170888784600,172428323200,173967861800,175507400400,177046939000,178586477600,180126016200,181665554800,183205093400,184744632000,186284170600,187823709200,189363247800,190902786400,192442325000,193981863600,195521402200,197060940800,198600479400,200140018000,201679556600,203219095200,204758633800,206298172400,207837711000,209377249600,210916788200,212456326800,213995865400,215535404000,217074942600,218614481200,220154019800,221693558400,223233097000,224772635600,226312174200,227851712800,229391251400,230930790000,232470328600,234009867200,235549405800,237088944400,238628483000,240168021600,241707560200,243247098800,244786637400,246326176000,247865714600,249405253200,
+250944791800,252484330400,254023869000,255563407600,257102946200,258642484800,260182023400,261721562000,263261100600,264800639200,266340177800,267879716400,269419255000,270958793600,272498332200,274037870800,275577409400,277116948000,278656486600,280196025200,281735563800,283275102400,284814641000,286354179600,287893718200,289433256800,290972795400,292512334000,294051872600,295591411200,297130949800,298670488400,300210027000,301749565600,303289104200,304828642800,306368181400,307907720000,309447258600,310986797200,312526335800,314065874400,315605413000,317144951600,318684490200,320224028800,321763567400,323303106000,324842644600,326382183200,327921721800,329461260400,331000799000,332540337600,334079876200,335619414800,337158953400,338698492000,340238030600,341777569200,343317107800,344856646400,346396185000,347935723600,349475262200,351014800800,352554339400,354093878000,355633416600,357172955200,358712493800,360252032400,361791571000,363331109600,364870648200,366410186800,367949725400,369489264000,371028802600,372568341200,374107879800,375647418400,377186957000,378726495600,380266034200,381805572800,383345111400,384884650000
+		} 
+		KeyValueFloat: *250 {
+			a: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericTimeIndependent|GenericClampProgressive, Cubic|TangeantAuto|GenericTimeIndependent
+		KeyAttrFlags: *2 {
+			a: 24840,8456
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0; RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *8 {
+			a: 0,0,218434821,0,0,0,218434821,0
+		} 
+		KeyAttrRefCount: *2 {
+			a: 30,220
+		} 
+	}
+	AnimationCurve: 2592135008048, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *250 {
+			a: 1539538600,3079077200,4618615800,6158154400,7697693000,9237231600,10776770200,12316308800,13855847400,15395386000,16934924600,18474463200,20014001800,21553540400,23093079000,24632617600,26172156200,27711694800,29251233400,30790772000,32330310600,33869849200,35409387800,36948926400,38488465000,40028003600,41567542200,43107080800,44646619400,46186158000,47725696600,49265235200,50804773800,52344312400,53883851000,55423389600,56962928200,58502466800,60042005400,61581544000,63121082600,64660621200,66200159800,67739698400,69279237000,70818775600,72358314200,73897852800,75437391400,76976930000,78516468600,80056007200,81595545800,83135084400,84674623000,86214161600,87753700200,89293238800,90832777400,92372316000,93911854600,95451393200,96990931800,98530470400,100070009000,101609547600,103149086200,104688624800,106228163400,107767702000,109307240600,110846779200,112386317800,113925856400,115465395000,117004933600,118544472200,120084010800,121623549400,123163088000,124702626600,126242165200,127781703800,129321242400,130860781000,132400319600,133939858200,135479396800,137018935400,138558474000,140098012600,141637551200,143177089800,144716628400,146256167000,147795705600,149335244200,150874782800,152414321400,153953860000,155493398600,157032937200,158572475800,160112014400,161651553000,163191091600,164730630200,166270168800,167809707400,169349246000,170888784600,172428323200,173967861800,175507400400,177046939000,178586477600,180126016200,181665554800,183205093400,184744632000,186284170600,187823709200,189363247800,190902786400,192442325000,193981863600,195521402200,197060940800,198600479400,200140018000,201679556600,203219095200,204758633800,206298172400,207837711000,209377249600,210916788200,212456326800,213995865400,215535404000,217074942600,218614481200,220154019800,221693558400,223233097000,224772635600,226312174200,227851712800,229391251400,230930790000,232470328600,234009867200,235549405800,237088944400,238628483000,240168021600,241707560200,243247098800,244786637400,246326176000,247865714600,249405253200,
+250944791800,252484330400,254023869000,255563407600,257102946200,258642484800,260182023400,261721562000,263261100600,264800639200,266340177800,267879716400,269419255000,270958793600,272498332200,274037870800,275577409400,277116948000,278656486600,280196025200,281735563800,283275102400,284814641000,286354179600,287893718200,289433256800,290972795400,292512334000,294051872600,295591411200,297130949800,298670488400,300210027000,301749565600,303289104200,304828642800,306368181400,307907720000,309447258600,310986797200,312526335800,314065874400,315605413000,317144951600,318684490200,320224028800,321763567400,323303106000,324842644600,326382183200,327921721800,329461260400,331000799000,332540337600,334079876200,335619414800,337158953400,338698492000,340238030600,341777569200,343317107800,344856646400,346396185000,347935723600,349475262200,351014800800,352554339400,354093878000,355633416600,357172955200,358712493800,360252032400,361791571000,363331109600,364870648200,366410186800,367949725400,369489264000,371028802600,372568341200,374107879800,375647418400,377186957000,378726495600,380266034200,381805572800,383345111400,384884650000
+		} 
+		KeyValueFloat: *250 {
+			a: 0,-0.008084039,-0.03048542,-0.06492274,-0.1089976,-0.1603499,-0.2165126,-0.275019,-0.3335088,-0.3896099,-0.4409621,-0.4850986,-0.5195565,-0.5423605,-0.549314,-0.5429926,-0.5232421,-0.4927846,-0.4535413,-0.4074402,-0.3564,-0.3024265,-0.2475253,-0.1936154,-0.1426253,-0.09647407,-0.05716725,-0.02670723,-0.007345352,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericTimeIndependent|GenericClampProgressive, Cubic|TangeantAuto|GenericTimeIndependent
+		KeyAttrFlags: *2 {
+			a: 24840,8456
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0; RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *8 {
+			a: 0,0,218434821,0,0,0,218434821,0
+		} 
+		KeyAttrRefCount: *2 {
+			a: 30,220
+		} 
+	}
+	AnimationCurve: 2592135007248, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *250 {
+			a: 1539538600,3079077200,4618615800,6158154400,7697693000,9237231600,10776770200,12316308800,13855847400,15395386000,16934924600,18474463200,20014001800,21553540400,23093079000,24632617600,26172156200,27711694800,29251233400,30790772000,32330310600,33869849200,35409387800,36948926400,38488465000,40028003600,41567542200,43107080800,44646619400,46186158000,47725696600,49265235200,50804773800,52344312400,53883851000,55423389600,56962928200,58502466800,60042005400,61581544000,63121082600,64660621200,66200159800,67739698400,69279237000,70818775600,72358314200,73897852800,75437391400,76976930000,78516468600,80056007200,81595545800,83135084400,84674623000,86214161600,87753700200,89293238800,90832777400,92372316000,93911854600,95451393200,96990931800,98530470400,100070009000,101609547600,103149086200,104688624800,106228163400,107767702000,109307240600,110846779200,112386317800,113925856400,115465395000,117004933600,118544472200,120084010800,121623549400,123163088000,124702626600,126242165200,127781703800,129321242400,130860781000,132400319600,133939858200,135479396800,137018935400,138558474000,140098012600,141637551200,143177089800,144716628400,146256167000,147795705600,149335244200,150874782800,152414321400,153953860000,155493398600,157032937200,158572475800,160112014400,161651553000,163191091600,164730630200,166270168800,167809707400,169349246000,170888784600,172428323200,173967861800,175507400400,177046939000,178586477600,180126016200,181665554800,183205093400,184744632000,186284170600,187823709200,189363247800,190902786400,192442325000,193981863600,195521402200,197060940800,198600479400,200140018000,201679556600,203219095200,204758633800,206298172400,207837711000,209377249600,210916788200,212456326800,213995865400,215535404000,217074942600,218614481200,220154019800,221693558400,223233097000,224772635600,226312174200,227851712800,229391251400,230930790000,232470328600,234009867200,235549405800,237088944400,238628483000,240168021600,241707560200,243247098800,244786637400,246326176000,247865714600,249405253200,
+250944791800,252484330400,254023869000,255563407600,257102946200,258642484800,260182023400,261721562000,263261100600,264800639200,266340177800,267879716400,269419255000,270958793600,272498332200,274037870800,275577409400,277116948000,278656486600,280196025200,281735563800,283275102400,284814641000,286354179600,287893718200,289433256800,290972795400,292512334000,294051872600,295591411200,297130949800,298670488400,300210027000,301749565600,303289104200,304828642800,306368181400,307907720000,309447258600,310986797200,312526335800,314065874400,315605413000,317144951600,318684490200,320224028800,321763567400,323303106000,324842644600,326382183200,327921721800,329461260400,331000799000,332540337600,334079876200,335619414800,337158953400,338698492000,340238030600,341777569200,343317107800,344856646400,346396185000,347935723600,349475262200,351014800800,352554339400,354093878000,355633416600,357172955200,358712493800,360252032400,361791571000,363331109600,364870648200,366410186800,367949725400,369489264000,371028802600,372568341200,374107879800,375647418400,377186957000,378726495600,380266034200,381805572800,383345111400,384884650000
+		} 
+		KeyValueFloat: *250 {
+			a: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericTimeIndependent|GenericClampProgressive, Cubic|TangeantAuto|GenericTimeIndependent
+		KeyAttrFlags: *2 {
+			a: 24840,8456
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0; RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *8 {
+			a: 0,0,218434821,0,0,0,218434821,0
+		} 
+		KeyAttrRefCount: *2 {
+			a: 30,220
+		} 
+	}
+	AnimationCurve: 2592135004208, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *250 {
+			a: 1539538600,3079077200,4618615800,6158154400,7697693000,9237231600,10776770200,12316308800,13855847400,15395386000,16934924600,18474463200,20014001800,21553540400,23093079000,24632617600,26172156200,27711694800,29251233400,30790772000,32330310600,33869849200,35409387800,36948926400,38488465000,40028003600,41567542200,43107080800,44646619400,46186158000,47725696600,49265235200,50804773800,52344312400,53883851000,55423389600,56962928200,58502466800,60042005400,61581544000,63121082600,64660621200,66200159800,67739698400,69279237000,70818775600,72358314200,73897852800,75437391400,76976930000,78516468600,80056007200,81595545800,83135084400,84674623000,86214161600,87753700200,89293238800,90832777400,92372316000,93911854600,95451393200,96990931800,98530470400,100070009000,101609547600,103149086200,104688624800,106228163400,107767702000,109307240600,110846779200,112386317800,113925856400,115465395000,117004933600,118544472200,120084010800,121623549400,123163088000,124702626600,126242165200,127781703800,129321242400,130860781000,132400319600,133939858200,135479396800,137018935400,138558474000,140098012600,141637551200,143177089800,144716628400,146256167000,147795705600,149335244200,150874782800,152414321400,153953860000,155493398600,157032937200,158572475800,160112014400,161651553000,163191091600,164730630200,166270168800,167809707400,169349246000,170888784600,172428323200,173967861800,175507400400,177046939000,178586477600,180126016200,181665554800,183205093400,184744632000,186284170600,187823709200,189363247800,190902786400,192442325000,193981863600,195521402200,197060940800,198600479400,200140018000,201679556600,203219095200,204758633800,206298172400,207837711000,209377249600,210916788200,212456326800,213995865400,215535404000,217074942600,218614481200,220154019800,221693558400,223233097000,224772635600,226312174200,227851712800,229391251400,230930790000,232470328600,234009867200,235549405800,237088944400,238628483000,240168021600,241707560200,243247098800,244786637400,246326176000,247865714600,249405253200,
+250944791800,252484330400,254023869000,255563407600,257102946200,258642484800,260182023400,261721562000,263261100600,264800639200,266340177800,267879716400,269419255000,270958793600,272498332200,274037870800,275577409400,277116948000,278656486600,280196025200,281735563800,283275102400,284814641000,286354179600,287893718200,289433256800,290972795400,292512334000,294051872600,295591411200,297130949800,298670488400,300210027000,301749565600,303289104200,304828642800,306368181400,307907720000,309447258600,310986797200,312526335800,314065874400,315605413000,317144951600,318684490200,320224028800,321763567400,323303106000,324842644600,326382183200,327921721800,329461260400,331000799000,332540337600,334079876200,335619414800,337158953400,338698492000,340238030600,341777569200,343317107800,344856646400,346396185000,347935723600,349475262200,351014800800,352554339400,354093878000,355633416600,357172955200,358712493800,360252032400,361791571000,363331109600,364870648200,366410186800,367949725400,369489264000,371028802600,372568341200,374107879800,375647418400,377186957000,378726495600,380266034200,381805572800,383345111400,384884650000
+		} 
+		KeyValueFloat: *250 {
+			a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericTimeIndependent|GenericClampProgressive, Cubic|TangeantAuto|GenericTimeIndependent
+		KeyAttrFlags: *2 {
+			a: 24840,8456
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0; RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *8 {
+			a: 0,0,218434821,0,0,0,218434821,0
+		} 
+		KeyAttrRefCount: *2 {
+			a: 30,220
+		} 
+	}
+	AnimationCurve: 2592134997008, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *250 {
+			a: 1539538600,3079077200,4618615800,6158154400,7697693000,9237231600,10776770200,12316308800,13855847400,15395386000,16934924600,18474463200,20014001800,21553540400,23093079000,24632617600,26172156200,27711694800,29251233400,30790772000,32330310600,33869849200,35409387800,36948926400,38488465000,40028003600,41567542200,43107080800,44646619400,46186158000,47725696600,49265235200,50804773800,52344312400,53883851000,55423389600,56962928200,58502466800,60042005400,61581544000,63121082600,64660621200,66200159800,67739698400,69279237000,70818775600,72358314200,73897852800,75437391400,76976930000,78516468600,80056007200,81595545800,83135084400,84674623000,86214161600,87753700200,89293238800,90832777400,92372316000,93911854600,95451393200,96990931800,98530470400,100070009000,101609547600,103149086200,104688624800,106228163400,107767702000,109307240600,110846779200,112386317800,113925856400,115465395000,117004933600,118544472200,120084010800,121623549400,123163088000,124702626600,126242165200,127781703800,129321242400,130860781000,132400319600,133939858200,135479396800,137018935400,138558474000,140098012600,141637551200,143177089800,144716628400,146256167000,147795705600,149335244200,150874782800,152414321400,153953860000,155493398600,157032937200,158572475800,160112014400,161651553000,163191091600,164730630200,166270168800,167809707400,169349246000,170888784600,172428323200,173967861800,175507400400,177046939000,178586477600,180126016200,181665554800,183205093400,184744632000,186284170600,187823709200,189363247800,190902786400,192442325000,193981863600,195521402200,197060940800,198600479400,200140018000,201679556600,203219095200,204758633800,206298172400,207837711000,209377249600,210916788200,212456326800,213995865400,215535404000,217074942600,218614481200,220154019800,221693558400,223233097000,224772635600,226312174200,227851712800,229391251400,230930790000,232470328600,234009867200,235549405800,237088944400,238628483000,240168021600,241707560200,243247098800,244786637400,246326176000,247865714600,249405253200,
+250944791800,252484330400,254023869000,255563407600,257102946200,258642484800,260182023400,261721562000,263261100600,264800639200,266340177800,267879716400,269419255000,270958793600,272498332200,274037870800,275577409400,277116948000,278656486600,280196025200,281735563800,283275102400,284814641000,286354179600,287893718200,289433256800,290972795400,292512334000,294051872600,295591411200,297130949800,298670488400,300210027000,301749565600,303289104200,304828642800,306368181400,307907720000,309447258600,310986797200,312526335800,314065874400,315605413000,317144951600,318684490200,320224028800,321763567400,323303106000,324842644600,326382183200,327921721800,329461260400,331000799000,332540337600,334079876200,335619414800,337158953400,338698492000,340238030600,341777569200,343317107800,344856646400,346396185000,347935723600,349475262200,351014800800,352554339400,354093878000,355633416600,357172955200,358712493800,360252032400,361791571000,363331109600,364870648200,366410186800,367949725400,369489264000,371028802600,372568341200,374107879800,375647418400,377186957000,378726495600,380266034200,381805572800,383345111400,384884650000
+		} 
+		KeyValueFloat: *250 {
+			a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericTimeIndependent|GenericClampProgressive, Cubic|TangeantAuto|GenericTimeIndependent
+		KeyAttrFlags: *2 {
+			a: 24840,8456
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0; RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *8 {
+			a: 0,0,218434821,0,0,0,218434821,0
+		} 
+		KeyAttrRefCount: *2 {
+			a: 30,220
+		} 
+	}
+	AnimationCurve: 2592134998608, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *250 {
+			a: 1539538600,3079077200,4618615800,6158154400,7697693000,9237231600,10776770200,12316308800,13855847400,15395386000,16934924600,18474463200,20014001800,21553540400,23093079000,24632617600,26172156200,27711694800,29251233400,30790772000,32330310600,33869849200,35409387800,36948926400,38488465000,40028003600,41567542200,43107080800,44646619400,46186158000,47725696600,49265235200,50804773800,52344312400,53883851000,55423389600,56962928200,58502466800,60042005400,61581544000,63121082600,64660621200,66200159800,67739698400,69279237000,70818775600,72358314200,73897852800,75437391400,76976930000,78516468600,80056007200,81595545800,83135084400,84674623000,86214161600,87753700200,89293238800,90832777400,92372316000,93911854600,95451393200,96990931800,98530470400,100070009000,101609547600,103149086200,104688624800,106228163400,107767702000,109307240600,110846779200,112386317800,113925856400,115465395000,117004933600,118544472200,120084010800,121623549400,123163088000,124702626600,126242165200,127781703800,129321242400,130860781000,132400319600,133939858200,135479396800,137018935400,138558474000,140098012600,141637551200,143177089800,144716628400,146256167000,147795705600,149335244200,150874782800,152414321400,153953860000,155493398600,157032937200,158572475800,160112014400,161651553000,163191091600,164730630200,166270168800,167809707400,169349246000,170888784600,172428323200,173967861800,175507400400,177046939000,178586477600,180126016200,181665554800,183205093400,184744632000,186284170600,187823709200,189363247800,190902786400,192442325000,193981863600,195521402200,197060940800,198600479400,200140018000,201679556600,203219095200,204758633800,206298172400,207837711000,209377249600,210916788200,212456326800,213995865400,215535404000,217074942600,218614481200,220154019800,221693558400,223233097000,224772635600,226312174200,227851712800,229391251400,230930790000,232470328600,234009867200,235549405800,237088944400,238628483000,240168021600,241707560200,243247098800,244786637400,246326176000,247865714600,249405253200,
+250944791800,252484330400,254023869000,255563407600,257102946200,258642484800,260182023400,261721562000,263261100600,264800639200,266340177800,267879716400,269419255000,270958793600,272498332200,274037870800,275577409400,277116948000,278656486600,280196025200,281735563800,283275102400,284814641000,286354179600,287893718200,289433256800,290972795400,292512334000,294051872600,295591411200,297130949800,298670488400,300210027000,301749565600,303289104200,304828642800,306368181400,307907720000,309447258600,310986797200,312526335800,314065874400,315605413000,317144951600,318684490200,320224028800,321763567400,323303106000,324842644600,326382183200,327921721800,329461260400,331000799000,332540337600,334079876200,335619414800,337158953400,338698492000,340238030600,341777569200,343317107800,344856646400,346396185000,347935723600,349475262200,351014800800,352554339400,354093878000,355633416600,357172955200,358712493800,360252032400,361791571000,363331109600,364870648200,366410186800,367949725400,369489264000,371028802600,372568341200,374107879800,375647418400,377186957000,378726495600,380266034200,381805572800,383345111400,384884650000
+		} 
+		KeyValueFloat: *250 {
+			a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericTimeIndependent|GenericClampProgressive, Cubic|TangeantAuto|GenericTimeIndependent
+		KeyAttrFlags: *2 {
+			a: 24840,8456
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0; RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *8 {
+			a: 0,0,218434821,0,0,0,218434821,0
+		} 
+		KeyAttrRefCount: *2 {
+			a: 30,220
+		} 
+	}
+	AnimationCurve: 2592135000208, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *250 {
+			a: 1539538600,3079077200,4618615800,6158154400,7697693000,9237231600,10776770200,12316308800,13855847400,15395386000,16934924600,18474463200,20014001800,21553540400,23093079000,24632617600,26172156200,27711694800,29251233400,30790772000,32330310600,33869849200,35409387800,36948926400,38488465000,40028003600,41567542200,43107080800,44646619400,46186158000,47725696600,49265235200,50804773800,52344312400,53883851000,55423389600,56962928200,58502466800,60042005400,61581544000,63121082600,64660621200,66200159800,67739698400,69279237000,70818775600,72358314200,73897852800,75437391400,76976930000,78516468600,80056007200,81595545800,83135084400,84674623000,86214161600,87753700200,89293238800,90832777400,92372316000,93911854600,95451393200,96990931800,98530470400,100070009000,101609547600,103149086200,104688624800,106228163400,107767702000,109307240600,110846779200,112386317800,113925856400,115465395000,117004933600,118544472200,120084010800,121623549400,123163088000,124702626600,126242165200,127781703800,129321242400,130860781000,132400319600,133939858200,135479396800,137018935400,138558474000,140098012600,141637551200,143177089800,144716628400,146256167000,147795705600,149335244200,150874782800,152414321400,153953860000,155493398600,157032937200,158572475800,160112014400,161651553000,163191091600,164730630200,166270168800,167809707400,169349246000,170888784600,172428323200,173967861800,175507400400,177046939000,178586477600,180126016200,181665554800,183205093400,184744632000,186284170600,187823709200,189363247800,190902786400,192442325000,193981863600,195521402200,197060940800,198600479400,200140018000,201679556600,203219095200,204758633800,206298172400,207837711000,209377249600,210916788200,212456326800,213995865400,215535404000,217074942600,218614481200,220154019800,221693558400,223233097000,224772635600,226312174200,227851712800,229391251400,230930790000,232470328600,234009867200,235549405800,237088944400,238628483000,240168021600,241707560200,243247098800,244786637400,246326176000,247865714600,249405253200,
+250944791800,252484330400,254023869000,255563407600,257102946200,258642484800,260182023400,261721562000,263261100600,264800639200,266340177800,267879716400,269419255000,270958793600,272498332200,274037870800,275577409400,277116948000,278656486600,280196025200,281735563800,283275102400,284814641000,286354179600,287893718200,289433256800,290972795400,292512334000,294051872600,295591411200,297130949800,298670488400,300210027000,301749565600,303289104200,304828642800,306368181400,307907720000,309447258600,310986797200,312526335800,314065874400,315605413000,317144951600,318684490200,320224028800,321763567400,323303106000,324842644600,326382183200,327921721800,329461260400,331000799000,332540337600,334079876200,335619414800,337158953400,338698492000,340238030600,341777569200,343317107800,344856646400,346396185000,347935723600,349475262200,351014800800,352554339400,354093878000,355633416600,357172955200,358712493800,360252032400,361791571000,363331109600,364870648200,366410186800,367949725400,369489264000,371028802600,372568341200,374107879800,375647418400,377186957000,378726495600,380266034200,381805572800,383345111400,384884650000
+		} 
+		KeyValueFloat: *250 {
+			a: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericTimeIndependent|GenericClampProgressive, Cubic|TangeantAuto|GenericTimeIndependent
+		KeyAttrFlags: *2 {
+			a: 24840,8456
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0; RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *8 {
+			a: 0,0,218434821,0,0,0,218434821,0
+		} 
+		KeyAttrRefCount: *2 {
+			a: 30,220
+		} 
+	}
+	AnimationCurve: 2592138307904, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *250 {
+			a: 1539538600,3079077200,4618615800,6158154400,7697693000,9237231600,10776770200,12316308800,13855847400,15395386000,16934924600,18474463200,20014001800,21553540400,23093079000,24632617600,26172156200,27711694800,29251233400,30790772000,32330310600,33869849200,35409387800,36948926400,38488465000,40028003600,41567542200,43107080800,44646619400,46186158000,47725696600,49265235200,50804773800,52344312400,53883851000,55423389600,56962928200,58502466800,60042005400,61581544000,63121082600,64660621200,66200159800,67739698400,69279237000,70818775600,72358314200,73897852800,75437391400,76976930000,78516468600,80056007200,81595545800,83135084400,84674623000,86214161600,87753700200,89293238800,90832777400,92372316000,93911854600,95451393200,96990931800,98530470400,100070009000,101609547600,103149086200,104688624800,106228163400,107767702000,109307240600,110846779200,112386317800,113925856400,115465395000,117004933600,118544472200,120084010800,121623549400,123163088000,124702626600,126242165200,127781703800,129321242400,130860781000,132400319600,133939858200,135479396800,137018935400,138558474000,140098012600,141637551200,143177089800,144716628400,146256167000,147795705600,149335244200,150874782800,152414321400,153953860000,155493398600,157032937200,158572475800,160112014400,161651553000,163191091600,164730630200,166270168800,167809707400,169349246000,170888784600,172428323200,173967861800,175507400400,177046939000,178586477600,180126016200,181665554800,183205093400,184744632000,186284170600,187823709200,189363247800,190902786400,192442325000,193981863600,195521402200,197060940800,198600479400,200140018000,201679556600,203219095200,204758633800,206298172400,207837711000,209377249600,210916788200,212456326800,213995865400,215535404000,217074942600,218614481200,220154019800,221693558400,223233097000,224772635600,226312174200,227851712800,229391251400,230930790000,232470328600,234009867200,235549405800,237088944400,238628483000,240168021600,241707560200,243247098800,244786637400,246326176000,247865714600,249405253200,
+250944791800,252484330400,254023869000,255563407600,257102946200,258642484800,260182023400,261721562000,263261100600,264800639200,266340177800,267879716400,269419255000,270958793600,272498332200,274037870800,275577409400,277116948000,278656486600,280196025200,281735563800,283275102400,284814641000,286354179600,287893718200,289433256800,290972795400,292512334000,294051872600,295591411200,297130949800,298670488400,300210027000,301749565600,303289104200,304828642800,306368181400,307907720000,309447258600,310986797200,312526335800,314065874400,315605413000,317144951600,318684490200,320224028800,321763567400,323303106000,324842644600,326382183200,327921721800,329461260400,331000799000,332540337600,334079876200,335619414800,337158953400,338698492000,340238030600,341777569200,343317107800,344856646400,346396185000,347935723600,349475262200,351014800800,352554339400,354093878000,355633416600,357172955200,358712493800,360252032400,361791571000,363331109600,364870648200,366410186800,367949725400,369489264000,371028802600,372568341200,374107879800,375647418400,377186957000,378726495600,380266034200,381805572800,383345111400,384884650000
+		} 
+		KeyValueFloat: *250 {
+			a: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericTimeIndependent|GenericClampProgressive, Cubic|TangeantAuto|GenericTimeIndependent
+		KeyAttrFlags: *2 {
+			a: 24840,8456
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0; RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *8 {
+			a: 0,0,218434821,0,0,0,218434821,0
+		} 
+		KeyAttrRefCount: *2 {
+			a: 30,220
+		} 
+	}
+	AnimationCurve: 2592138315104, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *250 {
+			a: 1539538600,3079077200,4618615800,6158154400,7697693000,9237231600,10776770200,12316308800,13855847400,15395386000,16934924600,18474463200,20014001800,21553540400,23093079000,24632617600,26172156200,27711694800,29251233400,30790772000,32330310600,33869849200,35409387800,36948926400,38488465000,40028003600,41567542200,43107080800,44646619400,46186158000,47725696600,49265235200,50804773800,52344312400,53883851000,55423389600,56962928200,58502466800,60042005400,61581544000,63121082600,64660621200,66200159800,67739698400,69279237000,70818775600,72358314200,73897852800,75437391400,76976930000,78516468600,80056007200,81595545800,83135084400,84674623000,86214161600,87753700200,89293238800,90832777400,92372316000,93911854600,95451393200,96990931800,98530470400,100070009000,101609547600,103149086200,104688624800,106228163400,107767702000,109307240600,110846779200,112386317800,113925856400,115465395000,117004933600,118544472200,120084010800,121623549400,123163088000,124702626600,126242165200,127781703800,129321242400,130860781000,132400319600,133939858200,135479396800,137018935400,138558474000,140098012600,141637551200,143177089800,144716628400,146256167000,147795705600,149335244200,150874782800,152414321400,153953860000,155493398600,157032937200,158572475800,160112014400,161651553000,163191091600,164730630200,166270168800,167809707400,169349246000,170888784600,172428323200,173967861800,175507400400,177046939000,178586477600,180126016200,181665554800,183205093400,184744632000,186284170600,187823709200,189363247800,190902786400,192442325000,193981863600,195521402200,197060940800,198600479400,200140018000,201679556600,203219095200,204758633800,206298172400,207837711000,209377249600,210916788200,212456326800,213995865400,215535404000,217074942600,218614481200,220154019800,221693558400,223233097000,224772635600,226312174200,227851712800,229391251400,230930790000,232470328600,234009867200,235549405800,237088944400,238628483000,240168021600,241707560200,243247098800,244786637400,246326176000,247865714600,249405253200,
+250944791800,252484330400,254023869000,255563407600,257102946200,258642484800,260182023400,261721562000,263261100600,264800639200,266340177800,267879716400,269419255000,270958793600,272498332200,274037870800,275577409400,277116948000,278656486600,280196025200,281735563800,283275102400,284814641000,286354179600,287893718200,289433256800,290972795400,292512334000,294051872600,295591411200,297130949800,298670488400,300210027000,301749565600,303289104200,304828642800,306368181400,307907720000,309447258600,310986797200,312526335800,314065874400,315605413000,317144951600,318684490200,320224028800,321763567400,323303106000,324842644600,326382183200,327921721800,329461260400,331000799000,332540337600,334079876200,335619414800,337158953400,338698492000,340238030600,341777569200,343317107800,344856646400,346396185000,347935723600,349475262200,351014800800,352554339400,354093878000,355633416600,357172955200,358712493800,360252032400,361791571000,363331109600,364870648200,366410186800,367949725400,369489264000,371028802600,372568341200,374107879800,375647418400,377186957000,378726495600,380266034200,381805572800,383345111400,384884650000
+		} 
+		KeyValueFloat: *250 {
+			a: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericTimeIndependent|GenericClampProgressive, Cubic|TangeantAuto|GenericTimeIndependent
+		KeyAttrFlags: *2 {
+			a: 24840,8456
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0; RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *8 {
+			a: 0,0,218434821,0,0,0,218434821,0
+		} 
+		KeyAttrRefCount: *2 {
+			a: 30,220
+		} 
+	}
+	AnimationCurveNode: 2592139399152, "AnimCurveNode::Visibility", "" {
+		Properties70:  {
+			P: "d|Visibility", "Visibility", "", "A",1
+		}
+	}
+	AnimationCurveNode: 2592139399360, "AnimCurveNode::T", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",0
+			P: "d|Y", "Number", "", "A",0
+			P: "d|Z", "Number", "", "A",0
+		}
+	}
+	AnimationCurveNode: 2592139398320, "AnimCurveNode::S", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",1
+			P: "d|Y", "Number", "", "A",1
+			P: "d|Z", "Number", "", "A",1
+		}
+	}
+	AnimationCurveNode: 2592139390624, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",0
+			P: "d|Y", "Number", "", "A",0
+			P: "d|Z", "Number", "", "A",0
+		}
+	}
+	AnimationLayer: 2592198201600, "AnimLayer::BaseLayer", "" {
+	}
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+	
+	;Model::locator1, Model::RootNode
+	C: "OO",2593554851776,0
+	
+	;AnimLayer::BaseLayer, AnimStack::Take 001
+	C: "OO",2592198201600,2592139398944
+	
+	;AnimCurveNode::Visibility, AnimLayer::BaseLayer
+	C: "OO",2592139399152,2592198201600
+	
+	;AnimCurveNode::T, AnimLayer::BaseLayer
+	C: "OO",2592139399360,2592198201600
+	
+	;AnimCurveNode::S, AnimLayer::BaseLayer
+	C: "OO",2592139398320,2592198201600
+	
+	;AnimCurveNode::R, AnimLayer::BaseLayer
+	C: "OO",2592139390624,2592198201600
+	
+	;NodeAttribute::, Model::locator1
+	C: "OO",2592117378800,2593554851776
+	
+	;Model::baiodian, Model::locator1
+	C: "OO",2592044018432,2593554851776
+	
+	;Texture::file15, Material::blinn1
+	C: "OP",2592141815456,2592141814496, "DiffuseColor"
+	
+	;Video::file15, Texture::file15
+	C: "OO",2592141814976,2592141815456
+	
+	;Geometry::, Model::baiodian
+	C: "OO",2592198276224,2592044018432
+	
+	;Material::blinn1, Model::baiodian
+	C: "OO",2592141814496,2592044018432
+	
+	;AnimCurveNode::T, Model::baiodian
+	C: "OP",2592139399360,2592044018432, "Lcl Translation"
+	
+	;AnimCurveNode::R, Model::baiodian
+	C: "OP",2592139390624,2592044018432, "Lcl Rotation"
+	
+	;AnimCurveNode::S, Model::baiodian
+	C: "OP",2592139398320,2592044018432, "Lcl Scaling"
+	
+	;AnimCurveNode::Visibility, Model::baiodian
+	C: "OP",2592139399152,2592044018432, "Visibility"
+	
+	;AnimCurve::, AnimCurveNode::Visibility
+	C: "OP",2592135004688,2592139399152, "d|Visibility"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",2592135002928,2592139399360, "d|X"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",2592135008048,2592139399360, "d|Y"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",2592135007248,2592139399360, "d|Z"
+	
+	;AnimCurve::, AnimCurveNode::S
+	C: "OP",2592135004208,2592139398320, "d|X"
+	
+	;AnimCurve::, AnimCurveNode::S
+	C: "OP",2592134997008,2592139398320, "d|Y"
+	
+	;AnimCurve::, AnimCurveNode::S
+	C: "OP",2592134998608,2592139398320, "d|Z"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",2592135000208,2592139390624, "d|X"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",2592138307904,2592139390624, "d|Y"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",2592138315104,2592139390624, "d|Z"
+}
+;Takes section
+;----------------------------------------------------
+
+Takes:  {
+	Current: "Take 001"
+	Take: "Take 001" {
+		FileName: "Take_001.tak"
+		LocalTime: 1539538600,46186158000
+		ReferenceTime: 1539538600,46186158000
+	}
+}

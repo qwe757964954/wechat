@@ -1,0 +1,52 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_progress",
+    "atlas": "fb93379f-db6d-4bbd-bcee-0133819709ee",
+    "rect": {
+      "x": 231,
+      "y": 112,
+      "width": 392,
+      "height": 10
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 392,
+      "height": 10
+    },
+    "rotated": true,
+    "capInsets": [
+      5,
+      2,
+      10,
+      2
+    ],
+    "vertices": {
+      "rawPosition": [],
+      "indexes": [],
+      "uv": [],
+      "nuv": [],
+      "minPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "texture": "947c3bbb-9cb5-49a4-88d5-ad6860e29354@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "emojiProp",
+    "spriteFrames": [
+      "chuizi",
+      "572a41e8-27ee-4077-8f52-84c01e671f47@18ee7",
+      "jidan",
+      "572a41e8-27ee-4077-8f52-84c01e671f47@21a67",
+      "kafei",
+      "572a41e8-27ee-4077-8f52-84c01e671f47@c7997",
+      "zhadan",
+      "572a41e8-27ee-4077-8f52-84c01e671f47@44fad"
+    ]
+  }
+}

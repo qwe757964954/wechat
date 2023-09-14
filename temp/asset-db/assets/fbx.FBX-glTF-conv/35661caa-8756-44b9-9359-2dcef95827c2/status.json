@@ -1,0 +1,14 @@
+{
+  "version": "2.3.1",
+  "sourceTimeStamp": 1692319083256.3962,
+  "outputTimeStamps": {
+    "0.png": 1692321781623.4712,
+    "log.json": 1692321781625.364,
+    "out.bin": 1692321781623.9082,
+    "out.gltf": 1692321781625.2021,
+    ".fbm/306B1C7B/daojishi.fbm/0.png": 1692321781619.8909
+  },
+  "options": {
+    "smartMaterialEnabled": true
+  }
+}

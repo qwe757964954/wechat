@@ -1,0 +1,55 @@
+
+renwu.png
+size: 560,244
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_light
+  rotate: false
+  xy: 414, 92
+  size: 44, 44
+  orig: 50, 50
+  offset: 3, 3
+  index: -1
+FFQ_light_04
+  rotate: false
+  xy: 0, 0
+  size: 244, 244
+  orig: 244, 244
+  offset: 0, 0
+  index: -1
+btn_light
+  rotate: false
+  xy: 404, 12
+  size: 156, 62
+  orig: 156, 62
+  offset: 0, 0
+  index: -1
+btn_lingqu
+  rotate: false
+  xy: 244, 12
+  size: 160, 62
+  orig: 160, 62
+  offset: 0, 0
+  index: -1
+hudie
+  rotate: true
+  xy: 522, 216
+  size: 28, 37
+  orig: 28, 37
+  offset: 0, 0
+  index: -1
+icon_light
+  rotate: false
+  xy: 414, 136
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+light_01
+  rotate: false
+  xy: 244, 74
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1

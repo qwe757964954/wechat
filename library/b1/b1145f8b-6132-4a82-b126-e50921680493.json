@@ -1,0 +1,18 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "MJ_DJKS",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "fa10ad13-621d-46d5-b832-65dd2f9e7842@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "MJ_DJKS.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\nMJ_DJKS.png\nsize: 1782,675\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n222\n  rotate: false\n  xy: 1237, 15\n  size: 290, 290\n  orig: 290, 290\n  offset: 0, 0\n  index: -1\ndjks_di_fenghuang_1\n  rotate: true\n  xy: 1586, 207\n  size: 345, 196\n  orig: 345, 196\n  offset: 0, 0\n  index: -1\ndjks_di_fenghuang_2\n  rotate: true\n  xy: 1529, 50\n  size: 155, 86\n  orig: 155, 86\n  offset: 0, 0\n  index: -1\ndjks_di_l\n  rotate: true\n  xy: 776, 35\n  size: 640, 104\n  orig: 640, 104\n  offset: 0, 0\n  index: -1\ndjks_di_lizi_r\n  rotate: true\n  xy: 882, 35\n  size: 640, 104\n  orig: 640, 104\n  offset: 0, 0\n  index: -1\ndjks_di_r\n  rotate: true\n  xy: 670, 33\n  size: 642, 104\n  orig: 642, 104\n  offset: 0, 0\n  index: -1\ndjks_diz_long\n  rotate: true\n  xy: 988, 295\n  size: 380, 104\n  orig: 380, 104\n  offset: 0, 0\n  index: -1\ndjks_dj\n  rotate: true\n  xy: 1460, 307\n  size: 245, 124\n  orig: 245, 124\n  offset: 0, 0\n  index: -1\ndjks_dj_hu\n  rotate: true\n  xy: 988, 0\n  size: 293, 124\n  orig: 293, 124\n  offset: 0, 0\n  index: -1\ndjks_hua\n  rotate: false\n  xy: 1617, 25\n  size: 135, 76\n  orig: 135, 76\n  offset: 0, 0\n  index: -1\ndjks_ks\n  rotate: false\n  xy: 1529, 554\n  size: 250, 121\n  orig: 250, 121\n  offset: 0, 0\n  index: -1\ndjks_ks_hu\n  rotate: true\n  xy: 1114, 8\n  size: 297, 121\n  orig: 297, 121\n  offset: 0, 0\n  index: -1\ndjks_quan\n  rotate: false\n  xy: 1094, 307\n  size: 364, 368\n  orig: 364, 368\n  offset: 0, 0\n  index: -1\ndjks_quan2\n  rotate: false\n  xy: 0, 7\n  size: 668, 668\n  orig: 668, 668\n  offset: 0, 0\n  index: -1\nicon_saoguang\n  rotate: false\n  xy: 1617, 103\n  size: 138, 102\n  orig: 138, 102\n  offset: 0, 0\n  index: -1\nlight_00000\n  rotate: false\n  xy: 1529, 250\n  size: 55, 55\n  orig: 55, 55\n  offset: 0, 0\n  index: -1\n"
+}

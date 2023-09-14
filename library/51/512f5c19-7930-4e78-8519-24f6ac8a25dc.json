@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "opmgr",
+    "spriteFrames": [
+      "chi",
+      "512f5c19-7930-4e78-8519-24f6ac8a25dc@1be9c",
+      "gang",
+      "512f5c19-7930-4e78-8519-24f6ac8a25dc@1d65c",
+      "hu",
+      "512f5c19-7930-4e78-8519-24f6ac8a25dc@19c50",
+      "peng",
+      "512f5c19-7930-4e78-8519-24f6ac8a25dc@17f0b",
+      "xiaobo",
+      "512f5c19-7930-4e78-8519-24f6ac8a25dc@ac15d",
+      "xiaoya",
+      "512f5c19-7930-4e78-8519-24f6ac8a25dc@68a76",
+      "zimo",
+      "512f5c19-7930-4e78-8519-24f6ac8a25dc@53b9b"
+    ]
+  }
+}

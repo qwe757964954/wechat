@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "que",
+    "atlas": "",
+    "rect": {
+      "x": 35,
+      "y": 0,
+      "width": 93,
+      "height": 78
+    },
+    "offset": {
+      "x": 17.5,
+      "y": 25
+    },
+    "originalSize": {
+      "width": 128,
+      "height": 128
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -46.5,
+        -39,
+        0,
+        46.5,
+        -39,
+        0,
+        -46.5,
+        39,
+        0,
+        46.5,
+        39,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        35,
+        128,
+        128,
+        128,
+        35,
+        50,
+        128,
+        50
+      ],
+      "nuv": [
+        0.2734375,
+        0.390625,
+        1,
+        0.390625,
+        0.2734375,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -46.5,
+        "y": -39,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 46.5,
+        "y": 39,
+        "z": 0
+      }
+    },
+    "texture": "8558a640-bf0d-4549-abfc-82183f00b949@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

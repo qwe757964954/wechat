@@ -1,2 +1,0 @@
-# wechat
-cocos wechat

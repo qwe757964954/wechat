@@ -1,0 +1,22 @@
+{
+  "version": "2.3.1",
+  "sourceTimeStamp": 1692319083273.2834,
+  "outputTimeStamps": {
+    "bei_1.png": 1692321782105.3252,
+    "dong_2.png": 1692321782105.7473,
+    "log.json": 1692321782108.3555,
+    "majiangzhuo.png": 1692321782104.9612,
+    "nan_1.png": 1692321782105.961,
+    "out.bin": 1692321782106.3372,
+    "out.gltf": 1692321782108.1821,
+    "xi_1.png": 1692321782105.5374,
+    ".fbm/89821DCD/majiangzhuo.fbm/bei_1.png": 1692321782052.5215,
+    ".fbm/89821DCD/majiangzhuo.fbm/dong_2.png": 1692321782054.8083,
+    ".fbm/89821DCD/majiangzhuo.fbm/majiangzhuo.png": 1692321782051.5098,
+    ".fbm/89821DCD/majiangzhuo.fbm/nan_1.png": 1692321782055.7483,
+    ".fbm/89821DCD/majiangzhuo.fbm/xi_1.png": 1692321782053.42
+  },
+  "options": {
+    "smartMaterialEnabled": true
+  }
+}

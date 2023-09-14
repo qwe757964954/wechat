@@ -1,0 +1,148 @@
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5"], function (_export, _context) {
+  "use strict";
+
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, MeshRenderer, Node, Texture2D, _decorator, resLoader, Utils, BaseComponent, FXJRes, CardUtil, _dec, _dec2, _class, _class2, _descriptor, _crd, ccclass, property, NodeCardCtr;
+
+  function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
+
+  function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) { var desc = {}; Object.keys(descriptor).forEach(function (key) { desc[key] = descriptor[key]; }); desc.enumerable = !!desc.enumerable; desc.configurable = !!desc.configurable; if ('value' in desc || desc.initializer) { desc.writable = true; } desc = decorators.slice().reverse().reduce(function (desc, decorator) { return decorator(target, property, desc) || desc; }, desc); if (context && desc.initializer !== void 0) { desc.value = desc.initializer ? desc.initializer.call(context) : void 0; desc.initializer = undefined; } if (desc.initializer === void 0) { Object.defineProperty(target, property, desc); desc = null; } return desc; }
+
+  function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'proposal-class-properties is enabled and runs after the decorators transform.'); }
+
+  function _reportPossibleCrUseOfresLoader(extras) {
+    _reporterNs.report("resLoader", "../../../framework/loader/ResLoader", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfUtils(extras) {
+    _reporterNs.report("Utils", "../../../framework/Utils", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfBaseComponent(extras) {
+    _reporterNs.report("BaseComponent", "../../../framework/vc/BaseComponent", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfFXJRes(extras) {
+    _reporterNs.report("FXJRes", "../common/FXJRes", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfCardUtil(extras) {
+    _reporterNs.report("CardUtil", "../util/CardUtil", _context.meta, extras);
+  }
+
+  return {
+    setters: [function (_unresolved_) {
+      _reporterNs = _unresolved_;
+    }, function (_cc) {
+      _cclegacy = _cc.cclegacy;
+      __checkObsolete__ = _cc.__checkObsolete__;
+      __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
+      MeshRenderer = _cc.MeshRenderer;
+      Node = _cc.Node;
+      Texture2D = _cc.Texture2D;
+      _decorator = _cc._decorator;
+    }, function (_unresolved_2) {
+      resLoader = _unresolved_2.resLoader;
+    }, function (_unresolved_3) {
+      Utils = _unresolved_3.Utils;
+    }, function (_unresolved_4) {
+      BaseComponent = _unresolved_4.BaseComponent;
+    }, function (_unresolved_5) {
+      FXJRes = _unresolved_5.FXJRes;
+    }, function (_unresolved_6) {
+      CardUtil = _unresolved_6.CardUtil;
+    }],
+    execute: function () {
+      _crd = true;
+
+      _cclegacy._RF.push({}, "04179w8t55OcJMp9MIkyYwz", "NodeCardCtr", undefined);
+
+      __checkObsolete__(['MeshRenderer', 'Node', 'Texture2D', '_decorator']);
+
+      ({
+        ccclass,
+        property
+      } = _decorator);
+      /**
+       * Name = NodeCardCtr
+       * URL = db://assets/package/game/scripts/NodeCardCtr.ts
+       * Time = Tue Aug 08 2023 15:30:03 GMT+0800 (中国标准时间)
+       * Author = harvyson
+       *
+       * Life: onLoad-->onInitModuleEvent-->onEnable->start->update->lateUpdate->onDisable->onDestroy
+       * 
+       */
+
+      _export("NodeCardCtr", NodeCardCtr = (_dec = ccclass('NodeCardCtr'), _dec2 = property({
+        tooltip: "手牌模型节点",
+        type: Node
+      }), _dec(_class = (_class2 = class NodeCardCtr extends (_crd && BaseComponent === void 0 ? (_reportPossibleCrUseOfBaseComponent({
+        error: Error()
+      }), BaseComponent) : BaseComponent) {
+        constructor(...args) {
+          super(...args);
+
+          _initializerDefineProperty(this, "nodeCardMesh", _descriptor, this);
+
+          this.byte = 0;
+        }
+
+        /** override 初始化模块事件 */
+        onInitModuleEvent() {}
+
+        onLoad() {}
+
+        start() {}
+
+        setCardByte(byte) {
+          this.byte = byte;
+          let cardStr = (_crd && CardUtil === void 0 ? (_reportPossibleCrUseOfCardUtil({
+            error: Error()
+          }), CardUtil) : CardUtil).getCardValue(byte);
+          let path = (_crd && Utils === void 0 ? (_reportPossibleCrUseOfUtils({
+            error: Error()
+          }), Utils) : Utils).string_format((_crd && FXJRes === void 0 ? (_reportPossibleCrUseOfFXJRes({
+            error: Error()
+          }), FXJRes) : FXJRes).Picture_Game_Card.path, cardStr); // console.log("NodeCardCtr", "setCardByte", "path", path)
+
+          (_crd && resLoader === void 0 ? (_reportPossibleCrUseOfresLoader({
+            error: Error()
+          }), resLoader) : resLoader).load((_crd && FXJRes === void 0 ? (_reportPossibleCrUseOfFXJRes({
+            error: Error()
+          }), FXJRes) : FXJRes).Picture_Game_Card.bundle, path, Texture2D, (err, tex) => {
+            if (err) {
+              console.log("NodeCardCtr", "setCardByte", err);
+              return;
+            }
+
+            if (tex) {
+              this.nodeCardMesh.getComponent(MeshRenderer).material.setProperty('albedoMap', tex);
+            }
+          });
+        }
+        /** 初始化界面 */
+
+
+        initView() {}
+
+        /** 更新界面 */
+        updateView() {}
+
+        //销毁
+        onDestroy() {}
+
+      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "nodeCardMesh", [_dec2], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      })), _class2)) || _class));
+
+      _cclegacy._RF.pop();
+
+      _crd = false;
+    }
+  };
+});
+//# sourceMappingURL=82f07424cb017df4c525dd7657ec0cb29be44f8a.js.map

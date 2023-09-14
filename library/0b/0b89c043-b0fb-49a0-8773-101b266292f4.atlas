@@ -1,0 +1,132 @@
+
+DT_icon.png
+size: 138,554
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_light
+  rotate: false
+  xy: 77, 72
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+light_00000
+  rotate: false
+  xy: 83, 357
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+light_Box
+  rotate: false
+  xy: 0, 413
+  size: 137, 141
+  orig: 137, 141
+  offset: 0, 0
+  index: -1
+qian/DT_icon_mrtj
+  rotate: true
+  xy: 77, 241
+  size: 58, 61
+  orig: 58, 61
+  offset: 0, 0
+  index: -1
+qian/DT_icon_mrtj_text
+  rotate: false
+  xy: 0, 43
+  size: 68, 20
+  orig: 68, 20
+  offset: 0, 0
+  index: -1
+qian/DT_icon_qmnd
+  rotate: true
+  xy: 77, 189
+  size: 50, 61
+  orig: 50, 61
+  offset: 0, 0
+  index: -1
+qian/DT_icon_qmnd_text
+  rotate: false
+  xy: 70, 24
+  size: 68, 19
+  orig: 68, 19
+  offset: 0, 0
+  index: -1
+qian/DT_icon_shangchen
+  rotate: false
+  xy: 0, 345
+  size: 81, 66
+  orig: 81, 66
+  offset: 0, 0
+  index: -1
+qian/DT_icon_shangchen_text
+  rotate: false
+  xy: 77, 45
+  size: 47, 25
+  orig: 47, 25
+  offset: 0, 0
+  index: -1
+qian/DT_icon_xlqg
+  rotate: true
+  xy: 77, 124
+  size: 63, 59
+  orig: 63, 59
+  offset: 0, 0
+  index: -1
+qian/DT_icon_xlqg_text
+  rotate: false
+  xy: 0, 21
+  size: 67, 20
+  orig: 67, 20
+  offset: 0, 0
+  index: -1
+qian/DT_icon_xslb
+  rotate: true
+  xy: 0, 275
+  size: 68, 75
+  orig: 68, 75
+  offset: 0, 0
+  index: -1
+qian/DT_icon_xslb_di
+  rotate: true
+  xy: 0, 205
+  size: 68, 75
+  orig: 68, 75
+  offset: 0, 0
+  index: -1
+qian/DT_icon_xslb_text
+  rotate: true
+  xy: 0, 135
+  size: 68, 75
+  orig: 68, 75
+  offset: 0, 0
+  index: -1
+qian/DT_icon_xsqt
+  rotate: false
+  xy: 83, 301
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+qian/DT_icon_xsqt_text
+  rotate: false
+  xy: 69, 2
+  size: 67, 20
+  orig: 67, 20
+  offset: 0, 0
+  index: -1
+qian/DT_icon_xxfd
+  rotate: true
+  xy: 0, 65
+  size: 68, 75
+  orig: 68, 75
+  offset: 0, 0
+  index: -1
+qian/DT_icon_xxfd_text
+  rotate: false
+  xy: 0, 0
+  size: 67, 19
+  orig: 67, 19
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,18 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "XC_xuanzhong",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "78e2e3cd-15bc-41ea-b94e-d4247a33c839@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "XC_xuanzhong.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\nXC_xuanzhong.png\nsize: 1407,442\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nBG_light\n  rotate: false\n  xy: 202, 17\n  size: 237, 235\n  orig: 237, 235\n  offset: 0, 0\n  index: -1\nRedBag_light\n  rotate: false\n  xy: 108, 292\n  size: 150, 150\n  orig: 150, 150\n  offset: 0, 0\n  index: -1\nlight\n  rotate: false\n  xy: 260, 254\n  size: 518, 188\n  orig: 518, 188\n  offset: 0, 0\n  index: -1\nlight2\n  rotate: false\n  xy: 0, 433\n  size: 9, 9\n  orig: 9, 9\n  offset: 0, 0\n  index: -1\nlight_00000\n  rotate: false\n  xy: 52, 388\n  size: 54, 54\n  orig: 54, 54\n  offset: 0, 0\n  index: -1\nlizi_light\n  rotate: false\n  xy: 11, 405\n  size: 39, 37\n  orig: 39, 37\n  offset: 0, 0\n  index: -1\nsaoguang_1\n  rotate: false\n  xy: 780, 254\n  size: 627, 188\n  orig: 627, 188\n  offset: 0, 0\n  index: -1\nsaoguang_2\n  rotate: false\n  xy: 441, 0\n  size: 737, 252\n  orig: 737, 252\n  offset: 0, 0\n  index: -1\nshenglvguang_2\n  rotate: true\n  xy: 0, 91\n  size: 199, 200\n  orig: 199, 200\n  offset: 0, 0\n  index: -1\n"
+}

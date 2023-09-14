@@ -1,0 +1,38 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "mail",
+    "spriteFrames": [
+      "mail/Read",
+      "51cebe5f-5435-43e3-a5f5-28848d86e004@14d08",
+      "mail/delete_btn",
+      "51cebe5f-5435-43e3-a5f5-28848d86e004@eb29c",
+      "mail/gift_close",
+      "51cebe5f-5435-43e3-a5f5-28848d86e004@bd930",
+      "mail/gift_open",
+      "51cebe5f-5435-43e3-a5f5-28848d86e004@3d2e4",
+      "mail/left_line",
+      "51cebe5f-5435-43e3-a5f5-28848d86e004@07e55",
+      "mail/left_tab",
+      "51cebe5f-5435-43e3-a5f5-28848d86e004@c261f",
+      "mail/mail_title",
+      "51cebe5f-5435-43e3-a5f5-28848d86e004@f0277",
+      "mail/mail_title_bg",
+      "51cebe5f-5435-43e3-a5f5-28848d86e004@da3e3",
+      "mail/mask",
+      "51cebe5f-5435-43e3-a5f5-28848d86e004@32dbf",
+      "mail/new",
+      "51cebe5f-5435-43e3-a5f5-28848d86e004@46839",
+      "mail/noMail_bg",
+      "51cebe5f-5435-43e3-a5f5-28848d86e004@3d9eb",
+      "mail/red_dot",
+      "51cebe5f-5435-43e3-a5f5-28848d86e004@11687",
+      "mail/right_bg",
+      "51cebe5f-5435-43e3-a5f5-28848d86e004@d8f70",
+      "mail/select_bg",
+      "51cebe5f-5435-43e3-a5f5-28848d86e004@9b09f",
+      "mail/unRead",
+      "51cebe5f-5435-43e3-a5f5-28848d86e004@383a6"
+    ]
+  }
+}

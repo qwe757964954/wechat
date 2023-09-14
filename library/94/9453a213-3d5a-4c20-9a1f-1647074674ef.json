@@ -1,0 +1,18 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "skeleton",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "d517ede4-ef26-4491-afca-8bc9d5c48c41@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "skeleton.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\nskeleton.png\nsize: 516,534\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nBG_light\n  rotate: false\n  xy: 0, 234\n  size: 300, 300\n  orig: 300, 300\n  offset: 0, 0\n  index: -1\nTY_huase_heitao4\n  rotate: false\n  xy: 144, 106\n  size: 127, 126\n  orig: 127, 126\n  offset: 0, 0\n  index: -1\nTY_light_2_00000\n  rotate: false\n  xy: 0, 90\n  size: 142, 142\n  orig: 142, 142\n  offset: 0, 0\n  index: -1\ndianji_guangquan_1\n  rotate: true\n  xy: 273, 126\n  size: 106, 104\n  orig: 106, 104\n  offset: 0, 0\n  index: -1\ndianji_guangquan_2\n  rotate: false\n  xy: 273, 20\n  size: 106, 104\n  orig: 106, 104\n  offset: 0, 0\n  index: -1\ndianji_guangquan_3\n  rotate: false\n  xy: 144, 0\n  size: 106, 104\n  orig: 106, 104\n  offset: 0, 0\n  index: -1\ndianji_guangquan_4\n  rotate: true\n  xy: 302, 428\n  size: 106, 104\n  orig: 106, 104\n  offset: 0, 0\n  index: -1\ndianji_guangquan_5\n  rotate: false\n  xy: 302, 322\n  size: 106, 104\n  orig: 106, 104\n  offset: 0, 0\n  index: -1\ndianji_guangquan_6\n  rotate: false\n  xy: 408, 430\n  size: 106, 104\n  orig: 106, 104\n  offset: 0, 0\n  index: -1\ndianji_guangquan_7\n  rotate: true\n  xy: 379, 214\n  size: 106, 104\n  orig: 106, 104\n  offset: 0, 0\n  index: -1\ndianji_guangquan_8\n  rotate: false\n  xy: 410, 324\n  size: 106, 104\n  orig: 106, 104\n  offset: 0, 0\n  index: -1\ndianji_guangquan_9\n  rotate: true\n  xy: 381, 106\n  size: 106, 104\n  orig: 106, 104\n  offset: 0, 0\n  index: -1\nlight_zha\n  rotate: true\n  xy: 0, 15\n  size: 73, 74\n  orig: 73, 74\n  offset: 0, 0\n  index: -1\n"
+}

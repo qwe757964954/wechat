@@ -1,0 +1,18 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "DT_icon",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "9f24afd0-a581-48bc-b3b9-bba6159eb709@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "DT_icon.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\nDT_icon.png\nsize: 138,554\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nBG_light\n  rotate: false\n  xy: 77, 72\n  size: 50, 50\n  orig: 50, 50\n  offset: 0, 0\n  index: -1\nlight_00000\n  rotate: false\n  xy: 83, 357\n  size: 54, 54\n  orig: 54, 54\n  offset: 0, 0\n  index: -1\nlight_Box\n  rotate: false\n  xy: 0, 413\n  size: 137, 141\n  orig: 137, 141\n  offset: 0, 0\n  index: -1\nqian/DT_icon_mrtj\n  rotate: true\n  xy: 77, 241\n  size: 58, 61\n  orig: 58, 61\n  offset: 0, 0\n  index: -1\nqian/DT_icon_mrtj_text\n  rotate: false\n  xy: 0, 43\n  size: 68, 20\n  orig: 68, 20\n  offset: 0, 0\n  index: -1\nqian/DT_icon_qmnd\n  rotate: true\n  xy: 77, 189\n  size: 50, 61\n  orig: 50, 61\n  offset: 0, 0\n  index: -1\nqian/DT_icon_qmnd_text\n  rotate: false\n  xy: 70, 24\n  size: 68, 19\n  orig: 68, 19\n  offset: 0, 0\n  index: -1\nqian/DT_icon_shangchen\n  rotate: false\n  xy: 0, 345\n  size: 81, 66\n  orig: 81, 66\n  offset: 0, 0\n  index: -1\nqian/DT_icon_shangchen_text\n  rotate: false\n  xy: 77, 45\n  size: 47, 25\n  orig: 47, 25\n  offset: 0, 0\n  index: -1\nqian/DT_icon_xlqg\n  rotate: true\n  xy: 77, 124\n  size: 63, 59\n  orig: 63, 59\n  offset: 0, 0\n  index: -1\nqian/DT_icon_xlqg_text\n  rotate: false\n  xy: 0, 21\n  size: 67, 20\n  orig: 67, 20\n  offset: 0, 0\n  index: -1\nqian/DT_icon_xslb\n  rotate: true\n  xy: 0, 275\n  size: 68, 75\n  orig: 68, 75\n  offset: 0, 0\n  index: -1\nqian/DT_icon_xslb_di\n  rotate: true\n  xy: 0, 205\n  size: 68, 75\n  orig: 68, 75\n  offset: 0, 0\n  index: -1\nqian/DT_icon_xslb_text\n  rotate: true\n  xy: 0, 135\n  size: 68, 75\n  orig: 68, 75\n  offset: 0, 0\n  index: -1\nqian/DT_icon_xsqt\n  rotate: false\n  xy: 83, 301\n  size: 54, 54\n  orig: 54, 54\n  offset: 0, 0\n  index: -1\nqian/DT_icon_xsqt_text\n  rotate: false\n  xy: 69, 2\n  size: 67, 20\n  orig: 67, 20\n  offset: 0, 0\n  index: -1\nqian/DT_icon_xxfd\n  rotate: true\n  xy: 0, 65\n  size: 68, 75\n  orig: 68, 75\n  offset: 0, 0\n  index: -1\nqian/DT_icon_xxfd_text\n  rotate: false\n  xy: 0, 0\n  size: 67, 19\n  orig: 67, 19\n  offset: 0, 0\n  index: -1\n"
+}

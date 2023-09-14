@@ -1,0 +1,18 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "MJ_btn",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "3cb321b4-38ee-4133-82b3-e0bb59f201ea@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "MJ_btn.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\nMJ_btn.png\nsize: 1573,303\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n333_00000\n  rotate: false\n  xy: 302, 134\n  size: 169, 169\n  orig: 169, 169\n  offset: 0, 0\n  index: -1\nBG_light\n  rotate: false\n  xy: 0, 3\n  size: 300, 300\n  orig: 300, 300\n  offset: 0, 0\n  index: -1\nRedBag_light\n  rotate: false\n  xy: 536, 0\n  size: 150, 150\n  orig: 150, 150\n  offset: 0, 0\n  index: -1\nbtn_gang_chi\n  rotate: true\n  xy: 688, 0\n  size: 150, 118\n  orig: 150, 118\n  offset: 0, 0\n  index: -1\nbtn_gang_di\n  rotate: false\n  xy: 302, 12\n  size: 115, 120\n  orig: 115, 120\n  offset: 0, 0\n  index: -1\nbtn_gsh_di\n  rotate: true\n  xy: 808, 0\n  size: 150, 118\n  orig: 150, 118\n  offset: 0, 0\n  index: -1\nbtn_guo_di\n  rotate: true\n  xy: 1419, 95\n  size: 94, 97\n  orig: 94, 97\n  offset: 0, 0\n  index: -1\nbtn_hu_di\n  rotate: false\n  xy: 419, 12\n  size: 115, 120\n  orig: 115, 120\n  offset: 0, 0\n  index: -1\nbtn_peng_di\n  rotate: false\n  xy: 1048, 30\n  size: 115, 120\n  orig: 115, 120\n  offset: 0, 0\n  index: -1\nbtn_zm_di\n  rotate: true\n  xy: 928, 0\n  size: 150, 118\n  orig: 150, 118\n  offset: 0, 0\n  index: -1\nby_eff_cicle_00001\n  rotate: true\n  xy: 1318, 50\n  size: 100, 99\n  orig: 100, 99\n  offset: 0, 0\n  index: -1\ndaoguang_00001\n  rotate: true\n  xy: 473, 152\n  size: 151, 112\n  orig: 151, 112\n  offset: 0, 0\n  index: -1\ndaoguang_00002\n  rotate: true\n  xy: 587, 152\n  size: 151, 112\n  orig: 151, 112\n  offset: 0, 0\n  index: -1\ndaoguang_00003\n  rotate: true\n  xy: 701, 152\n  size: 151, 112\n  orig: 151, 112\n  offset: 0, 0\n  index: -1\ndaoguang_00004\n  rotate: true\n  xy: 815, 152\n  size: 151, 112\n  orig: 151, 112\n  offset: 0, 0\n  index: -1\ndaoguang_00005\n  rotate: true\n  xy: 929, 152\n  size: 151, 112\n  orig: 151, 112\n  offset: 0, 0\n  index: -1\ndaoguang_00006\n  rotate: true\n  xy: 1043, 152\n  size: 151, 112\n  orig: 151, 112\n  offset: 0, 0\n  index: -1\ndaoguang_00007\n  rotate: true\n  xy: 1157, 152\n  size: 151, 112\n  orig: 151, 112\n  offset: 0, 0\n  index: -1\ndaoguang_00008\n  rotate: false\n  xy: 1165, 38\n  size: 151, 112\n  orig: 151, 112\n  offset: 0, 0\n  index: -1\ndaoguang_00009\n  rotate: true\n  xy: 1271, 152\n  size: 151, 112\n  orig: 151, 112\n  offset: 0, 0\n  index: -1\ndaoguang_00010\n  rotate: false\n  xy: 1385, 191\n  size: 151, 112\n  orig: 151, 112\n  offset: 0, 0\n  index: -1\nfasha_light\n  rotate: true\n  xy: 1097, 5\n  size: 23, 50\n  orig: 23, 50\n  offset: 0, 0\n  index: -1\ngsh_hua\n  rotate: true\n  xy: 1419, 14\n  size: 79, 77\n  orig: 79, 77\n  offset: 0, 0\n  index: -1\ngsh_hua2\n  rotate: true\n  xy: 1498, 27\n  size: 66, 74\n  orig: 66, 74\n  offset: 0, 0\n  index: -1\nhudie_l\n  rotate: true\n  xy: 1048, 1\n  size: 27, 47\n  orig: 27, 47\n  offset: 0, 0\n  index: -1\nhudie_r\n  rotate: true\n  xy: 1165, 6\n  size: 30, 42\n  orig: 30, 42\n  offset: 0, 0\n  index: -1\nlight_00000\n  rotate: false\n  xy: 1518, 134\n  size: 55, 55\n  orig: 55, 55\n  offset: 0, 0\n  index: -1\nstar\n  rotate: false\n  xy: 1318, 10\n  size: 38, 38\n  orig: 38, 38\n  offset: 0, 0\n  index: -1\n"
+}

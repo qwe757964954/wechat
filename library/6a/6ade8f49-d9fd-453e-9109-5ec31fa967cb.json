@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "userinfo",
+    "spriteFrames": [
+      "avararbox",
+      "6ade8f49-d9fd-453e-9109-5ec31fa967cb@2cafb",
+      "avatar",
+      "6ade8f49-d9fd-453e-9109-5ec31fa967cb@a569b",
+      "dikuang",
+      "6ade8f49-d9fd-453e-9109-5ec31fa967cb@a01df",
+      "fuzhi",
+      "6ade8f49-d9fd-453e-9109-5ec31fa967cb@ab688",
+      "gouxuan",
+      "6ade8f49-d9fd-453e-9109-5ec31fa967cb@b813e",
+      "guanbi",
+      "6ade8f49-d9fd-453e-9109-5ec31fa967cb@fce0b",
+      "img_getWXUserInfo",
+      "6ade8f49-d9fd-453e-9109-5ec31fa967cb@d4f26",
+      "man",
+      "6ade8f49-d9fd-453e-9109-5ec31fa967cb@3d190",
+      "wenzidikuan",
+      "6ade8f49-d9fd-453e-9109-5ec31fa967cb@22e8f",
+      "woman",
+      "6ade8f49-d9fd-453e-9109-5ec31fa967cb@5bde0",
+      "xuanzedikuang",
+      "6ade8f49-d9fd-453e-9109-5ec31fa967cb@b15fa",
+      "yinbi",
+      "6ade8f49-d9fd-453e-9109-5ec31fa967cb@719be"
+    ]
+  }
+}

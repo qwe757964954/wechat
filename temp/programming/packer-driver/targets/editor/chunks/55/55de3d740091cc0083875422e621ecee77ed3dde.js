@@ -1,0 +1,110 @@
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5"], function (_export, _context) {
+  "use strict";
+
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, Node, _decorator, EventManager, BaseComponent, PlayerMgr, FXJEvent, GameEvent, _dec, _class, _crd, ccclass, property, Ai;
+
+  function _reportPossibleCrUseOfEventManager(extras) {
+    _reporterNs.report("EventManager", "../../../../../framework/manager/EventManager", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfBaseComponent(extras) {
+    _reporterNs.report("BaseComponent", "../../../../../framework/vc/BaseComponent", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfPlayerMgr(extras) {
+    _reporterNs.report("PlayerMgr", "../../../cache/PlayerMgr", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfFXJEvent(extras) {
+    _reporterNs.report("FXJEvent", "../../../common/FXJEvent", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfGameEvent(extras) {
+    _reporterNs.report("GameEvent", "../../../common/GameEvent", _context.meta, extras);
+  }
+
+  return {
+    setters: [function (_unresolved_) {
+      _reporterNs = _unresolved_;
+    }, function (_cc) {
+      _cclegacy = _cc.cclegacy;
+      __checkObsolete__ = _cc.__checkObsolete__;
+      __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
+      Node = _cc.Node;
+      _decorator = _cc._decorator;
+    }, function (_unresolved_2) {
+      EventManager = _unresolved_2.EventManager;
+    }, function (_unresolved_3) {
+      BaseComponent = _unresolved_3.BaseComponent;
+    }, function (_unresolved_4) {
+      PlayerMgr = _unresolved_4.PlayerMgr;
+    }, function (_unresolved_5) {
+      FXJEvent = _unresolved_5.FXJEvent;
+    }, function (_unresolved_6) {
+      GameEvent = _unresolved_6.GameEvent;
+    }],
+    execute: function () {
+      _crd = true;
+
+      _cclegacy._RF.push({}, "c603416ZnZLd47kYn4WIwiD", "Ai", undefined);
+
+      __checkObsolete__(['Node', '_decorator']);
+
+      ({
+        ccclass,
+        property
+      } = _decorator);
+      /**
+       * Name = ai
+       * URL = db://assets/package/game/module/ai/src/ai.ts
+       * Time = Wed Aug 23 2023 19:33:00 GMT+0800 (中国标准时间)
+       * Author = qwe757964
+       *
+       * Life: onLoad-->onInitModuleEvent-->onEnable->start->update->lateUpdate->onDisable->onDestroy
+       * 
+       */
+
+      _export("Ai", Ai = (_dec = ccclass('Ai'), _dec(_class = class Ai extends (_crd && BaseComponent === void 0 ? (_reportPossibleCrUseOfBaseComponent({
+        error: Error()
+      }), BaseComponent) : BaseComponent) {
+        /** override 初始化模块事件 */
+        onInitModuleEvent() {
+          this.addModelListener((_crd && GameEvent === void 0 ? (_reportPossibleCrUseOfGameEvent({
+            error: Error()
+          }), GameEvent) : GameEvent).VIEW_PLAYER_AI_SHOW, this.modifyPlayerDeposit);
+          this.node.on(Node.EventType.TOUCH_END, this.onOprationTouchEnd, this);
+        }
+
+        modifyPlayerDeposit(event, respData) {
+          if (respData.mid != null) {
+            if (respData.mid == (_crd && PlayerMgr === void 0 ? (_reportPossibleCrUseOfPlayerMgr({
+              error: Error()
+            }), PlayerMgr) : PlayerMgr).getInstance().getMyPlayerInfo().userId) {
+              this.node.active = respData.ai;
+            }
+          }
+        }
+
+        onOprationTouchEnd() {
+          if ((_crd && PlayerMgr === void 0 ? (_reportPossibleCrUseOfPlayerMgr({
+            error: Error()
+          }), PlayerMgr) : PlayerMgr).getInstance().getMyPlayerInfo().isAi) {
+            (_crd && EventManager === void 0 ? (_reportPossibleCrUseOfEventManager({
+              error: Error()
+            }), EventManager) : EventManager).dispatch((_crd && FXJEvent === void 0 ? (_reportPossibleCrUseOfFXJEvent({
+              error: Error()
+            }), FXJEvent) : FXJEvent).NET_REQ_GAME_USER_AI, !(_crd && PlayerMgr === void 0 ? (_reportPossibleCrUseOfPlayerMgr({
+              error: Error()
+            }), PlayerMgr) : PlayerMgr).getInstance().getMyPlayerInfo().isAi);
+          }
+        }
+
+      }) || _class));
+
+      _cclegacy._RF.pop();
+
+      _crd = false;
+    }
+  };
+});
+//# sourceMappingURL=55de3d740091cc0083875422e621ecee77ed3dde.js.map

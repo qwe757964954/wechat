@@ -1,0 +1,18 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "match",
+    "spriteFrames": [
+      "match_title_bg",
+      "f445a9d1-6f20-48b6-83e9-e7f2066712af@34228",
+      "matching_point",
+      "f445a9d1-6f20-48b6-83e9-e7f2066712af@41b4f",
+      "matching_txt",
+      "f445a9d1-6f20-48b6-83e9-e7f2066712af@83ceb",
+      "r_head_bg",
+      "f445a9d1-6f20-48b6-83e9-e7f2066712af@2e472",
+      "y_head_bg",
+      "f445a9d1-6f20-48b6-83e9-e7f2066712af@67410"
+    ]
+  }
+}

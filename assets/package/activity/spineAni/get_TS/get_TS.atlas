@@ -1,0 +1,27 @@
+
+get_TS.png
+size: 491,300
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_light
+  rotate: false
+  xy: 0, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+icon_light2
+  rotate: false
+  xy: 302, 111
+  size: 189, 189
+  orig: 189, 189
+  offset: 0, 0
+  index: -1
+icon_saoguang
+  rotate: false
+  xy: 302, 9
+  size: 136, 100
+  orig: 136, 100
+  offset: 0, 0
+  index: -1

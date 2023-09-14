@@ -1,0 +1,27 @@
+
+JDDD_reward.png
+size: 404,304
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_light
+  rotate: false
+  xy: 2, 2
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 304, 168
+  size: 32, 32
+  orig: 38, 38
+  offset: 3, 3
+  index: -1
+wupin
+  rotate: true
+  xy: 304, 202
+  size: 100, 98
+  orig: 102, 100
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,118 @@
+
+MJ_DJKS.png
+size: 1782,675
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+222
+  rotate: false
+  xy: 1237, 15
+  size: 290, 290
+  orig: 290, 290
+  offset: 0, 0
+  index: -1
+djks_di_fenghuang_1
+  rotate: true
+  xy: 1586, 207
+  size: 345, 196
+  orig: 345, 196
+  offset: 0, 0
+  index: -1
+djks_di_fenghuang_2
+  rotate: true
+  xy: 1529, 50
+  size: 155, 86
+  orig: 155, 86
+  offset: 0, 0
+  index: -1
+djks_di_l
+  rotate: true
+  xy: 776, 35
+  size: 640, 104
+  orig: 640, 104
+  offset: 0, 0
+  index: -1
+djks_di_lizi_r
+  rotate: true
+  xy: 882, 35
+  size: 640, 104
+  orig: 640, 104
+  offset: 0, 0
+  index: -1
+djks_di_r
+  rotate: true
+  xy: 670, 33
+  size: 642, 104
+  orig: 642, 104
+  offset: 0, 0
+  index: -1
+djks_diz_long
+  rotate: true
+  xy: 988, 295
+  size: 380, 104
+  orig: 380, 104
+  offset: 0, 0
+  index: -1
+djks_dj
+  rotate: true
+  xy: 1460, 307
+  size: 245, 124
+  orig: 245, 124
+  offset: 0, 0
+  index: -1
+djks_dj_hu
+  rotate: true
+  xy: 988, 0
+  size: 293, 124
+  orig: 293, 124
+  offset: 0, 0
+  index: -1
+djks_hua
+  rotate: false
+  xy: 1617, 25
+  size: 135, 76
+  orig: 135, 76
+  offset: 0, 0
+  index: -1
+djks_ks
+  rotate: false
+  xy: 1529, 554
+  size: 250, 121
+  orig: 250, 121
+  offset: 0, 0
+  index: -1
+djks_ks_hu
+  rotate: true
+  xy: 1114, 8
+  size: 297, 121
+  orig: 297, 121
+  offset: 0, 0
+  index: -1
+djks_quan
+  rotate: false
+  xy: 1094, 307
+  size: 364, 368
+  orig: 364, 368
+  offset: 0, 0
+  index: -1
+djks_quan2
+  rotate: false
+  xy: 0, 7
+  size: 668, 668
+  orig: 668, 668
+  offset: 0, 0
+  index: -1
+icon_saoguang
+  rotate: false
+  xy: 1617, 103
+  size: 138, 102
+  orig: 138, 102
+  offset: 0, 0
+  index: -1
+light_00000
+  rotate: false
+  xy: 1529, 250
+  size: 55, 55
+  orig: 55, 55
+  offset: 0, 0
+  index: -1

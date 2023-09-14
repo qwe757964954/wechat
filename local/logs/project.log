@@ -1,0 +1,859 @@
+2023-08-25T16:40:41.894Z - log: [Package] menu@1.0.0 enable
+2023-08-25T16:40:41.897Z - log: [Package] profile@1.0.0 enable
+2023-08-25T16:40:41.905Z - log: [Package] project@1.0.2 enable
+2023-08-25T16:40:41.908Z - log: [Package] messages@1.0.0 enable
+2023-08-25T16:40:41.910Z - log: [Package] program@1.0.0 enable
+2023-08-25T16:40:41.914Z - log: [Package] tester@1.0.0 enable
+2023-08-25T16:40:41.917Z - log: [Package] preferences@1.0.0 enable
+2023-08-25T16:40:43.674Z - log: Load engine in /Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine
+2023-08-25T16:40:43.884Z - log: Profile changed: engine (modules.includeModules: 2d,3d,animation,audio,base,debug-renderer,geometry-renderer,gfx-webgl,gfx-webgl2,intersection-2d,occlusion-query,particle,particle-2d,primitive,profiler,skeletal-animation,spine,tween,ui,video,xr)
+2023-08-25T16:40:43.915Z - log: Register native engine in /Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+2023-08-25T16:40:43.917Z - log: [Package] engine@1.0.7 enable
+2023-08-25T16:40:44.526Z - log: [Package] programming@1.0.0 enable
+2023-08-25T16:40:44.560Z - warn: 
+2023-08-25T16:40:44.581Z - warn: 
+2023-08-25T16:40:44.781Z - log: [Package] device@1.0.1 enable
+2023-08-25T16:40:44.809Z - log: [Package] ui-kit@1.0.1 enable
+2023-08-25T16:40:44.834Z - log: [Package] engine-extends@1.0.0 enable
+2023-08-25T16:40:44.875Z - log: [Package] asset-db@1.0.0 enable
+2023-08-25T16:40:44.876Z - warn: 
+2023-08-25T16:40:44.905Z - log: [Package] scene@1.0.0 enable
+2023-08-25T16:40:45.001Z - log: [Package] server@1.0.0 enable
+2023-08-25T16:40:45.026Z - log: [Package] utils@1.0.0 enable
+2023-08-25T16:40:47.012Z - warn: 
+2023-08-25T16:40:47.013Z - warn: 
+2023-08-25T16:40:47.013Z - warn: 
+2023-08-25T16:40:47.085Z - warn: 
+2023-08-25T16:40:47.086Z - warn: 
+2023-08-25T16:40:47.086Z - warn: 
+2023-08-25T16:40:47.775Z - warn: 
+2023-08-25T16:40:47.822Z - log: [Package] preview@1.0.1 enable
+2023-08-25T16:40:47.852Z - log: [Package] animator@1.0.0 enable
+2023-08-25T16:40:47.884Z - log: pluginManager init: 0.096ms
+2023-08-25T16:40:48.584Z - log: [Package] builder@1.3.3 enable
+2023-08-25T16:40:48.611Z - log: [Package] shortcuts@1.0.1 enable
+2023-08-25T16:40:48.638Z - log: [Package] animation-graph@1.0.0 enable
+2023-08-25T16:40:48.666Z - log: [Package] about@1.0.0 enable
+2023-08-25T16:40:48.691Z - log: [Package] assets@1.0.0 enable
+2023-08-25T16:40:48.718Z - log: [Package] console@1.0.0 enable
+2023-08-25T16:40:48.823Z - log: [Package] extension@3.0.16 enable
+2023-08-25T16:40:48.848Z - log: [Package] hierarchy@1.0.0 enable
+2023-08-25T16:40:48.875Z - log: [Package] inspector@1.0.0 enable
+2023-08-25T16:40:48.902Z - log: [Package] lightmap@1.0.4 enable
+2023-08-25T16:40:49.135Z - log: [Package] localization-editor@1.0.0 enable
+2023-08-25T16:40:49.141Z - log: [Build-plugin] register pkg localization-editor: 3.437ms
+2023-08-25T16:40:49.164Z - log: [Package] node-library@1.0.1 enable
+2023-08-25T16:40:49.187Z - log: [Package] package-asset@1.0.0 enable
+2023-08-25T16:40:49.216Z - log: [Package] process@1.0.0 enable
+2023-08-25T16:40:49.243Z - log: [Package] reference-image@1.0.0 enable
+2023-08-25T16:40:49.268Z - log: [Package] alipay-mini-game@1.0.1 enable
+2023-08-25T16:40:49.270Z - log: [Build-plugin] register pkg alipay-mini-game: 2.105ms
+2023-08-25T16:40:49.297Z - log: [Package] android@1.0.1 enable
+2023-08-25T16:40:49.300Z - log: [Build-plugin] register pkg android: 2.485ms
+2023-08-25T16:40:49.342Z - log: [Package] baidu-mini-game@1.0.1 enable
+2023-08-25T16:40:49.343Z - log: [Build-plugin] register pkg baidu-mini-game: 1.646ms
+2023-08-25T16:40:49.370Z - log: [Package] bytedance-mini-game@1.0.2 enable
+2023-08-25T16:40:49.372Z - log: [Build-plugin] register pkg bytedance-mini-game: 1.457ms
+2023-08-25T16:40:49.395Z - log: [Package] certificate@1.0.0 enable
+2023-08-25T16:40:49.421Z - log: [Package] channel-upload-tools@1.0.0 enable
+2023-08-25T16:40:49.448Z - log: [Package] cocos-play@1.0.1 enable
+2023-08-25T16:40:49.450Z - log: [Build-plugin] register pkg cocos-play: 2.381ms
+2023-08-25T16:40:49.473Z - log: [Package] huawei-agc@1.0.0 enable
+2023-08-25T16:40:49.475Z - log: [Build-plugin] register pkg huawei-agc: 1.657ms
+2023-08-25T16:40:49.496Z - log: [Package] huawei-quick-game@1.0.1 enable
+2023-08-25T16:40:49.498Z - log: [Build-plugin] register pkg huawei-quick-game: 1.861ms
+2023-08-25T16:40:51.317Z - log: [Package] ios@1.0.0 enable
+2023-08-25T16:40:51.320Z - log: [Build-plugin] register pkg ios: 2.414ms
+2023-08-25T16:40:51.341Z - log: [Package] linux@1.0.0 enable
+2023-08-25T16:40:51.342Z - log: [Build-plugin] register pkg linux: 0.51ms
+2023-08-25T16:40:51.365Z - log: [Package] mac@1.0.0 enable
+2023-08-25T16:40:51.367Z - log: [Build-plugin] register pkg mac: 2.169ms
+2023-08-25T16:40:51.424Z - log: [Package] native@1.0.2 enable
+2023-08-25T16:40:51.428Z - log: [Build-plugin] register pkg native: 3.26ms
+2023-08-25T16:40:51.454Z - log: [Package] ohos@1.0.0 enable
+2023-08-25T16:40:51.455Z - log: [Build-plugin] register pkg ohos: 1.566ms
+2023-08-25T16:40:51.477Z - log: [Package] open-harmonyos@1.0.0 enable
+2023-08-25T16:40:51.478Z - log: [Build-plugin] register pkg open-harmonyos: 0.469ms
+2023-08-25T16:40:51.501Z - log: [Package] oppo-mini-game@1.0.1 enable
+2023-08-25T16:40:51.503Z - log: [Build-plugin] register pkg oppo-mini-game: 1.927ms
+2023-08-25T16:40:51.527Z - log: [Package] runtime-dev-tools@1.0.0 enable
+2023-08-25T16:40:51.553Z - log: [Package] vivo-mini-game@1.0.1 enable
+2023-08-25T16:40:51.555Z - log: [Build-plugin] register pkg vivo-mini-game: 2.081ms
+2023-08-25T16:40:51.566Z - warn: 
+2023-08-25T16:40:51.567Z - warn: 
+2023-08-25T16:40:51.567Z - warn: 
+2023-08-25T16:40:51.590Z - log: [Package] web-desktop@1.0.1 enable
+2023-08-25T16:40:51.592Z - log: [Build-plugin] register pkg web-desktop: 1.611ms
+2023-08-25T16:40:51.616Z - log: [Package] web-mobile@1.0.1 enable
+2023-08-25T16:40:51.618Z - log: [Build-plugin] register pkg web-mobile: 1.607ms
+2023-08-25T16:40:51.644Z - log: [Package] wechatgame@1.0.2 enable
+2023-08-25T16:40:51.646Z - log: [Build-plugin] register pkg wechatgame: 1.716ms
+2023-08-25T16:40:51.667Z - log: [Package] windows@1.0.1 enable
+2023-08-25T16:40:51.668Z - log: [Build-plugin] register pkg windows: 1.255ms
+2023-08-25T16:40:51.693Z - log: [Package] xiaomi-quick-game@1.0.1 enable
+2023-08-25T16:40:51.695Z - log: [Build-plugin] register pkg xiaomi-quick-game: 1.853ms
+2023-08-25T16:40:51.841Z - log: [Package] cocos-service@3.0.4 enable
+2023-08-25T16:40:51.842Z - log: [Build-plugin] register pkg cocos-service: 0.969ms
+2023-08-25T16:40:51.869Z - log: [Package] importer@1.1.0 enable
+2023-08-25T16:40:52.012Z - log: [Im-plugin] Check im-plugin version.
+2023-08-25T16:40:52.014Z - log: [Package] im-plugin@3.0.9 enable
+2023-08-25T16:40:53.250Z - log: [Im-plugin] No online info of im-plugin.
+2023-08-25T16:40:53.724Z - log: [Scene] Please specifiy a default value for "cc.EditorExtendable.__editorExtras__" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.737Z - log: [Scene] Please specifiy a default value for "CCPropertyOverrideInfo.value" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.738Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.asset" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.738Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.nestedPrefabInstanceRoots" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.739Z - log: [Scene] The 'default' attribute of 'ColorDesc.beginAccesses' must be an array
+2023-08-25T16:40:53.739Z - log: [Scene] The 'default' attribute of 'ColorDesc.endAccesses' must be an array
+2023-08-25T16:40:53.746Z - log: [Scene] Please specifiy a default value for "cc.animation.TrackBinding.proxy" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.746Z - log: [Scene] Please specifiy a default value for "cc.animation.Channel._curve" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.746Z - log: [Scene] Please specifiy a default value for "cc.animation.SingleChannelTrack._channel" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.747Z - log: [Scene] Please specifiy a default value for "cc.animation.VectorTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.747Z - log: [Scene] Please specifiy a default value for "cc.animation.ColorTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.747Z - log: [Scene] Please specifiy a default value for "cc.animation.SizeTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.747Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.from" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.747Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.to" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.747Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._entryState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.747Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._exitState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.747Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._anyState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.747Z - log: [Scene] Please specifiy a default value for "cc.animation.Layer._stateMachine" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.748Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.748Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._isQuantized" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.748Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.times" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.748Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.748Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.originalPrecision" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.748Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.min" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.748Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.extent" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.748Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-08-25T16:40:53.767Z - log: [Scene] 'cc.ParticleSystem2D.color' hides inherited property 'cc.UIRenderer.color'. To make the current property override that implementation, add the `override: true` attribute please.
+2023-08-25T16:40:53.789Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._receiveShadow", which its default value is type of Boolean.
+2023-08-25T16:40:53.789Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._useNormalmap", which its default value is type of Boolean.
+2023-08-25T16:40:53.789Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._usePBR", which its default value is type of Boolean.
+2023-08-25T16:40:53.789Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._lodEnable", which its default value is type of Boolean.
+2023-08-25T16:40:53.845Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-08-25T16:40:53.851Z - info: [Scene] [PHYSICS]: using builtin.
+2023-08-25T16:40:53.913Z - log: [Scene] Cocos Creator v3.6.2
+2023-08-25T16:40:53.914Z - info: [Scene] Forward render pipeline initialized.
+2023-08-25T16:40:54.034Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T16:40:54.034Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T16:40:54.034Z - log: [Scene] GPBWrite 实例化
+2023-08-25T16:40:54.034Z - log: [Scene] GPBRead 实例化
+2023-08-25T16:40:54.035Z - warn: [Scene] 'sys.capabilities' is deprecated. (please use sys.hasFeature() method instead.)Error: [Scene] 'sys.capabilities' is deprecated. (please use sys.hasFeature() method instead.)
+    at warn (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:139774:12)
+    at markAsWarningLog (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:165265:11)
+    at Object.get (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:165325:19)
+    at Object.dump (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:141773:56)
+    at _Platform.dump (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:157:13)
+    at new _Platform (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:103:14)
+    at Function.get instance [as instance] (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:30:30)
+2023-08-25T16:40:54.078Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T16:54:30.926Z - warn: [Scene] 'sys.capabilities' is deprecated. (please use sys.hasFeature() method instead.)Error: [Scene] 'sys.capabilities' is deprecated. (please use sys.hasFeature() method instead.)
+    at warn (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:139774:12)
+    at markAsWarningLog (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:165265:11)
+    at Object.get (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:165325:19)
+    at Object.dump (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:141773:56)
+    at _Platform.dump (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:157:13)
+    at new _Platform (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:103:14)
+    at Function.get instance [as instance] (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:30:30)
+2023-08-25T16:54:30.928Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T16:54:30.928Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T16:54:30.928Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T16:54:30.928Z - log: [Scene] GPBWrite 实例化
+2023-08-25T16:54:30.928Z - log: [Scene] GPBRead 实例化
+2023-08-25T16:58:15.220Z - warn: [Scene] 'sys.capabilities' is deprecated. (please use sys.hasFeature() method instead.)Error: [Scene] 'sys.capabilities' is deprecated. (please use sys.hasFeature() method instead.)
+    at warn (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:139774:12)
+    at markAsWarningLog (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:165265:11)
+    at Object.get (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:165325:19)
+    at Object.dump (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:141773:56)
+    at _Platform.dump (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:157:13)
+    at new _Platform (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:103:14)
+    at Function.get instance [as instance] (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:30:30)
+2023-08-25T16:58:15.220Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T16:58:15.220Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T16:58:15.220Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T16:58:15.220Z - log: [Scene] GPBWrite 实例化
+2023-08-25T16:58:15.220Z - log: [Scene] GPBRead 实例化
+2023-08-25T17:04:42.871Z - warn: [Scene] 'sys.capabilities' is deprecated. (please use sys.hasFeature() method instead.)Error: [Scene] 'sys.capabilities' is deprecated. (please use sys.hasFeature() method instead.)
+    at warn (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:139774:12)
+    at markAsWarningLog (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:165265:11)
+    at Object.get (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:165325:19)
+    at Object.dump (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:141773:56)
+    at _Platform.dump (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:157:13)
+    at new _Platform (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:103:14)
+    at Function.get instance [as instance] (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:30:30)
+2023-08-25T17:04:42.872Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T17:04:42.872Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T17:04:42.872Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T17:04:42.872Z - log: [Scene] GPBWrite 实例化
+2023-08-25T17:04:42.872Z - log: [Scene] GPBRead 实例化
+2023-08-25T17:07:56.284Z - warn: [Scene] 'sys.capabilities' is deprecated. (please use sys.hasFeature() method instead.)Error: [Scene] 'sys.capabilities' is deprecated. (please use sys.hasFeature() method instead.)
+    at warn (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:139774:12)
+    at markAsWarningLog (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:165265:11)
+    at Object.get (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:165325:19)
+    at Object.dump (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:141773:56)
+    at _Platform.dump (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:157:13)
+    at new _Platform (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:103:14)
+    at Function.get instance [as instance] (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:30:30)
+2023-08-25T17:07:56.285Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T17:07:56.285Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T17:07:56.285Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T17:07:56.285Z - log: [Scene] GPBWrite 实例化
+2023-08-25T17:07:56.285Z - log: [Scene] GPBRead 实例化
+2023-08-25T17:07:56.805Z - warn: [Scene] 'sys.capabilities' is deprecated. (please use sys.hasFeature() method instead.)Error: [Scene] 'sys.capabilities' is deprecated. (please use sys.hasFeature() method instead.)
+    at warn (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:139774:12)
+    at markAsWarningLog (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:165265:11)
+    at Object.get (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:165325:19)
+    at Object.dump (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:141773:56)
+    at _Platform.dump (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:157:13)
+    at new _Platform (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:103:14)
+    at Function.get instance [as instance] (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:30:30)
+2023-08-25T17:07:56.805Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T17:07:56.805Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T17:07:56.805Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T17:07:56.805Z - log: [Scene] GPBWrite 实例化
+2023-08-25T17:07:56.805Z - log: [Scene] GPBRead 实例化
+2023-08-25T17:11:23.220Z - warn: [Scene] 'sys.capabilities' is deprecated. (please use sys.hasFeature() method instead.)Error: [Scene] 'sys.capabilities' is deprecated. (please use sys.hasFeature() method instead.)
+    at warn (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:139774:12)
+    at markAsWarningLog (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:165265:11)
+    at Object.get (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:165325:19)
+    at Object.dump (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:141773:56)
+    at _Platform.dump (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:157:13)
+    at new _Platform (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:103:14)
+    at Function.get instance [as instance] (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:30:30)
+2023-08-25T17:11:23.220Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T17:11:23.221Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T17:11:23.221Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T17:11:23.221Z - log: [Scene] GPBWrite 实例化
+2023-08-25T17:11:23.221Z - log: [Scene] GPBRead 实例化
+2023-08-25T17:11:23.609Z - warn: [Scene] 'sys.capabilities' is deprecated. (please use sys.hasFeature() method instead.)Error: [Scene] 'sys.capabilities' is deprecated. (please use sys.hasFeature() method instead.)
+    at warn (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:139774:12)
+    at markAsWarningLog (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:165265:11)
+    at Object.get (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:165325:19)
+    at Object.dump (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:141773:56)
+    at _Platform.dump (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:157:13)
+    at new _Platform (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:103:14)
+    at Function.get instance [as instance] (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:30:30)
+2023-08-25T17:11:23.609Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T17:11:23.610Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T17:11:23.610Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T17:11:23.610Z - log: [Scene] GPBWrite 实例化
+2023-08-25T17:11:23.610Z - log: [Scene] GPBRead 实例化
+2023-08-25T17:20:24.091Z - warn: [Scene] 'sys.capabilities' is deprecated. (please use sys.hasFeature() method instead.)Error: [Scene] 'sys.capabilities' is deprecated. (please use sys.hasFeature() method instead.)
+    at warn (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:139774:12)
+    at markAsWarningLog (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:165265:11)
+    at Object.get (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:165325:19)
+    at Object.dump (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:141773:56)
+    at _Platform.dump (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:157:13)
+    at new _Platform (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:103:14)
+    at Function.get instance [as instance] (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:30:30)
+2023-08-25T17:20:24.091Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T17:20:24.092Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T17:20:24.092Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T17:20:24.092Z - log: [Scene] GPBWrite 实例化
+2023-08-25T17:20:24.092Z - log: [Scene] GPBRead 实例化
+2023-08-25T17:26:52.801Z - warn: [Scene] 'sys.capabilities' is deprecated. (please use sys.hasFeature() method instead.)Error: [Scene] 'sys.capabilities' is deprecated. (please use sys.hasFeature() method instead.)
+    at warn (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:139774:12)
+    at markAsWarningLog (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:165265:11)
+    at Object.get (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:165325:19)
+    at Object.dump (/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:141773:56)
+    at _Platform.dump (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:157:13)
+    at new _Platform (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:103:14)
+    at Function.get instance [as instance] (file:///Users/mac/work/WXGame_FlySmallChick/temp/programming/packer-driver/targets/editor/chunks/a9/file:/Users/mac/work/WXGame_FlySmallChick/assets/platform/Platform.ts:30:30)
+2023-08-25T17:26:52.801Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T17:26:52.802Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T17:26:52.802Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T17:26:52.802Z - log: [Scene] GPBWrite 实例化
+2023-08-25T17:26:52.802Z - log: [Scene] GPBRead 实例化
+2023-08-25T17:26:53.510Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T17:26:53.510Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T17:26:53.510Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T17:26:53.510Z - log: [Scene] GPBWrite 实例化
+2023-08-25T17:26:53.510Z - log: [Scene] GPBRead 实例化
+2023-08-25T17:29:34.414Z - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+2023-08-25T17:29:34.415Z - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+https://github.com/highlightjs/highlight.js/issues/2277
+2023-08-25T17:29:34.452Z - warn: 为更好地打开脚本，请在 偏好设置 -> 外部程序 -> 默认脚本编辑器 里配置打开脚本的应用程序
+2023-08-25T17:30:11.403Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T17:30:11.404Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T17:30:11.404Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T17:30:11.404Z - log: [Scene] GPBWrite 实例化
+2023-08-25T17:30:11.404Z - log: [Scene] GPBRead 实例化
+2023-08-25T17:31:29.714Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T17:31:29.714Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T17:31:29.714Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T17:31:29.714Z - log: [Scene] GPBWrite 实例化
+2023-08-25T17:31:29.714Z - log: [Scene] GPBRead 实例化
+2023-08-25T17:31:39.489Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T17:31:39.490Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T17:31:39.490Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T17:31:39.490Z - log: [Scene] GPBWrite 实例化
+2023-08-25T17:31:39.490Z - log: [Scene] GPBRead 实例化
+2023-08-25T19:01:10.392Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T19:01:10.392Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T19:01:10.392Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T19:01:10.392Z - log: [Scene] GPBWrite 实例化
+2023-08-25T19:01:10.392Z - log: [Scene] GPBRead 实例化
+2023-08-25T19:01:54.252Z - error: Client network socket disconnected before secure TLS connection was establishedError: Client network socket disconnected before secure TLS connection was established
+    at connResetException (internal/errors.js:607:14)
+    at TLSSocket.onConnectEnd (_tls_wrap.js:1544:19)
+    at TLSSocket.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+2023-08-25T20:07:21.065Z - error: getImSetting failed
+2023-08-25T21:05:37.429Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T21:05:37.430Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T21:05:37.430Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T21:05:37.430Z - log: [Scene] GPBWrite 实例化
+2023-08-25T21:05:37.430Z - log: [Scene] GPBRead 实例化
+2023-08-25T21:06:29.811Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T21:06:29.811Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T21:06:29.811Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T21:06:29.811Z - log: [Scene] GPBWrite 实例化
+2023-08-25T21:06:29.811Z - log: [Scene] GPBRead 实例化
+2023-08-25T21:28:59.279Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T21:28:59.279Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T21:28:59.279Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T21:28:59.279Z - log: [Scene] GPBWrite 实例化
+2023-08-25T21:28:59.279Z - log: [Scene] GPBRead 实例化
+2023-08-25T21:38:43.100Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T21:38:43.101Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T21:38:43.101Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T21:38:43.101Z - log: [Scene] GPBWrite 实例化
+2023-08-25T21:38:43.101Z - log: [Scene] GPBRead 实例化
+2023-08-25T21:41:40.033Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T21:41:40.034Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T21:41:40.034Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T21:41:40.034Z - log: [Scene] GPBWrite 实例化
+2023-08-25T21:41:40.034Z - log: [Scene] GPBRead 实例化
+2023-08-25T21:56:02.777Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T21:56:02.778Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T21:56:02.778Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T21:56:02.778Z - log: [Scene] GPBWrite 实例化
+2023-08-25T21:56:02.778Z - log: [Scene] GPBRead 实例化
+2023-08-25T22:05:15.989Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T22:05:15.989Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T22:05:15.989Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T22:05:15.989Z - log: [Scene] GPBWrite 实例化
+2023-08-25T22:05:15.989Z - log: [Scene] GPBRead 实例化
+2023-08-25T22:05:16.663Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T22:05:16.664Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T22:05:16.664Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T22:05:16.664Z - log: [Scene] GPBWrite 实例化
+2023-08-25T22:05:16.664Z - log: [Scene] GPBRead 实例化
+2023-08-25T22:10:10.712Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T22:10:10.712Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T22:10:10.712Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T22:10:10.712Z - log: [Scene] GPBWrite 实例化
+2023-08-25T22:10:10.712Z - log: [Scene] GPBRead 实例化
+2023-08-25T22:27:37.609Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T22:27:37.609Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T22:27:37.609Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T22:27:37.609Z - log: [Scene] GPBWrite 实例化
+2023-08-25T22:27:37.609Z - log: [Scene] GPBRead 实例化
+2023-08-25T22:31:01.626Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T22:31:01.627Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T22:31:01.627Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T22:31:01.627Z - log: [Scene] GPBWrite 实例化
+2023-08-25T22:31:01.627Z - log: [Scene] GPBRead 实例化
+2023-08-25T22:35:50.131Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'handCards')errorInfo.stack ? '/n ' : ''
+2023-08-25T22:38:37.828Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T22:38:37.829Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T22:38:37.829Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T22:38:37.829Z - log: [Scene] GPBWrite 实例化
+2023-08-25T22:38:37.829Z - log: [Scene] GPBRead 实例化
+2023-08-25T23:03:12.103Z - error: [Preview]Illegal value for opCardsvalue element of type int32: undefined (not an integer)errorInfo.stack ? '/n Error: Illegal value for opCardsvalue element of type int32: undefined (not an integer)
+    at fail (http://localhost:7456/plugins/assets/framework/libs/protobufjs.min.js:6854:19)
+    at ElementPrototype.verifyValue (http://localhost:7456/plugins/assets/framework/libs/protobufjs.min.js:6863:84)
+    at FieldPrototype.verifyValue (http://localhost:7456/plugins/assets/framework/libs/protobufjs.min.js:8670:70)
+    at MessagePrototype.set (http://localhost:7456/plugins/assets/framework/libs/protobufjs.min.js:7539:50)
+    at MessagePrototype.set (http://localhost:7456/plugins/assets/framework/libs/protobufjs.min.js:7528:149)
+    at new Message (http://localhost:7456/plugins/assets/framework/libs/protobufjs.min.js:7456:24)
+    at Message.encode (http://localhost:7456/plugins/assets/framework/libs/protobufjs.min.js:7731:22)
+    at FXJPB.encodeBody (http://localhost:7456/scripting/x/chunks/c7/c7a311e44b0f821507187b9d5f5e45bab22152ad.js:152:51)
+    at FXJPB.encodeBody (http://localhost:7456/scripting/x/chunks/d2/d2265b2922d89f93c89728a168df520ee1fbb85c.js:33:24)
+    at FXJPBAdaptive.encodePacket (http://localhost:7456/scripting/x/chunks/ca/cab7439f46360b17516c1f42828235e16c1a86d8.js:159:30)' : ''
+2023-08-25T23:15:56.288Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T23:15:56.288Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T23:15:56.288Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T23:15:56.288Z - log: [Scene] GPBWrite 实例化
+2023-08-25T23:15:56.288Z - log: [Scene] GPBRead 实例化
+2023-08-25T23:32:15.901Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'handCards')errorInfo.stack ? '/n ' : ''
+2023-08-25T23:32:58.948Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T23:32:58.949Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T23:32:58.949Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T23:32:58.949Z - log: [Scene] GPBWrite 实例化
+2023-08-25T23:32:58.949Z - log: [Scene] GPBRead 实例化
+2023-08-25T23:41:57.900Z - log: [Scene] isMobile : false
+language : zh
+browserType : chrome
+browserVersion : 91.0.4472.106
+capabilities : {"canvas":true,"opengl":true,"webp":true,"imageBitmap":false,"touches":true,"mouse":true,"keyboard":true,"accelerometer":false}
+os : OS X
+osVersion : 
+platform : EDITOR_PAGE
+Using CANVAS renderer.
+
+2023-08-25T23:41:57.900Z - log: [Scene] WriteBuffer 初始化
+2023-08-25T23:41:57.900Z - log: [Scene] ReadBuffer 初始化
+2023-08-25T23:41:57.900Z - log: [Scene] GPBWrite 实例化
+2023-08-25T23:41:57.900Z - log: [Scene] GPBRead 实例化
+2023-08-26T00:08:57.006Z - warn: Metrics: no valid info
+2023-08-26T00:08:57.016Z - error: Error occurred in handler for 'GUEST_VIEW_MANAGER_CALL': Error: Invalid guestInstanceId: 6
+    at getGuestForWebContents (electron/js2c/browser_init.js:181:6307)
+    at electron/js2c/browser_init.js:181:5372
+    at electron/js2c/browser_init.js:181:1637
+    at electron/js2c/browser_init.js:197:579
+    at Object.<anonymous> (electron/js2c/browser_init.js:161:9782)
+    at Object.emit (events.js:315:20)

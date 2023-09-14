@@ -1,0 +1,18 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "get_TS",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "d3642a77-6d6b-4f54-b16c-ca44b3969125@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "get_TS.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\nget_TS.png\nsize: 491,300\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nBG_light\n  rotate: false\n  xy: 0, 0\n  size: 300, 300\n  orig: 300, 300\n  offset: 0, 0\n  index: -1\nicon_light2\n  rotate: false\n  xy: 302, 111\n  size: 189, 189\n  orig: 189, 189\n  offset: 0, 0\n  index: -1\nicon_saoguang\n  rotate: false\n  xy: 302, 9\n  size: 136, 100\n  orig: 136, 100\n  offset: 0, 0\n  index: -1\n"
+}

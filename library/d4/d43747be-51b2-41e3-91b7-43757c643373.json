@@ -1,0 +1,12 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "xiaobo",
+    "spriteFrames": [
+      "xiaobo_fail",
+      "d43747be-51b2-41e3-91b7-43757c643373@6045a",
+      "xiaobo_win",
+      "d43747be-51b2-41e3-91b7-43757c643373@27a73"
+    ]
+  }
+}

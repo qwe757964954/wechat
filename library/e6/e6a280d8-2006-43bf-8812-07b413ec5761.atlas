@@ -1,0 +1,48 @@
+
+kuaisukaishi.png
+size: 299,202
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_light
+  rotate: false
+  xy: 164, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+qian/DT_icon_ksks_di
+  rotate: true
+  xy: 164, 52
+  size: 150, 106
+  orig: 150, 106
+  offset: 0, 0
+  index: -1
+qian/DT_icon_ksks_di2
+  rotate: false
+  xy: 0, 40
+  size: 162, 162
+  orig: 162, 162
+  offset: 0, 0
+  index: -1
+qian/DT_icon_ksks_hudie
+  rotate: false
+  xy: 272, 52
+  size: 21, 29
+  orig: 21, 29
+  offset: 0, 0
+  index: -1
+qian/DT_icon_ksks_text
+  rotate: false
+  xy: 0, 2
+  size: 138, 36
+  orig: 138, 36
+  offset: 0, 0
+  index: -1
+qian/DT_icon_ksks_yun
+  rotate: true
+  xy: 272, 83
+  size: 119, 27
+  orig: 119, 27
+  offset: 0, 0
+  index: -1

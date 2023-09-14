@@ -1,0 +1,18 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "mj_hu",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "80a1a0af-6dad-45f6-a754-79727d474f0d@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "mj_hu.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\nmj_hu.png\nsize: 741,1038\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n222\n  rotate: false\n  xy: 0, 446\n  size: 290, 290\n  orig: 290, 290\n  offset: 0, 0\n  index: -1\n222_2\n  rotate: false\n  xy: 292, 434\n  size: 290, 290\n  orig: 290, 290\n  offset: 0, 0\n  index: -1\nBG_light\n  rotate: false\n  xy: 0, 738\n  size: 300, 300\n  orig: 300, 300\n  offset: 0, 0\n  index: -1\nCP_LIGHT\n  rotate: false\n  xy: 268, 387\n  size: 127, 45\n  orig: 127, 45\n  offset: 0, 0\n  index: -1\nCP_LIGHT_l\n  rotate: false\n  xy: 391, 171\n  size: 58, 96\n  orig: 58, 96\n  offset: 0, 0\n  index: -1\nCP_LIGHT_r\n  rotate: true\n  xy: 128, 17\n  size: 60, 97\n  orig: 60, 97\n  offset: 0, 0\n  index: -1\nCP_LIGHT_s\n  rotate: true\n  xy: 353, 251\n  size: 134, 36\n  orig: 134, 36\n  offset: 0, 0\n  index: -1\nFFQ_light_05\n  rotate: false\n  xy: 0, 263\n  size: 201, 181\n  orig: 201, 181\n  offset: 0, 0\n  index: -1\nFFQ_light_08\n  rotate: false\n  xy: 131, 83\n  size: 178, 178\n  orig: 178, 178\n  offset: 0, 0\n  index: -1\nRedBag_light\n  rotate: false\n  xy: 584, 339\n  size: 150, 150\n  orig: 150, 150\n  offset: 0, 0\n  index: -1\nSD_3_00015_00010\n  rotate: true\n  xy: 397, 269\n  size: 163, 172\n  orig: 163, 172\n  offset: 0, 0\n  index: -1\nSD_3_00015_00012\n  rotate: false\n  xy: 571, 165\n  size: 163, 172\n  orig: 163, 172\n  offset: 0, 0\n  index: -1\nSD_3_00015_00014\n  rotate: true\n  xy: 311, 0\n  size: 163, 172\n  orig: 163, 172\n  offset: 0, 0\n  index: -1\nZHA_light\n  rotate: false\n  xy: 302, 938\n  size: 296, 100\n  orig: 296, 100\n  offset: 0, 0\n  index: -1\nboom_00000\n  rotate: false\n  xy: 203, 382\n  size: 63, 62\n  orig: 63, 62\n  offset: 0, 0\n  index: -1\nboom_00001\n  rotate: true\n  xy: 0, 14\n  size: 63, 62\n  orig: 63, 62\n  offset: 0, 0\n  index: -1\nboom_00002\n  rotate: true\n  xy: 64, 14\n  size: 63, 62\n  orig: 63, 62\n  offset: 0, 0\n  index: -1\nicon_saoguang\n  rotate: false\n  xy: 600, 936\n  size: 138, 102\n  orig: 138, 102\n  offset: 0, 0\n  index: -1\npx_gang_di\n  rotate: false\n  xy: 302, 832\n  size: 294, 104\n  orig: 294, 104\n  offset: 0, 0\n  index: -1\npx_gang_text\n  rotate: true\n  xy: 584, 491\n  size: 126, 151\n  orig: 126, 151\n  offset: 0, 0\n  index: -1\npx_hu_di\n  rotate: false\n  xy: 302, 726\n  size: 294, 104\n  orig: 294, 104\n  offset: 0, 0\n  index: -1\npx_hu_text\n  rotate: true\n  xy: 203, 263\n  size: 117, 148\n  orig: 117, 148\n  offset: 0, 0\n  index: -1\npx_lizi\n  rotate: true\n  xy: 598, 767\n  size: 167, 137\n  orig: 167, 137\n  offset: 0, 0\n  index: -1\npx_peng_text\n  rotate: true\n  xy: 598, 619\n  size: 146, 137\n  orig: 146, 137\n  offset: 0, 0\n  index: -1\npx_zm_text\n  rotate: true\n  xy: 0, 79\n  size: 182, 129\n  orig: 182, 129\n  offset: 0, 0\n  index: -1\nyanchen2\n  rotate: false\n  xy: 614, 42\n  size: 127, 121\n  orig: 127, 121\n  offset: 0, 0\n  index: -1\n小雅\n  rotate: false\n  xy: 485, 35\n  size: 127, 128\n  orig: 127, 128\n  offset: 0, 0\n  index: -1\n"
+}

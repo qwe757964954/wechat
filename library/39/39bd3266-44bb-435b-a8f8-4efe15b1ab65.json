@@ -1,0 +1,36 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "settle_win",
+    "spriteFrames": [
+      "0",
+      "39bd3266-44bb-435b-a8f8-4efe15b1ab65@c869a",
+      "1",
+      "39bd3266-44bb-435b-a8f8-4efe15b1ab65@c30fb",
+      "2",
+      "39bd3266-44bb-435b-a8f8-4efe15b1ab65@c86cc",
+      "3",
+      "39bd3266-44bb-435b-a8f8-4efe15b1ab65@e7223",
+      "4",
+      "39bd3266-44bb-435b-a8f8-4efe15b1ab65@a795c",
+      "5",
+      "39bd3266-44bb-435b-a8f8-4efe15b1ab65@e7d45",
+      "6",
+      "39bd3266-44bb-435b-a8f8-4efe15b1ab65@116ec",
+      "7",
+      "39bd3266-44bb-435b-a8f8-4efe15b1ab65@855b3",
+      "8",
+      "39bd3266-44bb-435b-a8f8-4efe15b1ab65@c959d",
+      "9",
+      "39bd3266-44bb-435b-a8f8-4efe15b1ab65@4ce76",
+      "+",
+      "39bd3266-44bb-435b-a8f8-4efe15b1ab65@223e0",
+      ".",
+      "39bd3266-44bb-435b-a8f8-4efe15b1ab65@5a6ad",
+      "wan",
+      "39bd3266-44bb-435b-a8f8-4efe15b1ab65@bc852",
+      "yi",
+      "39bd3266-44bb-435b-a8f8-4efe15b1ab65@1253c"
+    ]
+  }
+}

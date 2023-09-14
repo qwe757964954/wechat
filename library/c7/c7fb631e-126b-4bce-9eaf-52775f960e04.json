@@ -1,0 +1,34 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "giftDiscount",
+    "spriteFrames": [
+      "bg",
+      "c7fb631e-126b-4bce-9eaf-52775f960e04@58cb7",
+      "bg_num",
+      "c7fb631e-126b-4bce-9eaf-52775f960e04@d29b3",
+      "box_stat1",
+      "c7fb631e-126b-4bce-9eaf-52775f960e04@a45aa",
+      "btn_buy",
+      "c7fb631e-126b-4bce-9eaf-52775f960e04@75b58",
+      "btn_close",
+      "c7fb631e-126b-4bce-9eaf-52775f960e04@86d87",
+      "buy",
+      "c7fb631e-126b-4bce-9eaf-52775f960e04@0da15",
+      "check",
+      "c7fb631e-126b-4bce-9eaf-52775f960e04@09987",
+      "img_video",
+      "c7fb631e-126b-4bce-9eaf-52775f960e04@e33eb",
+      "invite",
+      "c7fb631e-126b-4bce-9eaf-52775f960e04@f54c2",
+      "limitIcon",
+      "c7fb631e-126b-4bce-9eaf-52775f960e04@ca87c",
+      "mask",
+      "c7fb631e-126b-4bce-9eaf-52775f960e04@fe24b",
+      "select",
+      "c7fb631e-126b-4bce-9eaf-52775f960e04@98962",
+      "tommorrow",
+      "c7fb631e-126b-4bce-9eaf-52775f960e04@c75c1"
+    ]
+  }
+}

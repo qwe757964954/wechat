@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_had_add",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 55,
+      "height": 63
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 55,
+      "height": 63
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -27.5,
+        -31.5,
+        0,
+        27.5,
+        -31.5,
+        0,
+        -27.5,
+        31.5,
+        0,
+        27.5,
+        31.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        63,
+        55,
+        63,
+        0,
+        0,
+        55,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -27.5,
+        "y": -31.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 27.5,
+        "y": 31.5,
+        "z": 0
+      }
+    },
+    "texture": "0b9055cb-f68d-4530-a550-ce379e79f46d@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

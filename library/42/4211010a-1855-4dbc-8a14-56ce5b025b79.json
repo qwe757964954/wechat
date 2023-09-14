@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "card_num",
+    "spriteFrames": [
+      "doudizhu/handCard/card_num/0",
+      "4211010a-1855-4dbc-8a14-56ce5b025b79@8ad57",
+      "doudizhu/handCard/card_num/1",
+      "4211010a-1855-4dbc-8a14-56ce5b025b79@036ff",
+      "doudizhu/handCard/card_num/2",
+      "4211010a-1855-4dbc-8a14-56ce5b025b79@42abd",
+      "doudizhu/handCard/card_num/3",
+      "4211010a-1855-4dbc-8a14-56ce5b025b79@e044c",
+      "doudizhu/handCard/card_num/4",
+      "4211010a-1855-4dbc-8a14-56ce5b025b79@319ed",
+      "doudizhu/handCard/card_num/5",
+      "4211010a-1855-4dbc-8a14-56ce5b025b79@cde0c",
+      "doudizhu/handCard/card_num/6",
+      "4211010a-1855-4dbc-8a14-56ce5b025b79@7ed01",
+      "doudizhu/handCard/card_num/7",
+      "4211010a-1855-4dbc-8a14-56ce5b025b79@90fcd",
+      "doudizhu/handCard/card_num/8",
+      "4211010a-1855-4dbc-8a14-56ce5b025b79@61523",
+      "doudizhu/handCard/card_num/9",
+      "4211010a-1855-4dbc-8a14-56ce5b025b79@aa950"
+    ]
+  }
+}

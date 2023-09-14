@@ -1,0 +1,24 @@
+{
+  "common": {
+    "buildPath": "project://build",
+    "outputName": "wechatgame_dev",
+    "mainBundleCompressionType": "subpackage",
+    "platform": "wechatgame",
+    "mainBundleIsRemote": false,
+    "replaceSplashScreen": true,
+    "server": "http://xxddzbackend01.boyaa.com:8000/wxxcx/dev/fxj/114",
+    "sourceMaps": false
+  },
+  "options": {
+    "wechatgame": {
+      "startSceneAssetBundle": false,
+      "orientation": "landscapeRight",
+      "appid": "wx7f5020ca94d64ab1",
+      "buildOpenDataContextTemplate": true,
+      "separateEngine": false,
+      "wasm": "wasm",
+      "enabelWebGL2": "off",
+      "__version__": "1.0.2"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "act",
+    "spriteFrames": [
+      "activity_center/res/btn_close",
+      "5868d85e-f3b1-4366-b523-dc977e4f9036@d39ba",
+      "activity_center/res/tab1_normal",
+      "5868d85e-f3b1-4366-b523-dc977e4f9036@f6338",
+      "activity_center/res/tab1_selected",
+      "5868d85e-f3b1-4366-b523-dc977e4f9036@7ff29",
+      "activity_center/res/tab2_line",
+      "5868d85e-f3b1-4366-b523-dc977e4f9036@77c61",
+      "activity_center/res/tab2_selected",
+      "5868d85e-f3b1-4366-b523-dc977e4f9036@8ecf7",
+      "activity_center/res/title",
+      "5868d85e-f3b1-4366-b523-dc977e4f9036@a2236",
+      "activity_center/res/title_gonggao",
+      "5868d85e-f3b1-4366-b523-dc977e4f9036@0be46",
+      "activity_center/res/title_huodong",
+      "5868d85e-f3b1-4366-b523-dc977e4f9036@59ed9",
+      "activity_center/res/dot",
+      "5868d85e-f3b1-4366-b523-dc977e4f9036@3f5e8",
+      "activity_center/res/tag_hot",
+      "5868d85e-f3b1-4366-b523-dc977e4f9036@b5649",
+      "activity_center/res/tag_recommend",
+      "5868d85e-f3b1-4366-b523-dc977e4f9036@af9ed",
+      "activity_center/res/line",
+      "5868d85e-f3b1-4366-b523-dc977e4f9036@7f1be"
+    ]
+  }
+}

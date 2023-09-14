@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tipsBg",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 631,
+      "height": 66
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 631,
+      "height": 66
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -315.5,
+        -33,
+        0,
+        315.5,
+        -33,
+        0,
+        -315.5,
+        33,
+        0,
+        315.5,
+        33,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        66,
+        631,
+        66,
+        0,
+        0,
+        631,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -315.5,
+        "y": -33,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 315.5,
+        "y": 33,
+        "z": 0
+      }
+    },
+    "texture": "d02af1f1-4250-4c6c-b9f8-2ba6580c50fa@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

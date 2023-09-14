@@ -1,0 +1,265 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 120,
+      "max": [
+        0.029118387028574944,
+        0.0036509474739432335,
+        0.029104633256793022
+      ],
+      "min": [
+        -0.029284732416272163,
+        0.003244203282520175,
+        -0.029104633256793022
+      ],
+      "name": "daojishi/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 120,
+      "name": "daojishi/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 120,
+      "name": "daojishi/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 120,
+      "name": "daojishi/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3840,
+      "byteStride": 32,
+      "name": "daojishi",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 480,
+      "byteOffset": 3840
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4320,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 17,
+          "hour": 16,
+          "millisecond": 723,
+          "minute": 46,
+          "month": 5,
+          "second": 24,
+          "year": 2023
+        },
+        "creator": "FBX SDK/FBX Plugins version 2018.1.1",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "Maya",
+            "applicationVendor": "Autodesk",
+            "applicationVersion": "201800",
+            "fileName": "E:\\20220322_yjy\\23_04_model\\majiang\\daojishi\\daojishi.fbx"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/mesh/daojishi.fbx"
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "/Users/mac/work/WXGame_FlySmallChick/temp/asset-db/assets/fbx.FBX-glTF-conv/35661caa-8756-44b9-9359-2dcef95827c2/output/.fbm/306B1C7B/daojishi.fbm/0.png",
+          "relativeFileName": "../../../../temp/asset-db/assets/fbx.FBX-glTF-conv/35661caa-8756-44b9-9359-2dcef95827c2/output/.fbm/306B1C7B/daojishi.fbm/0.png"
+        }
+      },
+      "name": "file1",
+      "uri": "0.png"
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "/Users/mac/work/WXGame_FlySmallChick/temp/asset-db/assets/fbx.FBX-glTF-conv/35661caa-8756-44b9-9359-2dcef95827c2/output/.fbm/306B1C7B/daojishi.fbm/0.png",
+          "relativeFileName": "../../../../temp/asset-db/assets/fbx.FBX-glTF-conv/35661caa-8756-44b9-9359-2dcef95827c2/output/.fbm/306B1C7B/daojishi.fbm/0.png"
+        }
+      },
+      "name": "file12",
+      "uri": "0.png"
+    }
+  ],
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "ambient": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "ambientFactor": {
+                "value": 1.0
+              },
+              "bump": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bumpFactor": {
+                "value": 1.0
+              },
+              "diffuse": {
+                "texture": {
+                  "index": 0
+                },
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "diffuseFactor": {
+                "value": 0.800000011920929
+              },
+              "displacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "displacementFactor": {
+                "value": 1.0
+              },
+              "emissive": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "emissiveFactor": {
+                "value": 1.0
+              },
+              "normalMap": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "shadingModel": "Lambert",
+              "transparencyFactor": {
+                "value": 1.0
+              },
+              "transparentColor": {
+                "texture": {
+                  "index": 1
+                },
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementFactor": {
+                "value": 1.0
+              }
+            },
+            "type": "lambert"
+          }
+        }
+      },
+      "name": "lambert2"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "daojishi",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "daojishi"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "file1",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "file12",
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}

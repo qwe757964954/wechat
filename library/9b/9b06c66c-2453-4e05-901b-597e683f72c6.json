@@ -1,0 +1,36 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "player",
+    "spriteFrames": [
+      "doudizhu_player_bg_card",
+      "9b06c66c-2453-4e05-901b-597e683f72c6@82302",
+      "doudizhu_player_bg_card_prop",
+      "9b06c66c-2453-4e05-901b-597e683f72c6@4e1da",
+      "doudizhu_player_bg_card_second",
+      "9b06c66c-2453-4e05-901b-597e683f72c6@6723c",
+      "doudizhu_player_bg_currency",
+      "9b06c66c-2453-4e05-901b-597e683f72c6@8b584",
+      "doudizhu_player_chat_default",
+      "9b06c66c-2453-4e05-901b-597e683f72c6@6d94b",
+      "doudizhu_player_default",
+      "9b06c66c-2453-4e05-901b-597e683f72c6@382c4",
+      "doudizhu_player_info_bg_player",
+      "9b06c66c-2453-4e05-901b-597e683f72c6@010ee",
+      "doudizhu_player_money_icon",
+      "9b06c66c-2453-4e05-901b-597e683f72c6@1592b",
+      "doudizhu_player_sex_1",
+      "9b06c66c-2453-4e05-901b-597e683f72c6@aa423",
+      "doudizhu_player_sex_2",
+      "9b06c66c-2453-4e05-901b-597e683f72c6@92014",
+      "doudizhu_player_stencil",
+      "9b06c66c-2453-4e05-901b-597e683f72c6@f2c87",
+      "fuzhi",
+      "9b06c66c-2453-4e05-901b-597e683f72c6@ab688",
+      "wenzidikuan",
+      "9b06c66c-2453-4e05-901b-597e683f72c6@22e8f",
+      "yinbi",
+      "9b06c66c-2453-4e05-901b-597e683f72c6@719be"
+    ]
+  }
+}

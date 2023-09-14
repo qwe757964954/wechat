@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "opinfo",
+    "spriteFrames": [
+      "chi_op",
+      "535a449e-60c4-4c77-9ee5-0b672a454ba0@ddd05",
+      "gang_hua_op",
+      "535a449e-60c4-4c77-9ee5-0b672a454ba0@f890b",
+      "gang_op",
+      "535a449e-60c4-4c77-9ee5-0b672a454ba0@4b520",
+      "guo_op",
+      "535a449e-60c4-4c77-9ee5-0b672a454ba0@b499e",
+      "hu_op",
+      "535a449e-60c4-4c77-9ee5-0b672a454ba0@92ff3",
+      "op_bg",
+      "535a449e-60c4-4c77-9ee5-0b672a454ba0@258f2",
+      "op_tips",
+      "535a449e-60c4-4c77-9ee5-0b672a454ba0@fb8c2",
+      "peng_op",
+      "535a449e-60c4-4c77-9ee5-0b672a454ba0@ac297",
+      "rect_bg",
+      "535a449e-60c4-4c77-9ee5-0b672a454ba0@91fb8",
+      "un_hu_op",
+      "535a449e-60c4-4c77-9ee5-0b672a454ba0@e914e",
+      "zimo_op",
+      "535a449e-60c4-4c77-9ee5-0b672a454ba0@f91ba"
+    ]
+  }
+}

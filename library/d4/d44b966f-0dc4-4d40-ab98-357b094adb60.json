@@ -1,0 +1,16 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "broke",
+    "spriteFrames": [
+      "bankrupt_btn",
+      "d44b966f-0dc4-4d40-ab98-357b094adb60@f8320",
+      "bg",
+      "d44b966f-0dc4-4d40-ab98-357b094adb60@58cb7",
+      "buy_ten",
+      "d44b966f-0dc4-4d40-ab98-357b094adb60@5e0ad",
+      "newBankrupt",
+      "d44b966f-0dc4-4d40-ab98-357b094adb60@c8e17"
+    ]
+  }
+}

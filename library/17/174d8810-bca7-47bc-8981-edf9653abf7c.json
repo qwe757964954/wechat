@@ -1,0 +1,18 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "rukou_bukechi",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "2ca6f1a9-c6ff-445a-bf52-43a8645a5809@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "rukou_bukechi.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\nrukou_bukechi.png\nsize: 509,1034\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbg\n  rotate: true\n  xy: 0, 823\n  size: 211, 412\n  orig: 211, 412\n  offset: 0, 0\n  index: -1\ndashoubi_l\n  rotate: false\n  xy: 405, 511\n  size: 100, 114\n  orig: 100, 114\n  offset: 0, 0\n  index: -1\nerhuan_l\n  rotate: false\n  xy: 373, 571\n  size: 29, 43\n  orig: 29, 43\n  offset: 0, 0\n  index: -1\nerhuan_r\n  rotate: false\n  xy: 471, 140\n  size: 26, 46\n  orig: 26, 46\n  offset: 0, 0\n  index: -1\nlian\n  rotate: false\n  xy: 405, 627\n  size: 100, 115\n  orig: 100, 115\n  offset: 0, 0\n  index: -1\nmaozi_h\n  rotate: true\n  xy: 373, 245\n  size: 144, 111\n  orig: 144, 111\n  offset: 0, 0\n  index: -1\nmaozi_s\n  rotate: false\n  xy: 373, 391\n  size: 136, 118\n  orig: 136, 118\n  offset: 0, 0\n  index: -1\nmeimao\n  rotate: false\n  xy: 109, 18\n  size: 72, 19\n  orig: 72, 19\n  offset: 0, 0\n  index: -1\nqugan\n  rotate: false\n  xy: 330, 80\n  size: 139, 163\n  orig: 139, 163\n  offset: 0, 0\n  index: -1\nqunzi\n  rotate: true\n  xy: 109, 39\n  size: 204, 146\n  orig: 204, 146\n  offset: 0, 0\n  index: -1\nshoubi_r\n  rotate: false\n  xy: 0, 18\n  size: 107, 225\n  orig: 107, 225\n  offset: 0, 0\n  index: -1\nszg\n  rotate: true\n  xy: 0, 245\n  size: 369, 371\n  orig: 369, 371\n  offset: 0, 0\n  index: -1\ntoufa1\n  rotate: false\n  xy: 471, 188\n  size: 27, 55\n  orig: 27, 55\n  offset: 0, 0\n  index: -1\ntoufa10\n  rotate: false\n  xy: 486, 266\n  size: 20, 55\n  orig: 20, 55\n  offset: 0, 0\n  index: -1\ntoufa2\n  rotate: true\n  xy: 39, 4\n  size: 12, 37\n  orig: 12, 37\n  offset: 0, 0\n  index: -1\ntoufa3\n  rotate: true\n  xy: 0, 3\n  size: 13, 37\n  orig: 13, 37\n  offset: 0, 0\n  index: -1\ntoufa4\n  rotate: false\n  xy: 373, 511\n  size: 18, 35\n  orig: 18, 35\n  offset: 0, 0\n  index: -1\ntoufa5\n  rotate: true\n  xy: 183, 0\n  size: 37, 41\n  orig: 37, 41\n  offset: 0, 0\n  index: -1\ntoufa6\n  rotate: true\n  xy: 78, 4\n  size: 12, 32\n  orig: 12, 32\n  offset: 0, 0\n  index: -1\ntoufa7\n  rotate: true\n  xy: 226, 6\n  size: 31, 61\n  orig: 31, 61\n  offset: 0, 0\n  index: -1\ntoufa8\n  rotate: false\n  xy: 486, 323\n  size: 21, 45\n  orig: 21, 45\n  offset: 0, 0\n  index: -1\ntoufa9\n  rotate: false\n  xy: 289, 0\n  size: 84, 67\n  orig: 84, 67\n  offset: 0, 0\n  index: -1\nwenzi\n  rotate: true\n  xy: 0, 616\n  size: 205, 403\n  orig: 205, 403\n  offset: 0, 0\n  index: -1\nwenzi_di\n  rotate: true\n  xy: 414, 915\n  size: 30, 92\n  orig: 30, 92\n  offset: 0, 0\n  index: -1\nxiaoshoubi_l\n  rotate: false\n  xy: 257, 69\n  size: 71, 174\n  orig: 71, 174\n  offset: 0, 0\n  index: -1\nyan_bi_l\n  rotate: false\n  xy: 486, 245\n  size: 20, 19\n  orig: 20, 19\n  offset: 0, 0\n  index: -1\nyan_bi_r\n  rotate: true\n  xy: 257, 40\n  size: 27, 19\n  orig: 27, 19\n  offset: 0, 0\n  index: -1\nyan_l\n  rotate: false\n  xy: 486, 370\n  size: 23, 19\n  orig: 23, 19\n  offset: 0, 0\n  index: -1\nyan_r\n  rotate: false\n  xy: 373, 548\n  size: 28, 21\n  orig: 28, 21\n  offset: 0, 0\n  index: -1\nyifu_z\n  rotate: false\n  xy: 414, 744\n  size: 85, 169\n  orig: 85, 169\n  offset: 0, 0\n  index: -1\nyinshi\n  rotate: true\n  xy: 414, 947\n  size: 87, 95\n  orig: 87, 95\n  offset: 0, 0\n  index: -1\nzui\n  rotate: false\n  xy: 112, 4\n  size: 21, 12\n  orig: 21, 12\n  offset: 0, 0\n  index: -1\n"
+}

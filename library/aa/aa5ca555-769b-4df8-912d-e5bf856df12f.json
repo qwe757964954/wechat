@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "buyProp",
+    "spriteFrames": [
+      "buyProp/add",
+      "aa5ca555-769b-4df8-912d-e5bf856df12f@6d3ac",
+      "buyProp/add_disable",
+      "aa5ca555-769b-4df8-912d-e5bf856df12f@1d13e",
+      "buyProp/bg_item",
+      "aa5ca555-769b-4df8-912d-e5bf856df12f@aa56e",
+      "buyProp/bg_num",
+      "aa5ca555-769b-4df8-912d-e5bf856df12f@ffa45",
+      "buyProp/cut",
+      "aa5ca555-769b-4df8-912d-e5bf856df12f@679e6",
+      "buyProp/cut_disable",
+      "aa5ca555-769b-4df8-912d-e5bf856df12f@14c2b",
+      "buyProp/title",
+      "aa5ca555-769b-4df8-912d-e5bf856df12f@2aec4"
+    ]
+  }
+}

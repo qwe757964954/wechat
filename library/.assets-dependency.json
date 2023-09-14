@@ -1,0 +1,462 @@
+{
+  "path": {
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/image/head.effect": [
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/main-functions/general-vs.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/input-standard.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/decode-standard.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/decode-base.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/common-define.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/data/unpack.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/morph.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/functionalities/morph-animation.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-morph.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/skinning.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-skinning.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/functionalities/skinning-animation-lbs.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/local-batch.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-local-batched.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-local.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/functionalities/world-transform.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/fog-vs.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/fog-base.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/functionalities/fog.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/effect/fog.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/shadow-map-vs.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-shadow.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/shadow-map-base.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/functionalities/shadow-map.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-csm.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/math/coordinates.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/builtin/uniforms/cc-shadow-map.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/data/packing.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/shadow/native-pcf.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/unlit-fs.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/output.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/color/gamma.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/common/debug/debug-view-define.chunk",
+      "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/legacy/fog-fs.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/legacy/main-functions/general-vs.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/legacy/input-standard.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/legacy/decode-standard.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/legacy/decode-base.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/common/common-define.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/common/data/unpack.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/legacy/morph.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/builtin/functionalities/morph-animation.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/builtin/uniforms/cc-morph.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/legacy/skinning.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/builtin/uniforms/cc-skinning.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/builtin/functionalities/skinning-animation-lbs.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/builtin/uniforms/cc-global.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/legacy/local-batch.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/builtin/uniforms/cc-local-batched.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/builtin/uniforms/cc-local.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/builtin/functionalities/world-transform.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/legacy/fog-vs.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/legacy/fog-base.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/builtin/functionalities/fog.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/common/effect/fog.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/legacy/shadow-map-vs.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/builtin/uniforms/cc-shadow.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/legacy/shadow-map-base.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/builtin/functionalities/shadow-map.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/builtin/uniforms/cc-csm.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/common/math/coordinates.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/builtin/uniforms/cc-shadow-map.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/common/data/packing.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/common/shadow/native-pcf.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/unlit-fs.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/legacy/output.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/common/color/gamma.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/common/debug/debug-view-define.chunk",
+      "/Users/mac/work/WXGame_FlySmallChick/assets/chunks/legacy/fog-fs.chunk"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/DT_icon/DT_icon.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/DT_icon/DT_icon.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/font/quality.fnt": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/font/quality.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spine/qiandao_btn_light.json": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spine/qiandao_btn_light.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spine/MRQD.json": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spine/MRQD.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/resources/image/common/dialog_bg.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/resources/image/common/dialog_bg.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/login/image/login.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/login/image/login.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/resources/image/common/dialog_title.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/resources/image/common/dialog_title.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/resources/image/common/loadingAnim.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/resources/image/common/loadingAnim.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/resources/spineAni/loading/loading.json": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/resources/spineAni/loading/loading.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/resources/image/common/quality.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/resources/image/common/quality.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/resources/image/netload/netLoad.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/resources/image/netload/netLoad.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/resources/spineAni/clickAni/skeleton.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/resources/spineAni/clickAni/skeleton.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/resources/image/common/common1.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/resources/image/common/common1.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/image/activityCenter/act.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/image/activityCenter/act.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/image/friend/friend.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/image/friend/friend.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/image/task/task.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/image/task/task.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/getClose/light.json": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/getClose/light.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/get/get.json": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/get/get.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/get_TS/get_TS.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/get_TS/get_TS.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/muchgold/JDDD.json": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/muchgold/JDDD.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/muchgold/JDDD_btn.json": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/muchgold/JDDD_btn.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/muchgold/JDDD_reward.json": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/muchgold/JDDD_reward.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/getRoles/GetRoles.json": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/getRoles/GetRoles.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/sign/MRQD.json": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/sign/MRQD.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/sign/MRQD_lingqu.json": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/sign/MRQD_lingqu.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/sign/qiandao_btn_light.json": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/sign/qiandao_btn_light.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/task/renwu.json": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/task/renwu.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/image/signin/signin.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/image/signin/signin.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/image/gameHeadInfo/player.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/image/gameHeadInfo/player.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/image/player/player.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/image/player/player.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/spineAni/emoji/emoji.json": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/spineAni/emoji/emoji.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/emoji/emoji.json": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/emoji/emoji.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/image/round/round.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/image/round/round.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/role/xiaobo.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/role/xiaobo.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/hdprops/HD_daoju.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/hdprops/HD_daoju.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/role/xiaoya.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/role/xiaoya.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/image/hall/icon.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/image/hall/icon.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/image/buyAndSellProp/buyProp.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/image/buyAndSellProp/buyProp.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/image/hall/hall.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/image/hall/hall.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/image/mail/mail.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/image/mail/mail.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/image/role/role_1.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/image/role/role_1.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/image/role/role.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/image/role/role.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/image/mall/mall.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/image/mall/mall.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/image/userinfo/userinfo.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/image/userinfo/userinfo.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/image/setting/setting.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/image/setting/setting.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/XC_xuanzhong/XC_xuanzhong.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/XC_xuanzhong/XC_xuanzhong.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/XC_btn/XC_btn.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/XC_btn/XC_btn.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/XC_paihangbang/XC_paihangbang.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/XC_paihangbang/XC_paihangbang.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/hudie/TongYong_hudie.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/hudie/TongYong_hudie.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/newGuide/hand_dianji.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/newGuide/hand_dianji.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/role/xiaobo.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/role/xiaobo.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/role/xiaoya.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/role/xiaoya.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/rukou_kechi/rukou_kechi.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/rukou_kechi/rukou_kechi.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/rukou_bukechi/rukou_bukechi.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/rukou_bukechi/rukou_bukechi.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/xuanchang/XC.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/xuanchang/XC.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/image/handCard/card_num/card_num.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/image/handCard/card_num/card_num.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/bugang/res/image/bugang.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/bugang/res/image/bugang.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/login/spineAni/loading/Loading_cj_23.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/login/spineAni/loading/Loading_cj_23.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/match/res/image/match.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/match/res/image/match.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/opInfo/res/image/opinfo.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/opInfo/res/image/opinfo.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/settle/res/image/settle_fail.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/settle/res/image/settle_fail.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/settle/res/image/settle_hu_win.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/settle/res/image/settle_hu_win.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/settle/res/image/settle_hu_fail.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/settle/res/image/settle_hu_fail.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/settle/res/image/settle_win.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/settle/res/image/settle_win.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/opmgr/res/image/opmgr.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/opmgr/res/image/opmgr.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/jsxq/JS-SB.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/jsxq/JS-SB.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/jsxq/JS-SL.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/jsxq/JS-SL.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/over/MJ_DJJS.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/over/MJ_DJJS.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/start/MJ_DJKS.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/start/MJ_DJKS.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/atlas/pointTextPlist.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/atlas/pointTextPlist.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/px/PX_ty.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/px/PX_ty.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/giftbag/image/broke.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/giftbag/image/broke.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/resources/image/common/button.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/resources/image/common/button.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/giftbag/image/firstPay/firstPay.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/giftbag/image/firstPay/firstPay.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/giftbag/image/giftDiscount/giftDiscount.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/giftbag/image/giftDiscount/giftDiscount.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/hu/mj_hu.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/hu/mj_hu.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/op/MJ_btn.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/op/MJ_btn.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/kuaisukaishi/kuaisukaishi.skel": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/kuaisukaishi/kuaisukaishi.atlas"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/settle/res/image/settle.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/settle/res/image/settle.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/image/ai/ai.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/image/ai/ai.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/settle/res/image/xiaobo.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/settle/res/image/xiaobo.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/settle/res/image/xiaoya.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/module/settle/res/image/xiaoya.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/image/desk/desk.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/image/desk/desk.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/image/gameHeadInfo/emojiProp.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/image/gameHeadInfo/emojiProp.png"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/image/selectGameLevel/selectField.plist": [
+      "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/image/selectGameLevel/selectField.png"
+    ]
+  },
+  "uuid": {
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spine/MRQD.json": [
+      "5f17ccee-8f33-4981-b686-89573d87f2ae@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spine/qiandao_btn_light.json": [
+      "90472f64-5c60-4a13-8c57-a0162d4164d2@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/resources/spineAni/clickAni/skeleton.skel": [
+      "d517ede4-ef26-4491-afca-8bc9d5c48c41@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/resources/spineAni/loading/loading.json": [
+      "2e9b9ce0-6f0b-4f51-90f4-8a14825f8a5e@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/get/get.json": [
+      "24195f38-b6f2-431c-9319-79d00c41a169@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/getClose/light.json": [
+      "4e33532e-ea06-4743-965c-a010232d76c8@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/getRoles/GetRoles.json": [
+      "a9b5acd5-50cd-4b24-8663-433b7d7dfa5b@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/get_TS/get_TS.skel": [
+      "d3642a77-6d6b-4f54-b16c-ca44b3969125@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/muchgold/JDDD.json": [
+      "e86d51f4-76f3-4751-a2a5-66937b0ca26f@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/muchgold/JDDD_btn.json": [
+      "dff3ebe9-2a25-426b-843b-e04d018792d4@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/muchgold/JDDD_reward.json": [
+      "1ba2ddfd-4a6e-4ed6-aaf7-8ac1c035b695@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/sign/MRQD.json": [
+      "cad3d141-db3d-4c8c-ae3c-ec479923b975@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/sign/MRQD_lingqu.json": [
+      "0db011d1-04fe-40f7-9bf7-418c834faf64@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/sign/qiandao_btn_light.json": [
+      "0e217fde-63a0-4223-aec1-4f85017972ba@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/activity/spineAni/task/renwu.json": [
+      "79681dc0-bea3-446f-9cf7-6caaf1b75ddd@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/spineAni/emoji/emoji.json": [
+      "7e428f34-d56e-4879-bada-a038678ce9b6@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/spineAni/hdprops/HD_daoju.skel": [
+      "729989df-c060-4f58-8dac-70c8a15e735f@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/spineAni/role/xiaobo.skel": [
+      "645f2c54-f6cc-4e54-9ca0-b0f96472ae9d@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/game/spineAni/role/xiaoya.skel": [
+      "9ddd6f2b-c4c2-4d3f-a9c6-dc9bab8d2ef3@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/emoji/emoji.json": [
+      "14467498-6ced-4c3a-b004-1a8c05b87e39@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/hdprops/HD_daoju.skel": [
+      "34fc6146-36fd-40aa-978c-6c490bbbd316@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/role/xiaobo.skel": [
+      "9fc8d205-a1aa-4100-8712-64e4c9283e48@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/role/xiaoya.skel": [
+      "d382cd91-0414-46d6-8c65-000a1b4cc710@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/DT_icon/DT_icon.skel": [
+      "9f24afd0-a581-48bc-b3b9-bba6159eb709@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/XC_btn/XC_btn.skel": [
+      "518eedf6-4030-4716-a86f-1e885d323e40@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/XC_paihangbang/XC_paihangbang.skel": [
+      "00547ea8-fc80-4245-b2f6-1b63008de04a@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/XC_xuanzhong/XC_xuanzhong.skel": [
+      "78e2e3cd-15bc-41ea-b94e-d4247a33c839@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/hudie/TongYong_hudie.skel": [
+      "b5fdcba9-c703-4112-9b3c-a5c6c48153c7@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/kuaisukaishi/kuaisukaishi.skel": [
+      "e2901cdb-b4c2-4e40-9ace-608fe47c3e1f@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/newGuide/hand_dianji.skel": [
+      "ab303196-6fe8-4339-a4c2-fef4a0631ba5@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/role/xiaobo.skel": [
+      "e037e0b9-5a81-4ee7-adc6-72279287b975@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/role/xiaoya.skel": [
+      "e226a0bd-4c3a-4781-9cdc-dc8ff6ddd318@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/rukou_bukechi/rukou_bukechi.skel": [
+      "2ca6f1a9-c6ff-445a-bf52-43a8645a5809@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/rukou_kechi/rukou_kechi.skel": [
+      "1df87e40-6b8a-4d2d-936e-c78d7fdab671@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/hall/spineAni/xuanchang/XC.skel": [
+      "fc113f5f-5873-4b2b-8029-2608aa4b3121@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/login/spineAni/loading/Loading_cj_23.skel": [
+      "61f993c9-b51d-4f96-8a99-e391e03da0e5@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/hu/mj_hu.skel": [
+      "80a1a0af-6dad-45f6-a754-79727d474f0d@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/jsxq/JS-SB.skel": [
+      "eb3b7b06-b88e-4f2b-9b4f-1f342039f49e@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/jsxq/JS-SL.skel": [
+      "ce829d0c-8166-400e-812a-c53846b3ea40@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/op/MJ_btn.skel": [
+      "3cb321b4-38ee-4133-82b3-e0bb59f201ea@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/over/MJ_DJJS.skel": [
+      "b3275769-50f0-4b33-b17d-de299c6e70be@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/px/PX_ty.skel": [
+      "325bcde0-b040-45f5-bd1d-7359872cebd7@6c48a"
+    ],
+    "/Users/mac/work/WXGame_FlySmallChick/assets/package/gameres/spineAni/start/MJ_DJKS.skel": [
+      "fa10ad13-621d-46d5-b832-65dd2f9e7842@6c48a"
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+
+loading.png
+size: 302,1026
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_light
+  rotate: false
+  xy: 174, 417
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+WZ_huase_00000
+  rotate: true
+  xy: 226, 427
+  size: 40, 46
+  orig: 40, 46
+  offset: 0, 0
+  index: -1
+WZ_huase_00002
+  rotate: false
+  xy: 262, 379
+  size: 40, 46
+  orig: 40, 46
+  offset: 0, 0
+  index: -1
+WZ_huase_00004
+  rotate: false
+  xy: 262, 331
+  size: 40, 46
+  orig: 40, 46
+  offset: 0, 0
+  index: -1
+WZ_huase_00006
+  rotate: false
+  xy: 262, 283
+  size: 40, 46
+  orig: 40, 46
+  offset: 0, 0
+  index: -1
+loading_DL_jingdu_light
+  rotate: false
+  xy: 0, 0
+  size: 43, 8
+  orig: 43, 8
+  offset: 0, 0
+  index: -1
+loading_DL_text
+  rotate: false
+  xy: 174, 469
+  size: 127, 25
+  orig: 127, 25
+  offset: 0, 0
+  index: -1
+loading_cat_1
+  rotate: true
+  xy: 0, 268
+  size: 131, 127
+  orig: 131, 127
+  offset: 0, 0
+  index: -1
+loading_cat_10
+  rotate: true
+  xy: 174, 496
+  size: 131, 127
+  orig: 131, 127
+  offset: 0, 0
+  index: -1
+loading_cat_2
+  rotate: false
+  xy: 0, 139
+  size: 131, 127
+  orig: 131, 127
+  offset: 0, 0
+  index: -1
+loading_cat_3
+  rotate: false
+  xy: 129, 272
+  size: 131, 127
+  orig: 131, 127
+  offset: 0, 0
+  index: -1
+loading_cat_4
+  rotate: true
+  xy: 133, 139
+  size: 131, 127
+  orig: 131, 127
+  offset: 0, 0
+  index: -1
+loading_cat_5
+  rotate: false
+  xy: 0, 10
+  size: 131, 127
+  orig: 131, 127
+  offset: 0, 0
+  index: -1
+loading_cat_6
+  rotate: false
+  xy: 133, 10
+  size: 131, 127
+  orig: 131, 127
+  offset: 0, 0
+  index: -1
+loading_cat_7
+  rotate: true
+  xy: 174, 895
+  size: 131, 127
+  orig: 131, 127
+  offset: 0, 0
+  index: -1
+loading_cat_8
+  rotate: true
+  xy: 174, 762
+  size: 131, 127
+  orig: 131, 127
+  offset: 0, 0
+  index: -1
+loading_cat_9
+  rotate: true
+  xy: 174, 629
+  size: 131, 127
+  orig: 131, 127
+  offset: 0, 0
+  index: -1
+loading_di
+  rotate: true
+  xy: 0, 401
+  size: 625, 172
+  orig: 625, 172
+  offset: 0, 0
+  index: -1
+loading_text
+  rotate: true
+  xy: 266, 129
+  size: 152, 21
+  orig: 152, 21
+  offset: 0, 0
+  index: -1
+loading_text_dian
+  rotate: false
+  xy: 45, 5
+  size: 4, 3
+  orig: 4, 3
+  offset: 0, 0
+  index: -1

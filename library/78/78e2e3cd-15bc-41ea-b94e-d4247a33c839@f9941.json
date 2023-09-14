@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "XC_xuanzhong",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1407,
+      "height": 442
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 1407,
+      "height": 442
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -703.5,
+        -221,
+        0,
+        703.5,
+        -221,
+        0,
+        -703.5,
+        221,
+        0,
+        703.5,
+        221,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        442,
+        1407,
+        442,
+        0,
+        0,
+        1407,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -703.5,
+        "y": -221,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 703.5,
+        "y": 221,
+        "z": 0
+      }
+    },
+    "texture": "78e2e3cd-15bc-41ea-b94e-d4247a33c839@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

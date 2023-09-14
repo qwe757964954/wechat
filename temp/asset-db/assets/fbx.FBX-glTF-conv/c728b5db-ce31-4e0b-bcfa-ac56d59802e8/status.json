@@ -1,0 +1,14 @@
+{
+  "version": "2.3.1",
+  "sourceTimeStamp": 1692319083256.148,
+  "outputTimeStamps": {
+    "biaodian.png": 1692321781718.8662,
+    "log.json": 1692321781721.2952,
+    "out.bin": 1692321781719.6982,
+    "out.gltf": 1692321781721.1304,
+    ".fbm/2FCD1C67/biaodian.fbm/biaodian.png": 1692321781710.3386
+  },
+  "options": {
+    "smartMaterialEnabled": true
+  }
+}
